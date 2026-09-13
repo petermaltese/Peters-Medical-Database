@@ -77,7 +77,7 @@ function home(){
       </div>
       <div class="hero-actions"><a class="btn primary" href="#/browse">Browse your topics</a></div>
     </section>
-    <div class="notice"><strong>Source rule:</strong> ${esc(D.sourceRule)} Version 2 focuses on text, lists and tables; embedded Word images are not yet displayed.</div>
+    <div class="notice"><strong>Source rule:</strong> ${esc(D.sourceRule)} This version focuses on text, lists and tables; embedded Word images are not yet displayed.</div>
     <div class="section-title">Systems</div>
     <div class="grid">${D.roots.map(id=>{
       const n=node(id);
