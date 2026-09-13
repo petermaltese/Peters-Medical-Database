@@ -20,14 +20,10 @@ function linkMentions(){
   });
 }
 renderSidebar = function(){
-  const current=decodeURIComponent(location.hash.split('/')[2]||'');
-  const ancestors=new Set(node(current)?pathIds(current):[]);
-  const titleCase=s=>s.toLowerCase()==='ent'?'ENT':s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
-  function branch(id){const n=node(id), label=titleCase(n.title); const link=`<a class="tree-link" ${id===current?'aria-current="page"':''} href="${topicUrl(id)}">${esc(label)}</a>`;
-    return n.children.length?`<details class="tree-branch" ${ancestors.has(id)?'open':''}><summary><span aria-hidden="true">▸</span>${link}</summary><div class="tree-children">${n.children.map(branch).join('')}</div></details>`:`<div class="tree-leaf">${link}</div>`;}
-  const systems=D.roots.map(branch).join('');
-  const yields=D.roots.map(id=>`<div class="tree-leaf"><a class="tree-link" href="#/high-yield/${encodeURIComponent(id)}">${esc(titleCase(node(id).title))}</a></div>`).join('');
-  systemNav.innerHTML=`<details class="tree-group" open><summary class="tree-group-title">Systems</summary><div class="tree-children">${systems}</div></details><details class="tree-group"><summary class="tree-group-title">High-yield</summary><div class="tree-children">${yields}</div></details>`;
+ const titleCase=s=>s.toLowerCase()==='ent'?'ENT':s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
+ const systems=D.roots.map(id=>`<button class="system-picker" data-system-id="${esc(id)}">${esc(titleCase(node(id).title))}</button>`).join('');
+ systemNav.innerHTML=`<div class="systems-drill"><div class="drill-title">Systems</div><div class="system-list">${systems}</div><div class="drill-panel" hidden></div></div><details class="tree-group"><summary class="tree-group-title">High-yield</summary><div class="tree-children">${D.roots.map(id=>`<div class="tree-leaf"><a class="tree-link" href="#/high-yield/${encodeURIComponent(id)}">${esc(titleCase(node(id).title))}</a></div>`).join('')}</div></details>`;
+ systemNav.querySelectorAll('.system-picker').forEach(btn=>btn.onclick=()=>{const box=systemNav.querySelector('.drill-panel'); const id=btn.dataset.systemId; const n=node(id); const walk=x=>`<div class="tree-leaf"><a class="tree-link" href="${topicUrl(x.id)}">${esc(titleCase(x.title))}</a>${x.children.map(c=>walk(node(c))).join('')}</div>`; box.innerHTML=`<button class="drill-back">← All systems</button><div class="drill-heading">${esc(titleCase(n.title))}</div>${n.children.map(c=>walk(node(c))).join('')}`; box.hidden=false; systemNav.querySelector('.system-list').hidden=true; box.querySelector('.drill-back').onclick=()=>{box.hidden=true;systemNav.querySelector('.system-list').hidden=false;};});
 };
 highlight = function(text,terms){
   if(!terms.length)return esc(text);

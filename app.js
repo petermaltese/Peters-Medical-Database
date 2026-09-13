@@ -70,8 +70,6 @@ function home(){
       <div class="crumbs">YOUR PERSONAL MEDICAL KNOWLEDGE BASE</div>
       <h1>Your notes, properly navigable.</h1>
       <p>Browse the same hierarchy already present in your document, open any topic, follow its subtopics, and search directly into the relevant note section.</p>
-      <div class="stats">
-        <div class="stat"><strong>${D.stats.systems}</strong><span>systems</span></div>
         <div class="stat"><strong>${D.stats.topics}</strong><span>linked topics</span></div>
         
       </div>
@@ -81,7 +79,7 @@ function home(){
     <div class="section-title">Systems</div>
     <div class="grid">${D.roots.map(id=>{
       const n=node(id);
-      return `<a class="card" href="${topicUrl(id)}"><div class="eyebrow">System</div><h3>${esc(n.title)}</h3><p>${n.children.length} major topics</p></a>`
+      return `<a class="card" href="${topicUrl(id)}"><div class="eyebrow">System</div><h3>${esc(n.title)}</h3><p>Browse this system</p></a>`
     }).join("")}</div>
   </div>`;
 }
@@ -110,13 +108,13 @@ function systemPage(id){
     <header class="topic-header">
       <h1>${esc(n.title)}</h1>
       <p class="page-lead">Choose a major topic to open the content underneath it.</p>
-      <div class="topic-meta"><span class="pill">${n.children.length} major topics</span></div>
+      <div class="topic-meta"></div>
     </header>
     ${n.blocks.length?`<div class="section-title">System-level notes</div><div class="article-panel">${renderBlocks(n.blocks)}</div>`:""}
     <div class="section-title">Topics</div>
     <div class="grid">${n.children.map(c=>{
       const x=node(c);
-      return `<a class="card" href="${topicUrl(c)}"><h3>${esc(x.title)}</h3><p>${x.children.length?directChildLabel(c):""}</p></a>`
+      return `<a class="card" href="${topicUrl(c)}"><h3>${esc(x.title)}</h3><p></p></a>`
     }).join("")}</div>
   </div>`;
 }
@@ -213,7 +211,7 @@ function topicPage(id, block=null){
         ${relatedTopics(id)}
         ${siblingNav(id)}
       </article>
-      ${desc.length?`<aside class="page-toc"><div class="page-toc-title">On this page</div>${tocEntries(id)}</aside>`:""}
+      
     </div>
   </div>`;
   afterTopicRender(block);
