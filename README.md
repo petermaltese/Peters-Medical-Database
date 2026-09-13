@@ -1,4 +1,4 @@
-# Peter’s Medical Notes — Version 7
+# Peter’s Medical Notes — Version 8
 
 Continues Version 3 with the same system → topic → subtopic hierarchy, existing topic URLs, search, inline links and remembered light/dark setting.
 

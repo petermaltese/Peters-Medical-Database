@@ -22,10 +22,12 @@ function linkMentions(){
 renderSidebar = function(){
   const current=decodeURIComponent(location.hash.split('/')[2]||'');
   const ancestors=new Set(node(current)?pathIds(current):[]);
-  function branch(id){const n=node(id);const link=`<a class="tree-link" ${id===current?'aria-current="page"':''} href="${topicUrl(id)}">${esc(n.title)}</a>`;
-    return n.children.length?`<details class="tree-branch" ${ancestors.has(id)?'open':''}><summary><span aria-hidden="true">▸</span>${link}</summary><div class="tree-children">${n.children.map(branch).join('')}</div></details>`:`<div class="tree-leaf">${link}</div>`;
-  }
-  systemNav.innerHTML=D.roots.map(branch).join('');
+  const titleCase=s=>s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
+  function branch(id){const n=node(id), label=titleCase(n.title); const link=`<a class="tree-link" ${id===current?'aria-current="page"':''} href="${topicUrl(id)}">${esc(label)}</a>`;
+    return n.children.length?`<details class="tree-branch" ${ancestors.has(id)?'open':''}><summary><span aria-hidden="true">▸</span>${link}</summary><div class="tree-children">${n.children.map(branch).join('')}</div></details>`:`<div class="tree-leaf">${link}</div>`;}
+  const systems=D.roots.map(branch).join('');
+  const yields=D.roots.map(id=>`<div class="tree-leaf"><a class="tree-link" href="#/high-yield/${encodeURIComponent(id)}">${esc(titleCase(node(id).title))}</a></div>`).join('');
+  systemNav.innerHTML=`<details class="tree-group" open><summary class="tree-group-title">Systems</summary><div class="tree-children">${systems}</div></details><details class="tree-group"><summary class="tree-group-title">High-yield</summary><div class="tree-children">${yields}</div></details>`;
 };
 highlight = function(text,terms){
   if(!terms.length)return esc(text);
