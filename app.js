@@ -110,13 +110,13 @@ function systemPage(id){
     <header class="topic-header">
       <h1>${esc(n.title)}</h1>
       <p class="page-lead">Choose a major topic to open the content underneath it.</p>
-      <div class="topic-meta"><span class="pill">${n.children.length} major topics</span><span class="pill">${subtreeBlockCount(id)} note blocks</span></div>
+      <div class="topic-meta"><span class="pill">${n.children.length} major topics</span></div>
     </header>
     ${n.blocks.length?`<div class="section-title">System-level notes</div><div class="article-panel">${renderBlocks(n.blocks)}</div>`:""}
     <div class="section-title">Topics</div>
     <div class="grid">${n.children.map(c=>{
       const x=node(c);
-      return `<a class="card" href="${topicUrl(c)}"><h3>${esc(x.title)}</h3><p>${x.children.length?directChildLabel(c)+" · ":""}${subtreeBlockCount(c)} note blocks</p></a>`
+      return `<a class="card" href="${topicUrl(c)}"><h3>${esc(x.title)}</h3><p>${x.children.length?directChildLabel(c):""}</p></a>`
     }).join("")}</div>
   </div>`;
 }
@@ -202,10 +202,10 @@ function topicPage(id, block=null){
     <header class="topic-header">
       <h1>${esc(n.title)}</h1>
       <p class="page-lead">Content below is reorganised directly from your notes.</p>
-      <div class="topic-meta"><span class="pill">${subtreeBlockCount(id)} note blocks</span>${desc.length?`<span class="pill">${desc.length} linked subtopic${desc.length===1?"":"s"}</span>`:""}</div>
+      <div class="topic-meta">${desc.length?`<span class="pill">${desc.length} linked subtopic${desc.length===1?"":"s"}</span>`:""}</div>
     </header>
     ${n.children.length?`<div class="section-title">Jump to a subtopic</div><div class="subtopic-grid">${
-      n.children.map(c=>{const x=node(c);return `<a class="subtopic-card" href="${topicUrl(c)}"><strong>${esc(x.title)}</strong><span>${subtreeBlockCount(c)} note blocks${x.children.length?` · ${x.children.length} sections`:""}</span></a>`}).join("")
+      n.children.map(c=>{const x=node(c);return `<a class="subtopic-card" href="${topicUrl(c)}"><strong>${esc(x.title)}</strong><span>${x.children.length?`${x.children.length} sections`:""}</span></a>`}).join("")
     }</div>`:""}
     <div class="article-layout">
       <article class="article">
