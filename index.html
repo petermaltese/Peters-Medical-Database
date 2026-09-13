@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Peter's Medical Knowledge Base</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">PETER<span>MD</span></div>
+  <div class="search-wrap">
+    <input id="search" placeholder="Search your notes…" autocomplete="off">
+  </div>
+  <div class="source-badge">NOTES ONLY</div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="nav-title">STUDY</div>
+    <button class="nav active" data-view="home">⌂ <span>Home</span></button>
+    <button class="nav" data-view="browse">▦ <span>Browse topics</span></button>
+    <button class="nav" data-view="rapid">⚡ <span>Rapid review</span></button>
+    <button class="nav" data-view="questions">? <span>Practice questions</span></button>
+    <div class="nav-title">SYSTEMS</div>
+    <div id="systems"></div>
+    <div class="sidebar-foot">Built from<br><b>Disease – As Understood By Peter</b></div>
+  </aside>
+
+  <main id="app"></main>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
