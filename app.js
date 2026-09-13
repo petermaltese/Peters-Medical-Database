@@ -73,7 +73,7 @@ function home(){
       <div class="stats">
         <div class="stat"><strong>${D.stats.systems}</strong><span>systems</span></div>
         <div class="stat"><strong>${D.stats.topics}</strong><span>linked topics</span></div>
-        <div class="stat"><strong>${totalBlocks.toLocaleString()}</strong><span>note blocks</span></div>
+        
       </div>
       <div class="hero-actions"><a class="btn primary" href="#/browse">Browse your topics</a></div>
     </section>
@@ -81,7 +81,7 @@ function home(){
     <div class="section-title">Systems</div>
     <div class="grid">${D.roots.map(id=>{
       const n=node(id);
-      return `<a class="card" href="${topicUrl(id)}"><div class="eyebrow">System</div><h3>${esc(n.title)}</h3><p>${n.children.length} major topics · ${subtreeBlockCount(id).toLocaleString()} note blocks</p></a>`
+      return `<a class="card" href="${topicUrl(id)}"><div class="eyebrow">System</div><h3>${esc(n.title)}</h3><p>${n.children.length} major topics</p></a>`
     }).join("")}</div>
   </div>`;
 }
@@ -96,7 +96,7 @@ function browse(){
       return `<section class="system-block">
         <div class="system-heading"><h2>${esc(root.title)}</h2><a class="text-link" href="${topicUrl(r)}">Open system →</a></div>
         <div class="grid">${root.children.map(c=>{
-          const n=node(c);return `<a class="card" href="${topicUrl(c)}"><h3>${esc(n.title)}</h3><p>${directChildLabel(c)} · ${subtreeBlockCount(c)} note blocks</p></a>`
+          const n=node(c);return `<a class="card" href="${topicUrl(c)}"><h3>${esc(n.title)}</h3><p>${directChildLabel(c)}</p></a>`
         }).join("")}</div>
       </section>`
     }).join("")}

@@ -13,9 +13,9 @@ function externalSection(id){
 }
 const originalTopicPageV5=topicPage;
 topicPage=function(id,block=null){
-  originalTopicPageV5(id,block);if(!node(id)||node(id).level===1)return;
+  originalTopicPageV5(id,block);if(!node(id)||node(id).level===1)return; const rootIndex=D.roots.indexOf(systemOf(id)); const hue=[4,190,270,120,35,320,150,220,75,10,245,165,290,55,200,95][rootIndex<0?0:rootIndex]; app.style.setProperty('--topic-color',`hsl(${hue} 68% 42%)`);
   const article=app.querySelector('.article');const panel=article?.querySelector('.article-panel');if(!panel)return;
-  const label=document.createElement('div');label.className='notes-source-label';label.textContent='Your notes · Disease - As Understood By Peter.docx';panel.before(label);panel.after(externalSection(id));
+  const label=document.createElement('div');label.className='notes-source-label';label.textContent='Your notes · Disease - As Understood By Peter.docx';panel.before(label);panel.after(externalSection(id)); const imgs=window.PETER_IMAGE_MANIFEST?.[node(id).title]||[]; if(imgs.length){const g=document.createElement('section');g.className='topic-images';g.innerHTML='<h2>Images from your Word document</h2>'+imgs.map((f,i)=>`<figure><img src="images/${f}" loading="lazy" alt="Image ${i+1} from the original Word document"><figcaption>Original image from Disease - As Understood By Peter.docx</figcaption></figure>`).join(''); panel.after(g);}
   const jump=document.createElement('a');jump.className='btn extra-jump';jump.href=topicUrl(id);jump.textContent='Jump to extra information ↓';jump.addEventListener('click',e=>{e.preventDefault();document.getElementById('extra-information')?.scrollIntoView({behavior:'smooth',block:'start'});});app.querySelector('.topic-header').append(jump);
 };
 const originalHomeV5=home;

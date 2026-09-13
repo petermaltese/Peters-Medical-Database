@@ -1,4 +1,4 @@
-# Peter’s Medical Notes — Version 5
+# Peter’s Medical Notes — Version 6
 
 Continues Version 3 with the same system → topic → subtopic hierarchy, existing topic URLs, search, inline links and remembered light/dark setting.
 
@@ -23,7 +23,7 @@ Selection reference: https://www.gmc-uk.org/education/medical-licensing-assessme
 
 ## Upload to your existing GitHub website
 Extract this ZIP. Upload all seven files into the same folder as the existing index.html, on the existing publishing branch:
-index.html, style.css, app.js, data.js, browsing.js, high-yield.js, external-info.js, external-view.js, README.md.
+index.html, style.css, app.js, data.js, browsing.js, high-yield.js, external-info.js, external-view.js, image-manifest.js, images/, README.md.
 Commit the changes. Keep the same website URL. Allow GitHub Pages time to publish, then refresh the website.
 Do not upload an enclosing folder or the ZIP itself. No need to delete existing files first.
 
@@ -34,4 +34,4 @@ Do not upload an enclosing folder or the ZIP itself. No need to delete existing 
 - JavaScript syntax checked.
 - Visual browser testing remains outstanding: the browser download was unavailable in this environment. Responsive styles are included, but desktop/iPad/phone layout should be visually checked after publishing.
 
-Embedded Word images remain excluded, as in V3. No MCQ or progress system has been added.
+Original Word-document images are included under images/ and displayed on matching topic pages where their heading could be mapped. The image set is optimised for web display. No MCQ or progress system has been added.
