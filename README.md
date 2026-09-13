@@ -1,39 +1,37 @@
-# Peter's Medical Notes — Version 3
+# Peter’s Medical Notes — Version 5
 
-This is a static website built from **Disease - As Understood By Peter.docx**.
+Continues Version 3 with the same system → topic → subtopic hierarchy, existing topic URLs, search, inline links and remembered light/dark setting.
 
-## Source rule
-The website uses only information in the uploaded notes. No external medical information was added or used to correct the notes.
+## New in V5
+- Subtopic headings and paragraph section labels are bold and underlined.
+- Common section labels stored as list items (including Pathophysiology, Epidemiology, Clinical presentation, Investigations and Management) are also bold and underlined.
+- Every system has a High yield entry and a sidebar link.
+- 46 curated excerpts across all 16 systems, drawn from 468 existing content blocks.
+- Each excerpt links directly to its original passage. Lists, supporting bullets and tables remain together.
+- High yield pages include an on-page contents menu, including on smaller screens.
+- Topic pages place a clearly separate Extra information section below your notes. Each source card names its publisher, gives an AI-written summary, shows the date checked and links to the source. Broader parent-topic context is labelled as such.
+- External summaries are not mixed into your notes or High yield pages; search continues to search your notes.
+- 44 source records currently cover selected major topics and conditions; topics without a verified dedicated source are explicitly marked as not yet covered.
 
-## Version 3 focus
-- Proper hierarchy from the Word document headings
-- Clickable systems, topics and subtopics
-- Topic pages that display the notes beneath each heading
-- Breadcrumb links and previous/next topic navigation
-- "On this page" navigation for nested headings
-- Related-topic links when another heading is explicitly mentioned in the notes
-- Global search that opens the exact topic/block containing the result
-- Tables and list nesting preserved
-- Light/dark mode toggle that remembers your choice
+## Content rule
+All medical content is from Disease - As Understood By Peter.docx. The V2/V3 data.js remains byte-for-byte unchanged. Excerpts resolve references to this data at runtime rather than containing separately authored medical text.
 
-Embedded images from the Word document are **not included yet**. This version deliberately focuses on the text/topic navigation first.
+Peter has authorised grammar/wording improvements without new medical information. This release retains the original wording of the selected excerpts.
 
-## Open locally
-Unzip the folder and double-click `index.html`.
+The GMC MLA content map informed editorial topic priorities, especially common/acute presentations and clinical recognition. It is not an official MQ examination ranking. External medical descriptions, diagnostic thresholds and management recommendations were not imported. Sparse systems remain limited to the notes actually present.
+Selection reference: https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map
 
-## Host it
-The folder is a static site, so it can be uploaded directly to Netlify or hosted with GitHub Pages.
+## Upload to your existing GitHub website
+Extract this ZIP. Upload all seven files into the same folder as the existing index.html, on the existing publishing branch:
+index.html, style.css, app.js, data.js, browsing.js, high-yield.js, external-info.js, external-view.js, README.md.
+Commit the changes. Keep the same website URL. Allow GitHub Pages time to publish, then refresh the website.
+Do not upload an enclosing folder or the ZIP itself. No need to delete existing files first.
 
-## Browsing update
-- Expandable system/topic/subtopic sidebar with current topic highlighted.
-- Live search, system filter, title-first ranking, match-centred excerpts and Show more results.
-- Ctrl/Cmd+K focuses search.
-- Inline links match complete, unique topic titles already in the notes. No medical synonyms or inferred relationships are introduced.
-- On-this-page navigation is available on smaller screens.
-- Existing V2 data.js is byte-for-byte unchanged; original routes and theme preference key retained.
+## Validation
+- All 468 selected blocks checked against the uploaded Word document, with only whitespace/Unicode normalisation during comparison.
+- Original notes data unchanged, including all 45 table blocks.
+- DOM checks passed for all 16 system pages and 16 High yield pages, all 46 full-passage links, paragraph/list subheadings, search and dark theme.
+- JavaScript syntax checked.
+- Visual browser testing remains outstanding: the browser download was unavailable in this environment. Responsive styles are included, but desktop/iPad/phone layout should be visually checked after publishing.
 
-## Validation and limitations
-JavaScript syntax and unchanged data checked. All 45 original table blocks retained. Browser visual/interaction testing could not run in the build environment because no browser executable was available. Embedded Word images remain excluded, as in V2.
-
-## Update an existing host
-Extract this ZIP and upload all six website files, including browsing.js, to the existing website folder. Keep the same hosting project and address. No MCQ or progress system has been added.
+Embedded Word images remain excluded, as in V3. No MCQ or progress system has been added.
