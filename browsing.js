@@ -22,7 +22,7 @@ function linkMentions(){
 renderSidebar = function(){
   const current=decodeURIComponent(location.hash.split('/')[2]||'');
   const ancestors=new Set(node(current)?pathIds(current):[]);
-  const titleCase=s=>s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
+  const titleCase=s=>s.toLowerCase()==='ent'?'ENT':s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
   function branch(id){const n=node(id), label=titleCase(n.title); const link=`<a class="tree-link" ${id===current?'aria-current="page"':''} href="${topicUrl(id)}">${esc(label)}</a>`;
     return n.children.length?`<details class="tree-branch" ${ancestors.has(id)?'open':''}><summary><span aria-hidden="true">▸</span>${link}</summary><div class="tree-children">${n.children.map(branch).join('')}</div></details>`:`<div class="tree-leaf">${link}</div>`;}
   const systems=D.roots.map(branch).join('');
