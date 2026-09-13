@@ -64,24 +64,14 @@ function breadcrumbs(id){
 }
 
 function home(){
-  const totalBlocks=D.stats.contentBlocks;
-  app.innerHTML=`<div class="page">
-    <section class="hero">
-      <div class="crumbs">YOUR PERSONAL MEDICAL KNOWLEDGE BASE</div>
-      <h1>Your notes, properly navigable.</h1>
-      <p>Browse the same hierarchy already present in your document, open any topic, follow its subtopics, and search directly into the relevant note section.</p>
-        <div class="stat"><strong>${D.stats.topics}</strong><span>linked topics</span></div>
-        
-      </div>
-      <div class="hero-actions"><a class="btn primary" href="#/browse">Browse your topics</a></div>
-    </section>
-    <div class="notice"><strong>Source rule:</strong> ${esc(D.sourceRule)} This version focuses on text, lists and tables; embedded Word images are not yet displayed.</div>
-    <div class="section-title">Systems</div>
-    <div class="grid">${D.roots.map(id=>{
-      const n=node(id);
-      return `<a class="card" href="${topicUrl(id)}"><div class="eyebrow">System</div><h3>${esc(n.title)}</h3><p>Browse this system</p></a>`
-    }).join("")}</div>
-  </div>`;
+ app.innerHTML=`<div class="page">
+  <div class="crumbs">YOUR PERSONAL MEDICAL KNOWLEDGE BASE</div>
+  <h1>Your notes, properly navigable.</h1>
+  <p class="page-lead">Browse the same hierarchy already present in your document, open any topic, follow its subtopics, and search directly into the relevant note section.</p>
+  <div class="hero-actions"><a class="btn primary" href="#/browse">Browse all the subtopics for each system</a></div>
+  <div class="section-title">Systems</div>
+  <div class="grid">${D.roots.map(id=>{const n=node(id);return `<a class="card" href="${topicUrl(id)}"><div class="eyebrow">System</div><h3>${esc(n.title)}</h3><p>Open system</p></a>`}).join('')}</div>
+ </div>`;
 }
 
 function browse(){
@@ -94,7 +84,7 @@ function browse(){
       return `<section class="system-block">
         <div class="system-heading"><h2>${esc(root.title)}</h2><a class="text-link" href="${topicUrl(r)}">Open system →</a></div>
         <div class="grid">${root.children.map(c=>{
-          const n=node(c);return `<a class="card" href="${topicUrl(c)}"><h3>${esc(n.title)}</h3><p>${directChildLabel(c)}</p></a>`
+          const n=node(c);return `<a class="card" href="${topicUrl(c)}"><h3>${esc(n.title)}</h3><p>Open topic</p></a>`
         }).join("")}</div>
       </section>`
     }).join("")}
@@ -200,7 +190,6 @@ function topicPage(id, block=null){
     <header class="topic-header">
       <h1>${esc(n.title)}</h1>
       <p class="page-lead">Content below is reorganised directly from your notes.</p>
-      <div class="topic-meta">${desc.length?`<span class="pill">${desc.length} linked subtopic${desc.length===1?"":"s"}</span>`:""}</div>
     </header>
     ${n.children.length?`<div class="section-title">Jump to a subtopic</div><div class="subtopic-grid">${
       n.children.map(c=>{const x=node(c);return `<a class="subtopic-card" href="${topicUrl(c)}"><strong>${esc(x.title)}</strong><span>${x.children.length?`${x.children.length} sections`:""}</span></a>`}).join("")
