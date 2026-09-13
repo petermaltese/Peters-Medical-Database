@@ -1,36 +1,45 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Peter's Medical Knowledge Base</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Peter's Medical Notes</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="brand">PETER<span>MD</span></div>
-  <div class="search-wrap">
-    <input id="search" placeholder="Search your notes…" autocomplete="off">
+  <header class="topbar">
+    <button class="icon-btn mobile-only" id="menuBtn" aria-label="Open navigation">☰</button>
+    <a class="brand" href="#/home" aria-label="Home"><span>PETER</span><b>MD</b></a>
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="search" autocomplete="off" placeholder="Search your notes — e.g. heart failure, Crohn’s, glaucoma">
+    </div>
+    <div class="source-badge">NOTES ONLY</div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☾</button>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <nav>
+          <a class="nav-item" data-route="home" href="#/home"><span>⌂</span> Home</a>
+          <a class="nav-item" data-route="browse" href="#/browse"><span>▦</span> Browse all topics</a>
+        </nav>
+        <div class="nav-title">SYSTEMS</div>
+        <div id="systemNav"></div>
+        <div class="sidebar-foot">
+          <strong>Version 2</strong><br>
+          Topic hierarchy, linked sections, search and notes content.
+        </div>
+      </div>
+    </aside>
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <main id="app" tabindex="-1"></main>
   </div>
-  <div class="source-badge">NOTES ONLY</div>
-</header>
 
-<div class="layout">
-  <aside class="sidebar">
-    <div class="nav-title">STUDY</div>
-    <button class="nav active" data-view="home">⌂ <span>Home</span></button>
-    <button class="nav" data-view="browse">▦ <span>Browse topics</span></button>
-    <button class="nav" data-view="rapid">⚡ <span>Rapid review</span></button>
-    <button class="nav" data-view="questions">? <span>Practice questions</span></button>
-    <div class="nav-title">SYSTEMS</div>
-    <div id="systems"></div>
-    <div class="sidebar-foot">Built from<br><b>Disease – As Understood By Peter</b></div>
-  </aside>
-
-  <main id="app"></main>
-</div>
-
-<script src="data.js"></script>
-<script src="app.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

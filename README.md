@@ -1,24 +1,25 @@
-# Peter's Medical Knowledge Base
+# Peter's Medical Notes — Version 2
 
-This is a static website generated from:
+This is a static website built from **Disease - As Understood By Peter.docx**.
 
-`Disease - As Understood By Peter.docx`
+## Source rule
+The website uses only information in the uploaded notes. No external medical information was added or used to correct the notes.
 
-## Important source rule
+## Version 2 focus
+- Proper hierarchy from the Word document headings
+- Clickable systems, topics and subtopics
+- Topic pages that display the notes beneath each heading
+- Breadcrumb links and previous/next topic navigation
+- "On this page" navigation for nested headings
+- Related-topic links when another heading is explicitly mentioned in the notes
+- Global search that opens the exact topic/block containing the result
+- Tables and list nesting preserved
+- Light/dark mode toggle that remembers your choice
 
-The site is intentionally **notes-only**. Medical content displayed by the site is derived from the uploaded notes. No Google/websites/AMBOSS/UpToDate/guidelines or other external medical sources were used to add information.
+Embedded images from the Word document are **not included yet**. This version deliberately focuses on the text/topic navigation first.
 
-## Files
+## Open locally
+Unzip the folder and double-click `index.html`.
 
-- `index.html` — website shell
-- `style.css` — interface
-- `app.js` — interaction/navigation
-- `data.js` — extracted source material
-
-## Run locally
-
-Open `index.html` in a browser.
-
-## GitHub Pages
-
-Create a GitHub repository, upload all four files, then enable GitHub Pages from the repository's Pages settings. The site is static, so it does not require a server.
+## Host it
+The folder is a static site, so it can be uploaded directly to Netlify or hosted with GitHub Pages.
