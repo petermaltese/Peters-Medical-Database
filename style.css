@@ -230,3 +230,10 @@ html[data-theme="dark"]{--external-bg:#192337;--external-border:#748dc2;--extern
 .document-figures{margin-top:28px}.document-figures>summary{cursor:pointer;font-weight:700}
 .article-layout{grid-template-columns:minmax(0,1fr)}
 .ai-high-yield{border:1px solid var(--accent);border-left:4px solid var(--accent);border-radius:12px;background:var(--panel);padding:20px;margin:0 0 24px}.ai-high-yield h2{text-decoration:none;margin-top:0}.ai-high-yield .ai-origin{color:var(--muted);font-size:13px}.ai-high-yield li{margin:8px 0}.ai-high-yield .ai-reference{font-size:12px;color:var(--accent)}.ai-high-yield details>summary{cursor:pointer;font-weight:650}.ai-high-yield .note-bullet{margin:5px 0}.ai-high-yield .ai-passage{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+
+/* V14: clear AI attribution and compact study lines. */
+:root{--ai-green:#20804d;--ai-green-soft:#f1faf5}html[data-theme="dark"]{--ai-green:#6dcc94;--ai-green-soft:#13271e}
+.ai-high-yield{border:2px solid var(--ai-green);background:var(--ai-green-soft)}
+.ai-high-yield h2{font-size:20px;color:var(--text)}.ai-summary-lines{margin:16px 0}.ai-summary-lines>div{display:grid;grid-template-columns:170px 1fr;gap:14px;margin:12px 0}.ai-summary-lines dt{font-weight:750}.ai-summary-lines dd{margin:0}.ai-citations,.ai-reference-jump{color:var(--ai-green)}.ai-reference-jump{font-weight:650;text-decoration:underline}.ai-context{font-size:13px;color:var(--muted)}
+.ai-references{margin:30px 0;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.ai-references a{overflow-wrap:anywhere;color:var(--accent);text-decoration:underline}.ai-references li{margin:16px 0;scroll-margin-top:90px}#ai-references{scroll-margin-top:90px}
+@media(max-width:600px){.ai-summary-lines>div{grid-template-columns:1fr;gap:3px}.ai-high-yield{padding:16px}}

@@ -1,9 +1,9 @@
-# Peter’s Medical Notes — Version 13
+# Peter’s Medical Notes — Version 14
 
 ## Install
 Extract the ZIP, then copy its contents into the existing website repository folder, beside index.html. Replace matching files and merge the images folder. Commit and push with GitHub Desktop. This release includes rebuilt image files, so copy the images folder too. Existing images with old filenames can remain; V13 uses word-v13-* filenames.
 
-The sidebar displays Version 13. Script and stylesheet URLs include v=13 to reduce stale cached assets. Your live URL does not change.
+The sidebar displays Version 14. Script and stylesheet URLs include v=14 to reduce stale cached assets. Your live URL does not change.
 
 ## Changes
 - Systems and High-yield are matching native dropdowns. Opening Systems reveals the system names. Selecting a system drills into one hierarchy level at a time. Back returns one level; the selected parent heading also links to its full notes page. ENT remains capitalised.
