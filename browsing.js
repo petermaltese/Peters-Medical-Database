@@ -19,13 +19,23 @@ function linkMentions(){
     });
   });
 }
+let sidebarParent=null;
+let systemsOpen=false,highYieldOpen=false;
 renderSidebar = function(){
  const titleCase=s=>s.toLowerCase()==='ent'?'ENT':s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
- const systems=D.roots.map(id=>`<button class="system-picker" data-system-id="${esc(id)}">${esc(titleCase(node(id).title))}</button>`).join('');
- systemNav.innerHTML=`<div class="systems-drill"><button class="drill-title" aria-expanded="true">Systems</button><div class="system-list">${systems}</div><div class="drill-panel" hidden></div></div><details class="tree-group"><summary class="tree-group-title">High-yield</summary><div class="tree-children">${D.roots.map(id=>`<div class="tree-leaf"><a class="tree-link" href="#/high-yield/${encodeURIComponent(id)}">${esc(titleCase(node(id).title))}</a></div>`).join('')}</div></details>`;
- systemNav.querySelector('.drill-title').onclick=()=>{const l=systemNav.querySelector('.system-list');l.hidden=!l.hidden;};
- systemNav.querySelectorAll('.system-picker').forEach(btn=>btn.onclick=()=>{const box=systemNav.querySelector('.drill-panel'); const id=btn.dataset.systemId; const renderLevel=(parent)=>{const n=node(parent); box.innerHTML=`<button class="drill-back">← ${parent===id?'All systems':titleCase(node(node(parent).parent).title)}</button><div class="drill-heading">${esc(titleCase(n.title))}</div>`+n.children.map(cid=>{const c=node(cid); return c.children.length?`<button class="topic-picker" data-topic-id="${esc(cid)}">${esc(titleCase(c.title))} <span>›</span></button>`:`<a class="tree-link" href="${topicUrl(cid)}">${esc(titleCase(c.title))}</a>`}).join(''); box.hidden=false; systemNav.querySelector('.system-list').hidden=true; box.querySelector('.drill-back').onclick=()=>{if(parent===id){box.hidden=true;systemNav.querySelector('.system-list').hidden=false;}else renderLevel(node(parent).parent);}; box.querySelectorAll('.topic-picker').forEach(x=>x.onclick=()=>renderLevel(x.dataset.topicId));}; renderLevel(id);});
+ const label=id=>esc(node(id).level===1?titleCase(node(id).title):node(id).title);
+ systemNav.innerHTML=`<details id="systemsGroup" class="tree-group" ${systemsOpen?'open':''}><summary class="tree-group-title">Systems</summary><div id="systemLevel" class="tree-children"></div></details><details id="highYieldGroup" class="tree-group" ${highYieldOpen?'open':''}><summary class="tree-group-title">High-yield</summary><div class="tree-children">${D.roots.map(id=>`<a class="tree-link" href="${"#/high-yield/"+encodeURIComponent(id)}">${label(id)}</a>`).join('')}</div></details>`;
+ const sys=systemNav.querySelector('#systemsGroup'),hy=systemNav.querySelector('#highYieldGroup');
+ sys.addEventListener('toggle',()=>systemsOpen=sys.open);hy.addEventListener('toggle',()=>highYieldOpen=hy.open);
+ function level(parent){sidebarParent=parent;const box=systemNav.querySelector('#systemLevel');
+ const ids=parent?node(parent).children:D.roots;
+ box.innerHTML=(parent?`<button class="drill-back" type="button">← ${node(parent).parent?'Back':'All systems'}</button><a class="tree-link drill-heading" href="${topicUrl(parent)}">${label(parent)} ↗</a>`:'')+ids.map(id=>node(id).children.length?`<button class="topic-picker" type="button" data-topic-id="${esc(id)}">${label(id)} <span aria-hidden="true">›</span></button>`:`<a class="tree-link" href="${topicUrl(id)}">${label(id)}</a>`).join('');
+ box.querySelector('.drill-back')?.addEventListener('click',()=>level(node(parent).parent));
+ box.querySelectorAll('[data-topic-id]').forEach(b=>b.addEventListener('click',()=>level(b.dataset.topicId)));
+ }
+ level(sidebarParent);
 };
+
 highlight = function(text,terms){
   if(!terms.length)return esc(text);
   const pattern=new RegExp(terms.filter(Boolean).sort((a,b)=>b.length-a.length).map(regexEscape).join('|'),'gi');

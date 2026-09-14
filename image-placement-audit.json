@@ -1,0 +1,1226 @@
+[
+  {
+    "topic": null,
+    "after": null,
+    "file": "word-v13-001.jpg",
+    "source": "word/media/image1.png",
+    "relationship": "rId8",
+    "paragraph": "Peter Maltese            Disease –                                     AS understood by peter Peter Maltese            Disease –                                "
+  },
+  {
+    "topic": null,
+    "after": null,
+    "file": "word-v13-002.jpg",
+    "source": "word/media/image2.jpeg",
+    "relationship": "rId9",
+    "paragraph": ""
+  },
+  {
+    "topic": null,
+    "after": null,
+    "file": "word-v13-003.jpg",
+    "source": "word/media/image3.jpeg",
+    "relationship": "rId10",
+    "paragraph": ""
+  },
+  {
+    "topic": null,
+    "after": null,
+    "file": "word-v13-004.jpg",
+    "source": "word/media/image4.jpeg",
+    "relationship": "rId11",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology",
+    "after": null,
+    "file": "word-v13-005.jpg",
+    "source": "word/media/image5.png",
+    "relationship": "rId12",
+    "paragraph": "CARDIOLOGY"
+  },
+  {
+    "topic": "cardiology",
+    "after": null,
+    "file": "word-v13-006.jpg",
+    "source": "word/media/image6.png",
+    "relationship": "rId13",
+    "paragraph": "CARDIOLOGY"
+  },
+  {
+    "topic": "cardiology",
+    "after": null,
+    "file": "word-v13-007.jpg",
+    "source": "word/media/image7.jpeg",
+    "relationship": "rId14",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 79,
+    "file": "word-v13-008.jpg",
+    "source": "word/media/image8.png",
+    "relationship": "rId15",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 143,
+    "file": "word-v13-009.jpg",
+    "source": "word/media/image9.png",
+    "relationship": "rId16",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 143,
+    "file": "word-v13-010.jpg",
+    "source": "word/media/image10.png",
+    "relationship": "rId17",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 143,
+    "file": "word-v13-011.jpg",
+    "source": "word/media/image11.png",
+    "relationship": "rId18",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 143,
+    "file": "word-v13-012.jpg",
+    "source": "word/media/image12.png",
+    "relationship": "rId19",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 143,
+    "file": "word-v13-013.jpg",
+    "source": "word/media/image13.png",
+    "relationship": "rId20",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 171,
+    "file": "word-v13-014.jpg",
+    "source": "word/media/image14.png",
+    "relationship": "rId21",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 188,
+    "file": "word-v13-015.jpg",
+    "source": "word/media/image15.png",
+    "relationship": "rId22",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 236,
+    "file": "word-v13-016.jpg",
+    "source": "word/media/image16.png",
+    "relationship": "rId23",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--heart-failure",
+    "after": 255,
+    "file": "word-v13-017.jpg",
+    "source": "word/media/image17.png",
+    "relationship": "rId24",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--valvular-disease",
+    "after": 274,
+    "file": "word-v13-018.jpg",
+    "source": "word/media/image18.png",
+    "relationship": "rId25",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--valvular-disease",
+    "after": 274,
+    "file": "word-v13-019.jpg",
+    "source": "word/media/image19.png",
+    "relationship": "rId26",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--valvular-disease",
+    "after": 274,
+    "file": "word-v13-020.jpg",
+    "source": "word/media/image20.png",
+    "relationship": "rId27",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--mitral-stenosis",
+    "after": 286,
+    "file": "word-v13-021.jpg",
+    "source": "word/media/image21.png",
+    "relationship": "rId28",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--mitral-stenosis",
+    "after": 322,
+    "file": "word-v13-022.jpg",
+    "source": "word/media/image22.png",
+    "relationship": "rId29",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--mitral-stenosis",
+    "after": 351,
+    "file": "word-v13-023.jpg",
+    "source": "word/media/image23.png",
+    "relationship": "rId30",
+    "paragraph": "Ballon ValvuloplastyBallon Valvuloplasty"
+  },
+  {
+    "topic": "valvular-disease--mitral-stenosis",
+    "after": 351,
+    "file": "word-v13-024.jpg",
+    "source": "word/media/image24.png",
+    "relationship": "rId31",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--mitral-regurgitation",
+    "after": 369,
+    "file": "word-v13-025.jpg",
+    "source": "word/media/image25.png",
+    "relationship": "rId32",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--mitral-regurgitation",
+    "after": 397,
+    "file": "word-v13-026.jpg",
+    "source": "word/media/image22.png",
+    "relationship": "rId29",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-stenosis",
+    "after": 459,
+    "file": "word-v13-027.jpg",
+    "source": "word/media/image26.png",
+    "relationship": "rId33",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-stenosis",
+    "after": 460,
+    "file": "word-v13-028.jpg",
+    "source": "word/media/image27.png",
+    "relationship": "rId34",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-stenosis",
+    "after": 470,
+    "file": "word-v13-029.jpg",
+    "source": "word/media/image28.png",
+    "relationship": "rId35",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-stenosis",
+    "after": 481,
+    "file": "word-v13-030.jpg",
+    "source": "word/media/image29.png",
+    "relationship": "rId36",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-stenosis",
+    "after": 499,
+    "file": "word-v13-031.jpg",
+    "source": "word/media/image30.png",
+    "relationship": "rId37",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-stenosis",
+    "after": 499,
+    "file": "word-v13-032.jpg",
+    "source": "word/media/image31.png",
+    "relationship": "rId38",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-stenosis",
+    "after": 527,
+    "file": "word-v13-033.jpg",
+    "source": "word/media/image32.png",
+    "relationship": "rId39",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-regurgitation",
+    "after": 560,
+    "file": "word-v13-034.jpg",
+    "source": "word/media/image33.png",
+    "relationship": "rId40",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-regurgitation",
+    "after": 571,
+    "file": "word-v13-035.jpg",
+    "source": "word/media/image29.png",
+    "relationship": "rId36",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--aortic-regurgitation",
+    "after": 583,
+    "file": "word-v13-036.jpg",
+    "source": "word/media/image34.png",
+    "relationship": "rId41",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--congenital-valvular-defects",
+    "after": 621,
+    "file": "word-v13-037.jpg",
+    "source": "word/media/image35.png",
+    "relationship": "rId42",
+    "paragraph": ""
+  },
+  {
+    "topic": "valvular-disease--key-murmurs",
+    "after": null,
+    "file": "word-v13-038.jpg",
+    "source": "word/media/image36.png",
+    "relationship": "rId43",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--infective-endocarditis",
+    "after": 664,
+    "file": "word-v13-039.jpg",
+    "source": "word/media/image37.png",
+    "relationship": "rId44",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--infective-endocarditis",
+    "after": 671,
+    "file": "word-v13-040.jpg",
+    "source": "word/media/image38.png",
+    "relationship": "rId45",
+    "paragraph": ""
+  },
+  {
+    "topic": "peripheral-vascular-dise--aneurysmal-disease",
+    "after": 725,
+    "file": "word-v13-041.jpg",
+    "source": "word/media/image39.png",
+    "relationship": "rId46",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiac-arrhythmias--tachycardia",
+    "after": 968,
+    "file": "word-v13-042.jpg",
+    "source": "word/media/image40.png",
+    "relationship": "rId47",
+    "paragraph": ""
+  },
+  {
+    "topic": "long-term-management-of---antiarrhythmic-drugs",
+    "after": 1027,
+    "file": "word-v13-043.jpg",
+    "source": "word/media/image41.png",
+    "relationship": "rId48",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--atherosclerosis",
+    "after": 1082,
+    "file": "word-v13-044.jpg",
+    "source": "word/media/image42.png",
+    "relationship": "rId49",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--atherosclerosis",
+    "after": 1082,
+    "file": "word-v13-045.jpg",
+    "source": "word/media/image43.png",
+    "relationship": "rId50",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--atherosclerosis",
+    "after": 1088,
+    "file": "word-v13-046.jpg",
+    "source": "word/media/image44.png",
+    "relationship": "rId51",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--atherosclerosis",
+    "after": 1095,
+    "file": "word-v13-047.jpg",
+    "source": "word/media/image45.png",
+    "relationship": "rId52",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--atherosclerosis",
+    "after": 1101,
+    "file": "word-v13-048.jpg",
+    "source": "word/media/image46.png",
+    "relationship": "rId53",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--atherosclerosis",
+    "after": 1104,
+    "file": "word-v13-049.jpg",
+    "source": "word/media/image47.png",
+    "relationship": "rId54",
+    "paragraph": ""
+  },
+  {
+    "topic": "cardiology--atherosclerosis",
+    "after": 1104,
+    "file": "word-v13-050.jpg",
+    "source": "word/media/image48.png",
+    "relationship": "rId55",
+    "paragraph": ""
+  },
+  {
+    "topic": "inflammatory-bowel-disea--crohn-s-disease",
+    "after": 1281,
+    "file": "word-v13-051.jpg",
+    "source": "word/media/image49.png",
+    "relationship": "rId56",
+    "paragraph": ""
+  },
+  {
+    "topic": "inflammatory-bowel-disea--crohn-s-disease",
+    "after": 1281,
+    "file": "word-v13-052.jpg",
+    "source": "word/media/image50.png",
+    "relationship": "rId57",
+    "paragraph": ""
+  },
+  {
+    "topic": "hepatitis--viral-hepatitis",
+    "after": 1551,
+    "file": "word-v13-053.jpg",
+    "source": "word/media/image51.png",
+    "relationship": "rId59",
+    "paragraph": ""
+  },
+  {
+    "topic": "viral-hepatitis--hepatitis-b",
+    "after": 1598,
+    "file": "word-v13-054.jpg",
+    "source": "word/media/image52.png",
+    "relationship": "rId60",
+    "paragraph": ""
+  },
+  {
+    "topic": "viral-hepatitis--hepatitis-b",
+    "after": 1598,
+    "file": "word-v13-055.jpg",
+    "source": "word/media/image53.png",
+    "relationship": "rId61",
+    "paragraph": ""
+  },
+  {
+    "topic": "stomach-cancer--gastric-adenocarcinoma",
+    "after": 1779,
+    "file": "word-v13-056.jpg",
+    "source": "word/media/image54.png",
+    "relationship": "rId62",
+    "paragraph": ""
+  },
+  {
+    "topic": "adenocarcinoma-of-the-co--pathogenesis",
+    "after": 1931,
+    "file": "word-v13-057.jpg",
+    "source": "word/media/image55.png",
+    "relationship": "rId63",
+    "paragraph": ""
+  },
+  {
+    "topic": "adenocarcinoma-of-the-co--pathogenesis",
+    "after": 1946,
+    "file": "word-v13-058.jpg",
+    "source": "word/media/image56.png",
+    "relationship": "rId64",
+    "paragraph": ""
+  },
+  {
+    "topic": "adenocarcinoma-of-the-co--pathogenesis",
+    "after": 1952,
+    "file": "word-v13-059.jpg",
+    "source": "word/media/image57.png",
+    "relationship": "rId65",
+    "paragraph": ""
+  },
+  {
+    "topic": "adenocarcinoma-of-the-co--treatment",
+    "after": 1983,
+    "file": "word-v13-060.jpg",
+    "source": "word/media/image58.png",
+    "relationship": "rId66",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--chronic-obstructive-pulmonary-disease-copd",
+    "after": 2056,
+    "file": "word-v13-061.jpg",
+    "source": "word/media/image59.png",
+    "relationship": "rId67",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--chronic-obstructive-pulmonary-disease-copd",
+    "after": 2111,
+    "file": "word-v13-062.jpg",
+    "source": "word/media/image60.png",
+    "relationship": "rId68",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--chronic-obstructive-pulmonary-disease-copd",
+    "after": 2157,
+    "file": "word-v13-063.jpg",
+    "source": "word/media/image61.png",
+    "relationship": "rId69",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--chronic-obstructive-pulmonary-disease-copd",
+    "after": 2166,
+    "file": "word-v13-064.jpg",
+    "source": "word/media/image62.png",
+    "relationship": "rId70",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--chronic-obstructive-pulmonary-disease-copd",
+    "after": 2201,
+    "file": "word-v13-065.jpg",
+    "source": "word/media/image63.png",
+    "relationship": "rId71",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--asthma",
+    "after": 2292,
+    "file": "word-v13-066.jpg",
+    "source": "word/media/image64.png",
+    "relationship": "rId72",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--asthma",
+    "after": 2292,
+    "file": "word-v13-067.jpg",
+    "source": "word/media/image65.png",
+    "relationship": "rId73",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--asthma",
+    "after": 2310,
+    "file": "word-v13-068.jpg",
+    "source": "word/media/image66.png",
+    "relationship": "rId74",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--asthma",
+    "after": 2377,
+    "file": "word-v13-069.jpg",
+    "source": "word/media/image67.png",
+    "relationship": "rId75",
+    "paragraph": ""
+  },
+  {
+    "topic": "obstructive-pulmonary-di--asthma",
+    "after": 2377,
+    "file": "word-v13-070.jpg",
+    "source": "word/media/image68.png",
+    "relationship": "rId76",
+    "paragraph": ""
+  },
+  {
+    "topic": "respiratory-system--respiratory-failure",
+    "after": 2389,
+    "file": "word-v13-071.jpg",
+    "source": "word/media/image69.png",
+    "relationship": "rId77",
+    "paragraph": ""
+  },
+  {
+    "topic": "pneumoconiosis--coal-workers-pneumoconiosis",
+    "after": 2620,
+    "file": "word-v13-072.jpg",
+    "source": "word/media/image70.png",
+    "relationship": "rId78",
+    "paragraph": ""
+  },
+  {
+    "topic": "pneumoconiosis--coal-workers-pneumoconiosis",
+    "after": 2620,
+    "file": "word-v13-073.jpg",
+    "source": "word/media/image71.png",
+    "relationship": "rId79",
+    "paragraph": ""
+  },
+  {
+    "topic": "pneumoconiosis--coal-workers-pneumoconiosis",
+    "after": 2620,
+    "file": "word-v13-074.jpg",
+    "source": "word/media/image72.png",
+    "relationship": "rId80",
+    "paragraph": ""
+  },
+  {
+    "topic": "pneumoconiosis--asbestosis",
+    "after": 2674,
+    "file": "word-v13-075.jpg",
+    "source": "word/media/image73.png",
+    "relationship": "rId81",
+    "paragraph": ""
+  },
+  {
+    "topic": "pneumoconiosis--asbestosis",
+    "after": 2674,
+    "file": "word-v13-076.jpg",
+    "source": "word/media/image74.png",
+    "relationship": "rId82",
+    "paragraph": ""
+  },
+  {
+    "topic": "pneumoconiosis--asbestosis",
+    "after": 2674,
+    "file": "word-v13-077.jpg",
+    "source": "word/media/image75.png",
+    "relationship": "rId83",
+    "paragraph": ""
+  },
+  {
+    "topic": "pulmonary-infections--community-acquired-pneumonia",
+    "after": 2759,
+    "file": "word-v13-078.jpg",
+    "source": "word/media/image76.png",
+    "relationship": "rId88",
+    "paragraph": ""
+  },
+  {
+    "topic": "pulmonary-infections--community-acquired-pneumonia",
+    "after": 2759,
+    "file": "word-v13-079.jpg",
+    "source": "word/media/image77.png",
+    "relationship": "rId89",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--epidemiology",
+    "after": 2846,
+    "file": "word-v13-080.jpg",
+    "source": "word/media/image78.png",
+    "relationship": "rId90",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--diagnostic-and-staging-investigations",
+    "after": 2911,
+    "file": "word-v13-081.jpg",
+    "source": "word/media/image79.png",
+    "relationship": "rId91",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--diagnostic-and-staging-investigations",
+    "after": 2911,
+    "file": "word-v13-082.jpg",
+    "source": "word/media/image80.png",
+    "relationship": "rId92",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--diagnostic-and-staging-investigations",
+    "after": 2912,
+    "file": "word-v13-083.jpg",
+    "source": "word/media/image81.png",
+    "relationship": "rId93",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--diagnostic-and-staging-investigations",
+    "after": 2912,
+    "file": "word-v13-084.jpg",
+    "source": "word/media/image82.png",
+    "relationship": "rId94",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--treatment-for-localised-disease",
+    "after": 2949,
+    "file": "word-v13-085.jpg",
+    "source": "word/media/image83.png",
+    "relationship": "rId95",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--treatment-for-localised-disease",
+    "after": 2949,
+    "file": "word-v13-086.jpg",
+    "source": "word/media/image84.png",
+    "relationship": "rId96",
+    "paragraph": ""
+  },
+  {
+    "topic": "lung-cancer--treatment-for-localised-disease",
+    "after": 2972,
+    "file": "word-v13-087.jpg",
+    "source": "word/media/image85.png",
+    "relationship": "rId97",
+    "paragraph": ""
+  },
+  {
+    "topic": "vascular-respiratory-dis--pulmonary-hypertension",
+    "after": 3006,
+    "file": "word-v13-088.jpg",
+    "source": "word/media/image86.png",
+    "relationship": "rId98",
+    "paragraph": ""
+  },
+  {
+    "topic": "renal-system--glomerular-disease",
+    "after": 3216,
+    "file": "word-v13-089.jpg",
+    "source": "word/media/image87.png",
+    "relationship": "rId99",
+    "paragraph": ""
+  },
+  {
+    "topic": "nephritic-syndromes--crescentic-rapidly-progressive-glomerulonephritis",
+    "after": 3248,
+    "file": "word-v13-090.jpg",
+    "source": "word/media/image88.png",
+    "relationship": "rId100",
+    "paragraph": ""
+  },
+  {
+    "topic": "other-syndromes--membranoproliferative-glomerulonephritis-mpgn",
+    "after": 3320,
+    "file": "word-v13-091.jpg",
+    "source": "word/media/image89.png",
+    "relationship": "rId101",
+    "paragraph": ""
+  },
+  {
+    "topic": "other-syndromes--lupus-nephritis",
+    "after": 3344,
+    "file": "word-v13-092.jpg",
+    "source": "word/media/image90.png",
+    "relationship": "rId102",
+    "paragraph": ""
+  },
+  {
+    "topic": "diabetes-mellitus--chronic-complications-of-dm",
+    "after": 3458,
+    "file": "word-v13-093.jpg",
+    "source": "word/media/image91.png",
+    "relationship": "rId103",
+    "paragraph": ""
+  },
+  {
+    "topic": "chronic-complications-of--microvascular-complications",
+    "after": 3531,
+    "file": "word-v13-094.jpg",
+    "source": "word/media/image92.png",
+    "relationship": "rId104",
+    "paragraph": ""
+  },
+  {
+    "topic": "chronic-complications-of--microvascular-complications",
+    "after": 3536,
+    "file": "word-v13-095.jpg",
+    "source": "word/media/image93.png",
+    "relationship": "rId105",
+    "paragraph": ""
+  },
+  {
+    "topic": "cortical-diseases--summary-image",
+    "after": null,
+    "file": "word-v13-096.jpg",
+    "source": "word/media/image94.png",
+    "relationship": "rId106",
+    "paragraph": ""
+  },
+  {
+    "topic": "cortical-diseases--summary-image",
+    "after": null,
+    "file": "word-v13-097.jpg",
+    "source": "word/media/image95.png",
+    "relationship": "rId107",
+    "paragraph": ""
+  },
+  {
+    "topic": "neurology--dementia",
+    "after": 3720,
+    "file": "word-v13-098.jpg",
+    "source": "word/media/image96.png",
+    "relationship": "rId108",
+    "paragraph": ""
+  },
+  {
+    "topic": "dementia--alzheimer-s-dementia",
+    "after": 3770,
+    "file": "word-v13-099.jpg",
+    "source": "word/media/image97.png",
+    "relationship": "rId109",
+    "paragraph": ""
+  },
+  {
+    "topic": "dementia--vascular-dementia",
+    "after": 3867,
+    "file": "word-v13-100.jpg",
+    "source": "word/media/image98.png",
+    "relationship": "rId110",
+    "paragraph": ""
+  },
+  {
+    "topic": "dementia--frontotemporal-dementia",
+    "after": 3884,
+    "file": "word-v13-101.jpg",
+    "source": "word/media/image99.png",
+    "relationship": "rId111",
+    "paragraph": ""
+  },
+  {
+    "topic": "dementia--frontotemporal-dementia",
+    "after": 3884,
+    "file": "word-v13-102.jpg",
+    "source": "word/media/image100.png",
+    "relationship": "rId112",
+    "paragraph": ""
+  },
+  {
+    "topic": "dementia--frontotemporal-dementia",
+    "after": 3895,
+    "file": "word-v13-103.jpg",
+    "source": "word/media/image101.png",
+    "relationship": "rId113",
+    "paragraph": ""
+  },
+  {
+    "topic": "neurology--traumatic-brain-injury-tbi",
+    "after": 3937,
+    "file": "word-v13-104.jpg",
+    "source": "word/media/image102.png",
+    "relationship": "rId114",
+    "paragraph": ""
+  },
+  {
+    "topic": "neurology--traumatic-brain-injury-tbi",
+    "after": 3948,
+    "file": "word-v13-105.jpg",
+    "source": "word/media/image103.png",
+    "relationship": "rId115",
+    "paragraph": ""
+  },
+  {
+    "topic": "neurology--traumatic-brain-injury-tbi",
+    "after": 3948,
+    "file": "word-v13-106.jpg",
+    "source": "word/media/image104.png",
+    "relationship": "rId116",
+    "paragraph": ""
+  },
+  {
+    "topic": "neurology--neuropharmacology",
+    "after": 3992,
+    "file": "word-v13-107.jpg",
+    "source": "word/media/image105.png",
+    "relationship": "rId117",
+    "paragraph": ""
+  },
+  {
+    "topic": "neurology--neuropharmacology",
+    "after": 3996,
+    "file": "word-v13-108.jpg",
+    "source": "word/media/image106.png",
+    "relationship": "rId118",
+    "paragraph": ""
+  },
+  {
+    "topic": "parkinsons-disease--pharmacotherapy",
+    "after": 4150,
+    "file": "word-v13-109.jpg",
+    "source": "word/media/image107.png",
+    "relationship": "rId119",
+    "paragraph": ""
+  },
+  {
+    "topic": "spinal-compression-patho--degenerative-cervical-myelopathy",
+    "after": 4259,
+    "file": "word-v13-110.jpg",
+    "source": "word/media/image108.png",
+    "relationship": "rId120",
+    "paragraph": ""
+  },
+  {
+    "topic": "aetiology--breast-cancer-anatomy",
+    "after": 4484,
+    "file": "word-v13-111.jpg",
+    "source": "word/media/image109.png",
+    "relationship": "rId121",
+    "paragraph": ""
+  },
+  {
+    "topic": "aetiology--breast-cancer-anatomy",
+    "after": 4484,
+    "file": "word-v13-112.jpg",
+    "source": "word/media/image110.png",
+    "relationship": "rId122",
+    "paragraph": ""
+  },
+  {
+    "topic": "breast-cancer-subtypes--invasive-ductal-carcinoma-carcinoma-of-no-special-type",
+    "after": 4501,
+    "file": "word-v13-113.jpg",
+    "source": "word/media/image111.png",
+    "relationship": "rId123",
+    "paragraph": ""
+  },
+  {
+    "topic": "breast-cancer-subtypes--invasive-lobular-carcinoma",
+    "after": 4507,
+    "file": "word-v13-114.jpg",
+    "source": "word/media/image112.png",
+    "relationship": "rId124",
+    "paragraph": ""
+  },
+  {
+    "topic": "breast-cancer--staging-and-grading",
+    "after": 4529,
+    "file": "word-v13-115.jpg",
+    "source": "word/media/image113.png",
+    "relationship": "rId125",
+    "paragraph": ""
+  },
+  {
+    "topic": "breast-cancer--biomarkers-er-pr-her2",
+    "after": 4564,
+    "file": "word-v13-116.jpg",
+    "source": "word/media/image114.png",
+    "relationship": "rId126",
+    "paragraph": ""
+  },
+  {
+    "topic": "breast-cancer--differentials-for-a-breast-lump",
+    "after": null,
+    "file": "word-v13-117.jpg",
+    "source": "word/media/image115.png",
+    "relationship": "rId127",
+    "paragraph": ""
+  },
+  {
+    "topic": "haematology--haematology-and-haematopoiesis",
+    "after": 4714,
+    "file": "word-v13-118.jpg",
+    "source": "word/media/image116.png",
+    "relationship": "rId128",
+    "paragraph": ""
+  },
+  {
+    "topic": "rheumatology--arthritis",
+    "after": null,
+    "file": "word-v13-119.jpg",
+    "source": "word/media/image117.png",
+    "relationship": "rId129",
+    "paragraph": ""
+  },
+  {
+    "topic": "arthritis--osteoarthritis",
+    "after": 5058,
+    "file": "word-v13-120.jpg",
+    "source": "word/media/image118.png",
+    "relationship": "rId130",
+    "paragraph": ""
+  },
+  {
+    "topic": "arthritis--osteoarthritis",
+    "after": 5061,
+    "file": "word-v13-121.jpg",
+    "source": "word/media/image119.png",
+    "relationship": "rId131",
+    "paragraph": ""
+  },
+  {
+    "topic": "dermatology--melanoma",
+    "after": 5611,
+    "file": "word-v13-122.jpg",
+    "source": "word/media/image120.png",
+    "relationship": "rId132",
+    "paragraph": ""
+  },
+  {
+    "topic": "dermatology--melanoma",
+    "after": 5630,
+    "file": "word-v13-123.jpg",
+    "source": "word/media/image121.png",
+    "relationship": "rId133",
+    "paragraph": ""
+  },
+  {
+    "topic": "dermatology--melanoma",
+    "after": 5639,
+    "file": "word-v13-124.jpg",
+    "source": "word/media/image122.png",
+    "relationship": "rId134",
+    "paragraph": ""
+  },
+  {
+    "topic": "dermatology--melanoma",
+    "after": 5646,
+    "file": "word-v13-125.jpg",
+    "source": "word/media/image123.png",
+    "relationship": "rId135",
+    "paragraph": ""
+  },
+  {
+    "topic": "dermatology--melanoma",
+    "after": 5646,
+    "file": "word-v13-126.jpg",
+    "source": "word/media/image124.png",
+    "relationship": "rId136",
+    "paragraph": ""
+  },
+  {
+    "topic": "dermatology--melanoma",
+    "after": 5686,
+    "file": "word-v13-127.jpg",
+    "source": "word/media/image125.png",
+    "relationship": "rId137",
+    "paragraph": ""
+  },
+  {
+    "topic": "dermatology--melanoma",
+    "after": 5706,
+    "file": "word-v13-128.jpg",
+    "source": "word/media/image126.png",
+    "relationship": "rId138",
+    "paragraph": ""
+  },
+  {
+    "topic": "ent--audiometry-and-hearing-loss",
+    "after": 5873,
+    "file": "word-v13-129.jpg",
+    "source": "word/media/image127.png",
+    "relationship": "rId139",
+    "paragraph": ""
+  },
+  {
+    "topic": "audiometry-and-hearing-l--audiometry",
+    "after": 5897,
+    "file": "word-v13-130.jpg",
+    "source": "word/media/image128.png",
+    "relationship": "rId140",
+    "paragraph": ""
+  },
+  {
+    "topic": "audiometry-and-hearing-l--audiometry",
+    "after": 5900,
+    "file": "word-v13-131.jpg",
+    "source": "word/media/image129.png",
+    "relationship": "rId141",
+    "paragraph": ""
+  },
+  {
+    "topic": "audiometry--audiogram-s",
+    "after": 5904,
+    "file": "word-v13-132.jpg",
+    "source": "word/media/image130.png",
+    "relationship": "rId142",
+    "paragraph": ""
+  },
+  {
+    "topic": "audiometry--audiogram-s",
+    "after": 5904,
+    "file": "word-v13-133.jpg",
+    "source": "word/media/image131.png",
+    "relationship": "rId143",
+    "paragraph": ""
+  },
+  {
+    "topic": "audiometry--tympanometry",
+    "after": 5907,
+    "file": "word-v13-134.jpg",
+    "source": "word/media/image132.png",
+    "relationship": "rId144",
+    "paragraph": ""
+  },
+  {
+    "topic": "ent--otoscopy",
+    "after": 5920,
+    "file": "word-v13-135.jpg",
+    "source": "word/media/image133.png",
+    "relationship": "rId145",
+    "paragraph": ""
+  },
+  {
+    "topic": "ent--otoscopy",
+    "after": 5928,
+    "file": "word-v13-136.jpg",
+    "source": "word/media/image134.png",
+    "relationship": "rId146",
+    "paragraph": ""
+  },
+  {
+    "topic": "ent--otoscopy",
+    "after": 5932,
+    "file": "word-v13-137.jpg",
+    "source": "word/media/image135.png",
+    "relationship": "rId147",
+    "paragraph": ""
+  },
+  {
+    "topic": "ent--otoscopy",
+    "after": 5945,
+    "file": "word-v13-138.jpg",
+    "source": "word/media/image136.png",
+    "relationship": "rId148",
+    "paragraph": ""
+  },
+  {
+    "topic": "ent--otoscopy",
+    "after": 5945,
+    "file": "word-v13-139.jpg",
+    "source": "word/media/image137.png",
+    "relationship": "rId149",
+    "paragraph": ""
+  },
+  {
+    "topic": "nasal-disorders--allergic-rhinitis",
+    "after": 5970,
+    "file": "word-v13-140.jpg",
+    "source": "word/media/image138.png",
+    "relationship": "rId150",
+    "paragraph": ""
+  },
+  {
+    "topic": "opthalmology--eye-anatomy",
+    "after": 6141,
+    "file": "word-v13-141.jpg",
+    "source": "word/media/image139.png",
+    "relationship": "rId151",
+    "paragraph": ""
+  },
+  {
+    "topic": "opthalmology--eye-anatomy",
+    "after": 6141,
+    "file": "word-v13-142.jpg",
+    "source": "word/media/image140.jpeg",
+    "relationship": "rId152",
+    "paragraph": ""
+  },
+  {
+    "topic": "opthalmology--eye-anatomy",
+    "after": 6144,
+    "file": "word-v13-143.jpg",
+    "source": "word/media/image141.png",
+    "relationship": "rId153",
+    "paragraph": ""
+  },
+  {
+    "topic": "opthalmology--eye-anatomy",
+    "after": 6144,
+    "file": "word-v13-144.jpg",
+    "source": "word/media/image142.png",
+    "relationship": "rId154",
+    "paragraph": ""
+  },
+  {
+    "topic": "opthalmology--eye-anatomy",
+    "after": 6144,
+    "file": "word-v13-145.jpg",
+    "source": "word/media/image143.png",
+    "relationship": "rId155",
+    "paragraph": ""
+  },
+  {
+    "topic": "general-practice--the-returned-traveller",
+    "after": 6271,
+    "file": "word-v13-146.jpg",
+    "source": "word/media/image144.jpeg",
+    "relationship": "rId156",
+    "paragraph": ""
+  },
+  {
+    "topic": "general-practice--the-returned-traveller",
+    "after": 6271,
+    "file": "word-v13-147.jpg",
+    "source": "word/media/image145.jpeg",
+    "relationship": "rId157",
+    "paragraph": ""
+  },
+  {
+    "topic": "general-practice--antibiotic-prescribing",
+    "after": 6503,
+    "file": "word-v13-148.jpg",
+    "source": "word/media/image146.png",
+    "relationship": "rId158",
+    "paragraph": ""
+  },
+  {
+    "topic": "common-infections-indica--pharyngitis-and-tonsillitis",
+    "after": 6568,
+    "file": "word-v13-149.jpg",
+    "source": "word/media/image147.png",
+    "relationship": "rId159",
+    "paragraph": ""
+  },
+  {
+    "topic": "common-infections-indica--pharyngitis-and-tonsillitis",
+    "after": 6568,
+    "file": "word-v13-150.jpg",
+    "source": "word/media/image148.png",
+    "relationship": "rId160",
+    "paragraph": ""
+  },
+  {
+    "topic": "common-infections-indica--pharyngitis-and-tonsillitis",
+    "after": 6568,
+    "file": "word-v13-151.jpg",
+    "source": "word/media/image149.png",
+    "relationship": "rId161",
+    "paragraph": ""
+  },
+  {
+    "topic": "common-infections-indica--pharyngitis-and-tonsillitis",
+    "after": 6568,
+    "file": "word-v13-152.jpg",
+    "source": "word/media/image150.png",
+    "relationship": "rId162",
+    "paragraph": ""
+  },
+  {
+    "topic": "the-promt-model--e-g-abdominal-pain",
+    "after": null,
+    "file": "word-v13-153.jpg",
+    "source": "word/media/image151.png",
+    "relationship": "rId163",
+    "paragraph": ""
+  }
+]

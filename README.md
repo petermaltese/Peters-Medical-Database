@@ -1,37 +1,21 @@
-# Peter’s Medical Notes — Version 9
+# Peter’s Medical Notes — Version 13
 
-Continues Version 3 with the same system → topic → subtopic hierarchy, existing topic URLs, search, inline links and remembered light/dark setting.
+## Install
+Extract the ZIP, then copy its contents into the existing website repository folder, beside index.html. Replace matching files and merge the images folder. Commit and push with GitHub Desktop. This release includes rebuilt image files, so copy the images folder too. Existing images with old filenames can remain; V13 uses word-v13-* filenames.
 
-## New in V5
-- Subtopic headings and paragraph section labels are bold and underlined.
-- Common section labels stored as list items (including Pathophysiology, Epidemiology, Clinical presentation, Investigations and Management) are also bold and underlined.
-- Every system has a High yield entry and a sidebar link.
-- 46 curated excerpts across all 16 systems, drawn from 468 existing content blocks.
-- Each excerpt links directly to its original passage. Lists, supporting bullets and tables remain together.
-- High yield pages include an on-page contents menu, including on smaller screens.
-- Topic pages place a clearly separate Extra information section below your notes. Each source card names its publisher, gives an AI-written summary, shows the date checked and links to the source. Broader parent-topic context is labelled as such.
-- External summaries are not mixed into your notes or High yield pages; search continues to search your notes.
-- 44 source records currently cover selected major topics and conditions; topics without a verified dedicated source are explicitly marked as not yet covered.
+The sidebar displays Version 13. Script and stylesheet URLs include v=13 to reduce stale cached assets. Your live URL does not change.
 
-## Content rule
-All medical content is from Disease - As Understood By Peter.docx. The V2/V3 data.js remains byte-for-byte unchanged. Excerpts resolve references to this data at runtime rather than containing separately authored medical text.
-
-Peter has authorised grammar/wording improvements without new medical information. This release retains the original wording of the selected excerpts.
-
-The GMC MLA content map informed editorial topic priorities, especially common/acute presentations and clinical recognition. It is not an official MQ examination ranking. External medical descriptions, diagnostic thresholds and management recommendations were not imported. Sparse systems remain limited to the notes actually present.
-Selection reference: https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map
-
-## Upload to your existing GitHub website
-Extract this ZIP. Upload all seven files into the same folder as the existing index.html, on the existing publishing branch:
-index.html, style.css, app.js, data.js, browsing.js, high-yield.js, external-info.js, external-view.js, image-manifest.js, images/, README.md.
-Commit the changes. Keep the same website URL. Allow GitHub Pages time to publish, then refresh the website.
-Do not upload an enclosing folder or the ZIP itself. No need to delete existing files first.
+## Changes
+- Systems and High-yield are matching native dropdowns. Opening Systems reveals the system names. Selecting a system drills into one hierarchy level at a time. Back returns one level; the selected parent heading also links to its full notes page. ENT remains capitalised.
+- Rebuilt image placement from the original Word XML, matching all 373 headings in document order to unique topic IDs. All 153 drawing placements use 151 distinct embedded media files. Images follow their original paragraph or table; images at the start of a heading appear inside that section. Word crop settings are respected.
+- Eye Anatomy has exactly five images: two after block 6141 and three after block 6144. Figures render even when a topic is opened directly, without needing a duplicate heading inside its notes panel.
+- Four drawings from the document opening, before the first system heading, are available in a separate expandable area at the bottom of Home.
+- Images are smaller clickable previews; links open larger files. Generic imported-image captions are removed.
+- High yield from AI appears above the notes on all 357 non-system topic pages. It includes AI-selected complete note passages with links to their original sections, and external-source takeaways where dedicated sources are available. The image-only Summary Image heading references its original figure.
+- Note-based selections are not independent medical verification. External takeaways are labelled separately, with publisher, resource link and date checked. This is not a comprehensive external clinical summary for every topic, nor an official exam syllabus.
+- The existing system-level High-yield pages and Extra information sections remain available. No MCQ/progress system was added.
 
 ## Validation
-- All 468 selected blocks checked against the uploaded Word document, with only whitespace/Unicode normalisation during comparison.
-- Original notes data unchanged, including all 45 table blocks.
-- DOM checks passed for all 16 system pages and 16 High yield pages, all 46 full-passage links, paragraph/list subheadings, search and dark theme.
-- JavaScript syntax checked.
-- Visual browser testing remains outstanding: the browser download was unavailable in this environment. Responsive styles are included, but desktop/iPad/phone layout should be visually checked after publishing.
+All 373 routes checked with a DOM-based runtime, including image counts, exact anchor positions and order, five figures on the directly opened Eye Anatomy page, source-reference sections, dropdown/drill/back navigation, 16 system High-yield pages, homepage and dark mode. All linked image assets exist and decode. Original data.js is unchanged from V2. Browser download was unavailable, so full visual browser/device testing was not completed.
 
-Original Word-document images are included under images/ and displayed on matching topic pages where their heading could be mapped. The image set is optimised for web display. No MCQ or progress system has been added.
+The source-map audit is included in image-placement-audit.json. Its filenames map to original Word media relationships; it contains no newly authored medical facts.
