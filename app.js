@@ -65,7 +65,7 @@ function breadcrumbs(id){
 
 function home(){
  app.innerHTML=`<div class="page">
-  <div class="crumbs">YOUR PERSONAL MEDICAL KNOWLEDGE BASE</div>
+  <div class="crumbs">PETERS PERSONAL MEDICAL KNOWLEDGE... JAZZED UP BY SOME FRIENDLY AI</div>
   <h1>Your notes, properly navigable.</h1>
   <p class="page-lead">Browse the same hierarchy already present in your document, open any topic, follow its subtopics, and search directly into the relevant note section.</p>
   <div class="hero-actions"><a class="btn primary" href="#/browse">Browse all the subtopics for each system</a></div>

@@ -10,6 +10,6 @@ function applyTopicColor(){const id=decodeURIComponent(location.hash.split('/')[
 const originalRouteV5=route; route=function(){originalRouteV5();applyTopicColor();}; removeEventListener('hashchange',originalRouteV5); addEventListener('hashchange',route);
 const originalHomeV5=home;
 home=function(){originalHomeV5();const notice=app.querySelector('.notice');if(notice)notice.innerHTML='<strong>Clear sources:</strong> Your Word notes are preserved. Topic pages show separately labelled summaries from external sources below your notes. High yield and search continue to use your notes only. Embedded Word images are not yet displayed.';};
-document.querySelector('.source-badge').textContent='SOURCES LABELLED';
+document.querySelector('.source-badge').textContent='ALL SOURCES LABELLED';
 route();
 (function(){const b=document.createElement('button');b.className='back-top';b.textContent='↑ Back to top';b.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));document.body.append(b);})();
