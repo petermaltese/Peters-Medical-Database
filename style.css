@@ -246,6 +246,13 @@ html[data-theme="dark"]{--external-bg:#192337;--external-border:#748dc2;--extern
 @media(max-width:600px){.cardio-definition{padding:12px}.cardio-section-body{padding:12px}.cardio-disclosure>summary{padding:13px 12px}}
 @media print{.cardio-controls{display:none}.cardio-disclosure::details-content{display:block!important}.cardio-section-body{display:block!important}}
 /* V17: preserve original content and anchors, suppress duplicate display labels. */
+.overview-introduction{font-size:1rem;line-height:1.65;margin:16px 0 24px;overflow-wrap:anywhere}
+.overview-introduction .note-paragraph{margin:0 0 12px}.overview-introduction .note-bullet{margin:6px 0}
+.overview-introduction .local-label{margin:20px 0 9px}.overview-placeholder{color:var(--muted)}
+.overview-jumps{padding:16px 20px;margin:18px 0 28px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.overview-jumps h3{margin:0 0 10px;font-size:1rem;text-decoration:none}.overview-jumps ul{margin:0;padding-left:22px}
+.overview-jumps li{margin:8px 0}.overview-jumps a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.overview-jumps{padding:12px}.overview-introduction{margin-bottom:18px}}
 .note-redundant-heading{display:none!important}
 .cardio-section-body{line-height:1.65}.cardio-section-body>.note-paragraph{margin:0 0 12px}.cardio-section-body>.note-bullet{margin:6px 0}
 .cardio-section-body>.local-label{margin:20px 0 9px;font-size:1rem}.cardio-section-body>:first-child{margin-top:0}.cardio-section-body>:last-child{margin-bottom:0}

@@ -31,6 +31,7 @@ topicPage=function(id,block=null){
  for(const section of [...panel.querySelectorAll('.topic-section')]){
   const tid=section.id.replace('section-',''),n=node(tid);if(!n)continue;
   if(tid!==id && window.PETER_NOTE_SECTION_NODES?.[tid]){section.dataset.inlineCategory='true';continue;}
+  if(usesPlainIntroduction(tid)){renderPlainIntroduction(section,tid,tid===id);continue;}
   const buckets=Object.fromEntries(Object.keys(cardioHeadings).map(k=>[k,[]]));const definitions=[];
   let lastBucket='path';
   for(const child of [...section.children]){
@@ -67,9 +68,9 @@ topicPage=function(id,block=null){
   else section.insertBefore(def,groups);
  }
  // Place the existing jump links after the AI box and before the notes.
- const jump=app.querySelector('.subtopic-grid');if(jump){const title=jump.previousElementSibling;const label=app.querySelector('.notes-source-label');label.before(title,jump);}
+ const jump=app.querySelector('.subtopic-grid');if(jump){const title=jump.previousElementSibling;if(usesPlainIntroduction(id)){title?.remove();jump.remove();}else{const label=app.querySelector('.article .notes-source-label');if(label)label.before(title,jump);}}
  const controls=document.createElement('div');controls.className='cardio-controls';
- for(const [label,open] of [['Expand all sections',true],['Collapse all sections',false]]){const b=document.createElement('button');b.type='button';b.className='btn';b.textContent=label;b.onclick=()=>panel.querySelectorAll('.cardio-disclosure').forEach(d=>d.open=open);controls.append(b);}panel.before(controls);
+ for(const [label,open] of [['Expand all sections',true],['Collapse all sections',false]]){const b=document.createElement('button');b.type='button';b.className='btn';b.textContent=label;b.onclick=()=>panel.querySelectorAll('.cardio-disclosure').forEach(d=>d.open=open);controls.append(b);}if(panel.querySelector('.cardio-disclosure'))panel.before(controls);
  if(block!==null){const el=document.getElementById('block-'+block);revealCardioTarget(el);requestAnimationFrame(()=>el?.scrollIntoView({behavior:'smooth',block:'center'}));}
 };
 // Also handle any internal links targeting a passage inside a closed section.

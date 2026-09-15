@@ -1,0 +1,26 @@
+MD Database — Version 22 update
+
+INSTALL OVER V21
+Copy index.html, style.css, cardiology-layout.js and overview-layout.js into
+your existing website folder, replacing matching files. Keep all other files
+and the images folder. Commit and Push origin in GitHub Desktop.
+This update is not a standalone website.
+
+CHANGES
+Overview/category pages show their own notes as a plain introduction, followed
+by jump links and detailed subtopics on the same page. Individual disease
+sections retain the seven expandable headings. Anatomy, investigations and
+other reference topics use their existing headings rather than disease bars.
+Original wording, images, hierarchy, search, Links, AI sections, light/dark mode
+and alphabetical system ordering are preserved.
+
+Nephrotic Syndromes and Nephritic Syndromes have no introductory note blocks
+in the existing dataset: their introductions say "to be added". No medical
+explanation has been invented. Existing labelled AI content stays separate.
+
+VERIFICATION
+Automated checks passed for all 373 topic routes, exact original note text,
+inline disease sections, images and their anchors/order, jump links, search
+targets, expandable sections, high-yield routes, sidebar and theme toggle.
+144 overview/reference pages use plain introductions and 213 retain the
+detailed layout. These are automated DOM checks, not a visual browser review.
