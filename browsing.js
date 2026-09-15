@@ -20,13 +20,13 @@ function linkMentions(){
   });
 }
 let sidebarParent=null;
-let systemsOpen=false,highYieldOpen=false;
+let systemsOpen=false,highYieldOpen=false,linksOpen=false;
 renderSidebar = function(){
  const titleCase=s=>s.toLowerCase()==='ent'?'ENT':s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
  const label=id=>esc(node(id).level===1?titleCase(node(id).title):node(id).title);
- systemNav.innerHTML=`<details id="systemsGroup" class="tree-group" ${systemsOpen?'open':''}><summary class="tree-group-title">Systems</summary><div id="systemLevel" class="tree-children"></div></details><details id="highYieldGroup" class="tree-group" ${highYieldOpen?'open':''}><summary class="tree-group-title">High-yield</summary><div class="tree-children">${D.roots.map(id=>`<a class="tree-link" href="${"#/high-yield/"+encodeURIComponent(id)}">${label(id)}</a>`).join('')}</div></details>`;
- const sys=systemNav.querySelector('#systemsGroup'),hy=systemNav.querySelector('#highYieldGroup');
- sys.addEventListener('toggle',()=>systemsOpen=sys.open);hy.addEventListener('toggle',()=>highYieldOpen=hy.open);
+ systemNav.innerHTML=`<details id="systemsGroup" class="tree-group" ${systemsOpen?'open':''}><summary class="tree-group-title">Systems</summary><div id="systemLevel" class="tree-children"></div></details><details id="highYieldGroup" class="tree-group" ${highYieldOpen?'open':''}><summary class="tree-group-title">High-yield</summary><div class="tree-children">${D.roots.map(id=>`<a class="tree-link" href="${"#/high-yield/"+encodeURIComponent(id)}">${label(id)}</a>`).join('')}</div></details><details id="linksGroup" class="tree-group" ${linksOpen?'open':''}><summary class="tree-group-title">Links</summary><div class="tree-children"><a class="tree-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT ↗</a><a class="tree-link" href="https://www.clinicalkey.com/student/" target="_blank" rel="noopener noreferrer">ClinicalKey ↗</a><a class="tree-link" href="https://www.passmedicine.com/" target="_blank" rel="noopener noreferrer">PassMedicine ↗</a></div></details>`;
+ const sys=systemNav.querySelector('#systemsGroup'),hy=systemNav.querySelector('#highYieldGroup'),ln=systemNav.querySelector('#linksGroup');
+ sys.addEventListener('toggle',()=>systemsOpen=sys.open);hy.addEventListener('toggle',()=>highYieldOpen=hy.open);ln.addEventListener('toggle',()=>linksOpen=ln.open);
  function level(parent){sidebarParent=parent;const box=systemNav.querySelector('#systemLevel');
  const ids=parent?node(parent).children:D.roots;
  box.innerHTML=(parent?`<button class="drill-back" type="button">← ${node(parent).parent?'Back':'All systems'}</button><a class="tree-link drill-heading" href="${topicUrl(parent)}">${label(parent)} ↗</a>`:'')+ids.map(id=>node(id).children.length?`<button class="topic-picker" type="button" data-topic-id="${esc(id)}">${label(id)} <span aria-hidden="true">›</span></button>`:`<a class="tree-link" href="${topicUrl(id)}">${label(id)}</a>`).join('');
