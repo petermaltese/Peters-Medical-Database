@@ -1,5 +1,5 @@
-/* V17: presentation cleanup only. No note text or source blocks are rewritten. */
-const formattedNoteSystems=["cardiology"];
+/* V21: presentation cleanup only. No note text or source blocks are rewritten. */
+const formattedNoteSystems=["cardiology", "gastrointestinal-tract", "respiratory-system", "renal-system", "endocrine-system", "neurology", "reproductive-system", "musculoskeletal", "haematology", "rheumatology", "dermatology", "paediatrics", "ent", "opthalmology", "general-practice", "complex-symptoms-and-signs"];
 const noteHeadingKey=text=>text.toLowerCase().normalize('NFKC').replace(/&/g,' and ').replace(/[^\p{L}\p{N}]+/gu,' ').trim().replace(/\s+/g,' ');
 const repeatedNoteHeadings={
  epi:['Epidemiology'],

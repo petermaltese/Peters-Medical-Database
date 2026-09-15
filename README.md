@@ -1,9 +1,17 @@
-# Peter’s Medical Notes — Version 20 update
+# MD Database — Version 21
 
-This small update reorders the systems alphabetically in the sidebar and browse view. “Complex Symptoms and Signs” remains last. Medical note content, topic hierarchy, images, and all other functionality are unchanged.
+Formatting checkpoint 15 of 16. Completed: CARDIOLOGY, GASTROINTESTINAL TRACT, RESPIRATORY SYSTEM, RENAL SYSTEM, ENDOCRINE SYSTEM, NEUROLOGY, REPRODUCTIVE SYSTEM, MUSCULOSKELETAL, HAEMATOLOGY, RHEUMATOLOGY, DERMATOLOGY, PAEDIATRICS, ENT, OPTHALMOLOGY, GENERAL PRACTICE.
 
-Replace the matching `index.html` file and add `system-order.js` to your existing GitHub repository. Keep the existing `images` folder and all other website files.
+Copy the website files in this update beside your existing index.html, replacing
+matching files. Keep all other files, especially data.js and the images folder.
+Commit and Push origin in GitHub Desktop. This update requires the existing site.
 
-Added a Links dropdown to the sidebar with ChatGPT, ClinicalKey and PassMedicine.
+The established Cardiology formatting is applied to the completed systems:
+repeated category labels and empty spacers are hidden, paragraph/table spacing
+is tidied, and surplus list indentation beneath category labels is reduced.
+Original source text, table contents, meaningful headings, images, hierarchy,
+AI sections, theme toggle, Links menu and alphabetical system ordering remain.
+Search links to hidden labels open the containing section.
 
-Copy browsing.js and index.html into the existing website folder, replacing the matching files. Keep all other files and your images folder. Commit and Push origin in GitHub Desktop.
+Each checkpoint is cumulative; you only need the newest one.
+No new medical information is included.
