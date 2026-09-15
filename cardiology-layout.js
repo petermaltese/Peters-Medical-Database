@@ -1,4 +1,4 @@
-/* V15 presentation-only organisation. Original data.js and image files are unchanged. */
+/* V16 all-system presentation-only organisation. Original data.js and image files are unchanged. */
 const cardioHeadings={epi:'Epidemiology',risk:'Aetiology / Risk Factors',path:'Pathophysiology',clinical:'Clinical Features',dx:'Investigations / Diagnosis',tx:'Treatment / Management',comp:'Complications'};
 // Reviewed source-block boundaries; nested lists remain with their parent passages.
 const cardioRanges=[
@@ -25,18 +25,24 @@ function revealCardioTarget(el){for(let p=el?.parentElement;p;p=p.parentElement)
 const topicBeforeCardio=topicPage;
 topicPage=function(id,block=null){
  topicBeforeCardio(id,block);
- if(!node(id)||systemOf(id)!=='cardiology'||node(id).level===1)return;
+ if(!node(id)||node(id).level===1)return;
  app.classList.add('cardiology-organised');
  const panel=app.querySelector('.article-panel');if(!panel)return;
  for(const section of [...panel.querySelectorAll('.topic-section')]){
   const tid=section.id.replace('section-',''),n=node(tid);if(!n)continue;
+  if(tid!==id && window.PETER_NOTE_SECTION_NODES?.[tid]){section.dataset.inlineCategory='true';continue;}
   const buckets=Object.fromEntries(Object.keys(cardioHeadings).map(k=>[k,[]]));const definitions=[];
   let lastBucket='path';
   for(const child of [...section.children]){
-   if(child.classList.contains('topic-section')||child.classList.contains('topic-section-header'))continue;
+   if(child.classList.contains('topic-section')){
+    const key=window.PETER_NOTE_SECTION_NODES?.[child.id.replace('section-','')];
+    if(key)buckets[key].push(child);
+    continue;
+   }
+   if(child.classList.contains('topic-section-header'))continue;
    if(child.classList.contains('empty-note')){child.remove();continue;}
    if(child.id.startsWith('block-')){
-    const index=Number(child.id.slice(6));lastBucket=cardioDefinitions.has(index)?'definition':cardioCategory(index);
+    const index=Number(child.id.slice(6));lastBucket=systemOf(tid)==='cardiology'?(cardioDefinitions.has(index)?'definition':cardioCategory(index)):(window.PETER_NOTE_ORGANISATION[String(index)]||'path');
     (lastBucket==='definition'?definitions:buckets[lastBucket]).push(child);
    }else if(child.classList.contains('inline-figure')){
     (lastBucket==='definition'?definitions:buckets[lastBucket]).push(child);
@@ -51,7 +57,7 @@ topicPage=function(id,block=null){
    const summary=document.createElement('summary');summary.textContent=title;details.append(summary);
    const body=document.createElement('div');body.className='cardio-section-body';buckets[key].forEach(el=>body.append(el));
    // An existing heading without notes still needs the requested placeholder.
-   const content=buckets[key].some(el=>el.classList.contains('inline-figure')||(!el.classList.contains('local-label')&&el.textContent.trim()));
+   const content=buckets[key].some(el=>el.classList.contains('inline-figure')||(!el.classList.contains('local-label')&&!window.PETER_NOTE_LABEL_BLOCKS?.includes(Number(el.id.replace('block-','')))&&el.textContent.trim()));
    if(!content)body.insertAdjacentHTML('beforeend','<p class="cardio-placeholder"><em>to be added</em></p>');
    details.append(body);groups.append(details);
   }

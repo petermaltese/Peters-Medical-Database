@@ -1,32 +1,38 @@
-# Peter’s Medical Notes — Version 15
+# Peter’s Medical Notes — Version 16
 
-Cardiology layout preview, built on Version 14.
+The V15 expandable notes layout now applies to all 16 systems.
 
-## Install this small update
-1. Extract peter_medical_notes_v15_update.zip.
-2. Copy the four files into your existing website repository folder, alongside data.js.
-3. Replace matching files. Keep your existing images folder and all other website files.
-4. In GitHub Desktop, commit the changes and click Push origin.
-5. After GitHub Pages finishes deploying, reload the site. The sidebar should say Version 15.
+## Install this update
+1. Extract peter_medical_notes_v16_update.zip.
+2. Copy all five files into your existing website folder, alongside data.js.
+3. Replace matching files and add notes-organisation.js. Keep the images folder and all other files.
+4. Commit and Push origin in GitHub Desktop.
+5. Once GitHub Pages finishes deploying, reload the website. The sidebar should say Version 16.
 
-This is an update package, not a standalone website. It requires the existing V14 files.
+This is an update for an existing Version 14 or Version 15 website, not a standalone site.
+The cardiology-layout.js filename is retained for compatibility; it now renders all systems.
 
-## Changes
-- Cardiology only: visible Definition above the separate AI high-yield box.
-- Seven translucent expandable sections: Epidemiology; Aetiology / Risk Factors;
-  Pathophysiology; Clinical Features; Investigations / Diagnosis;
-  Treatment / Management; Complications.
-- Missing definitions and empty sections display italic “to be added”.
-- Existing Word-note wording, tables, nested lists and related images are retained.
-- Expand all / Collapse all controls; search results open their containing section.
-- Other systems keep their existing layout. No new medical information was added.
-- Sidebar and cache-busting URLs use Version 15.
+## Layout
+- Existing definitions are shown first, above the separate AI high-yield box.
+- Notes use seven translucent expandable bars: Epidemiology, Aetiology / Risk Factors,
+  Pathophysiology, Clinical Features, Investigations / Diagnosis, Treatment / Management,
+  and Complications.
+- Missing definitions and empty categories show italic “to be added”.
+- Existing category subtopics appear inside their matching bars when viewing a parent topic,
+  and remain accessible through their original topic links and sidebar hierarchy.
+- Expand all / Collapse all controls and automatic opening of search-result sections.
+- Tables, complete list groups, original anchors and images move with their related text.
+- Home, system browsing, sidebar, high-yield pages, light/dark mode and other features remain.
 
-## Verification
-All 39 cardiology topic routes retain exactly the same original block text and unique
-anchors. Expand/collapse and search reveal checks pass. All 373 topic routes and
-153 image placements pass existing structural checks. Light/dark styles and mobile
-rules are included; this environment did not provide a visual browser preview.
+## Content
+This is a presentation update. Original Word-note data and existing AI summaries are unchanged.
+Organisation uses existing headings, intact list groups and layout assignments; no medical
+information has been added or corrected. Mixed passages remain together to preserve context.
+The AI section retains the partial external-summary coverage delivered in V14.
 
-The referenced AI content has the same partial coverage as Version 14; this update
-reorganises your notes and does not expand the external summaries.
+## Checks
+All 357 topic pages preserve the original block text and unique anchors. Definition placement,
+seven-section layout, expand/collapse, category subtopics and search reveal were checked.
+Existing checks pass across all 373 topic/system routes, 153 image placements, sidebar navigation,
+16 high-yield pages, homepage and theme. Eye Anatomy still renders its five mapped images.
+Responsive CSS is retained; visual browser preview was unavailable in this environment.
