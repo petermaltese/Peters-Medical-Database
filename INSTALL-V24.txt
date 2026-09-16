@@ -1,0 +1,11 @@
+V24 update for your existing V23 website.
+Copy all five website files beside your existing index.html, replacing matches:
+index.html, browsing.js, glomerular-preview.js, workshop.css, system-icons.js.
+Keep your images and every other website file. Commit and Push origin.
+
+Glomerular Disease: removed the jump lists and Open as topic links from bubbles.
+Disease and syndrome titles expand/collapse in place. Existing deep links and
+search destinations remain supported. Other topic layouts are unchanged.
+Sidebar: small teal line icons beside each system, retained when drilling in.
+Icons are bundled in system-icons.js; there is no separate image download.
+Original medical wording and images are unchanged.

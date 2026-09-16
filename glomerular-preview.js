@@ -10,8 +10,8 @@ function makeGlomerularBubble(section,kind){
  summary.textContent=node(section.id.slice(8)).title;
  const content=document.createElement('div');content.className='glomerular-bubble-content';
  section.before(details);details.append(summary,content);content.append(section);
- // The bubble title replaces the repeated heading; preserve the direct-page link.
- if(header){header.querySelector('h2,h3,h4,h5')?.remove();header.classList.add('glomerular-direct-link');}
+ // The bubble itself is the control: no separate-page link or repeated title.
+ if(header)header.remove();
  return details;
 }
 topicPage=function(id,block=null){
@@ -36,18 +36,7 @@ topicPage=function(id,block=null){
   const definition=[...syndrome.children].find(el=>el.classList.contains('overview-introduction'));
   if(definition){const heading=document.createElement('h3');heading.textContent='Definition';definition.prepend(heading);}
   const nav=[...syndrome.children].find(el=>el.classList.contains('overview-jumps'));
-  if(nav){nav.querySelector('h3').textContent='Jump to a specific pathology';
-   // Replace the old handler so the disease and all enclosing bubbles open.
-   const replacement=nav.cloneNode(true);nav.replaceWith(replacement);
-   replacement.addEventListener('click',event=>{
-    const a=event.target.closest('a[href^="#section-"]');if(!a)return;
-    const target=document.getElementById(a.getAttribute('href').slice(1));if(!target)return;
-    event.preventDefault();revealGlomerularTarget(target);
-    const bubble=target.closest('.disease-bubble')||target;
-    (bubble.querySelector('summary')||target).focus({preventScroll:true});
-    bubble.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
-   });
-  }
+  if(nav)nav.remove();
   for(const disease of [...syndrome.children].filter(el=>el.classList.contains('topic-section')))makeGlomerularBubble(disease,'disease-bubble');
   makeGlomerularBubble(syndrome,'syndrome-bubble');
  }

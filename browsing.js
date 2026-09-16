@@ -9,7 +9,7 @@ function linkMentions(){
   const current = decodeURIComponent((location.hash.split('/')[2] || ''));
   document.querySelectorAll('.article-panel').forEach(panel=>{
     const walker=document.createTreeWalker(panel,NodeFilter.SHOW_TEXT);
-    const texts=[];while(walker.nextNode()) if(!walker.currentNode.parentElement.closest('a,h1,h2,h3,h4,h5,.marker')) texts.push(walker.currentNode);
+    const texts=[];while(walker.nextNode()) if(!walker.currentNode.parentElement.closest('a,h1,h2,h3,h4,h5,summary,.marker')) texts.push(walker.currentNode);
     texts.forEach(t=>{
       const matches=[...t.textContent.matchAll(mentionPattern)].filter(m=>titleTargets.get(m[0].toLowerCase())!==current);
       if(!matches.length)return;
@@ -23,7 +23,7 @@ let sidebarParent=null;
 let systemsOpen=false,highYieldOpen=false,linksOpen=false;
 renderSidebar = function(){
  const titleCase=s=>s.toLowerCase()==='ent'?'ENT':s.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
- const label=id=>esc(node(id).level===1?titleCase(node(id).title):node(id).title);
+ const label=id=>node(id).level===1?`<span class="system-label">${systemIcon(id)}<span>${esc(titleCase(node(id).title))}</span></span>`:esc(node(id).title);
  systemNav.innerHTML=`<details id="systemsGroup" class="tree-group" ${systemsOpen?'open':''}><summary class="tree-group-title">Systems</summary><div id="systemLevel" class="tree-children"></div></details><details id="highYieldGroup" class="tree-group" ${highYieldOpen?'open':''}><summary class="tree-group-title">High-yield</summary><div class="tree-children">${D.roots.map(id=>`<a class="tree-link" href="${"#/high-yield/"+encodeURIComponent(id)}">${label(id)}</a>`).join('')}</div></details><details id="linksGroup" class="tree-group" ${linksOpen?'open':''}><summary class="tree-group-title">Links</summary><div class="tree-children"><a class="tree-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT ↗</a><a class="tree-link" href="https://www.clinicalkey.com/student/" target="_blank" rel="noopener noreferrer">ClinicalKey ↗</a><a class="tree-link" href="https://www.passmedicine.com/" target="_blank" rel="noopener noreferrer">PassMedicine ↗</a></div></details>`;
  const sys=systemNav.querySelector('#systemsGroup'),hy=systemNav.querySelector('#highYieldGroup'),ln=systemNav.querySelector('#linksGroup');
  sys.addEventListener('toggle',()=>systemsOpen=sys.open);hy.addEventListener('toggle',()=>highYieldOpen=hy.open);ln.addEventListener('toggle',()=>linksOpen=ln.open);

@@ -1,4 +1,6 @@
 /* V23 sidebar inspired by the approved mockup; existing drill-through stays intact. */
+.sidebar .system-label{display:inline-flex;align-items:center;gap:10px;min-width:0;color:inherit}
+.sidebar .system-label>span{color:inherit;overflow-wrap:anywhere}.sidebar .system-icon{width:22px;height:22px;flex:0 0 22px;color:#83e5de}
 :root{--sidebar:#142737;--sidebar-hover:#203c4c;--sidebar-text:#dce8f1;--sidebar-muted:#a0b4c5;--workshop-teal:#087e87;--workshop-soft:#effafa;--workshop-line:#a6dfe1}
 html[data-theme="dark"]{--sidebar:#10212e;--sidebar-hover:#1b3944;--workshop-teal:#80dedb;--workshop-soft:#142c32;--workshop-line:#326169}
 .sidebar{background:linear-gradient(145deg,#172d3e,#122331);font-size:14px}
