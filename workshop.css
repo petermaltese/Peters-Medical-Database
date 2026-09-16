@@ -1,23 +1,29 @@
 /* V23 sidebar inspired by the approved mockup; existing drill-through stays intact. */
+.floating-page-actions{position:fixed;right:22px;bottom:max(22px,env(safe-area-inset-bottom));z-index:40;display:flex;flex-direction:column;align-items:stretch;gap:8px}
+.floating-page-actions .back-top{position:static}
+.collapse-page-bubbles{border:1px solid var(--accent);background:var(--panel);color:var(--accent);border-radius:999px;padding:10px 14px;min-height:44px;box-shadow:0 4px 16px #0002;cursor:pointer}
+.collapse-page-bubbles[hidden]{display:none}
+@media(max-width:600px){.floating-page-actions{right:12px;bottom:max(12px,env(safe-area-inset-bottom))}#app .page{padding-bottom:140px}}
+@media print{.floating-page-actions{display:none}}
 .sidebar .system-label{display:inline-flex;align-items:center;gap:10px;min-width:0;color:inherit}
-.sidebar .system-label>span{color:inherit;overflow-wrap:anywhere}.sidebar .system-icon{width:22px;height:22px;flex:0 0 22px;color:#83e5de}
-:root{--sidebar:#142737;--sidebar-hover:#203c4c;--sidebar-text:#dce8f1;--sidebar-muted:#a0b4c5;--workshop-teal:#087e87;--workshop-soft:#effafa;--workshop-line:#a6dfe1}
-html[data-theme="dark"]{--sidebar:#10212e;--sidebar-hover:#1b3944;--workshop-teal:#80dedb;--workshop-soft:#142c32;--workshop-line:#326169}
-.sidebar{background:linear-gradient(145deg,#172d3e,#122331);font-size:14px}
+.sidebar .system-label>span{color:inherit;overflow-wrap:anywhere}.sidebar .system-icon{width:22px;height:22px;flex:0 0 22px;color:var(--sidebar-text)}
+/* V26: inherit the original V22 light/dark palette from style.css. */
+.sidebar{background:var(--sidebar);font-size:14px}
 .sidebar-inner{padding:20px 14px 30px}.sidebar .nav-item,.sidebar .tree-link,.sidebar .topic-picker,.sidebar .drill-back{font-size:14px;border-radius:12px;padding:11px 12px;line-height:1.5}
-.sidebar .nav-item:hover,.sidebar .tree-link:hover,.sidebar .topic-picker:hover{background:#21454f;color:#efffff}
-.sidebar .nav-item.active,.sidebar .tree-link.active{background:#21454f;color:#83e5de}
+.sidebar .nav-item:hover,.sidebar .tree-link:hover,.sidebar .topic-picker:hover{background:var(--sidebar-hover);color:var(--sidebar-text)}
+.sidebar .nav-item.active,.sidebar .tree-link.active{background:var(--sidebar-hover);color:#fff}
 .sidebar .tree-group-title{padding:14px 12px;font-size:15px;font-weight:650}
-.sidebar .tree-group[open]>.tree-group-title{color:#83e5de!important}
-.sidebar .tree-group-title:before{content:'◇';width:22px;margin-right:6px;transform:none!important;color:#83e5de}
+.sidebar .tree-group[open]>.tree-group-title{color:var(--sidebar-text)!important}
+.sidebar .tree-group-title:before{content:'◇';width:22px;margin-right:6px;transform:none!important;color:var(--sidebar-text)}
 .sidebar .tree-group-title:after{content:'⌄';float:right}.sidebar .tree-group[open]>.tree-group-title:after{content:'⌃'}
 .sidebar #highYieldGroup{border-top:1px solid #355061;margin-top:22px;padding-top:14px}
 .sidebar #highYieldGroup>.tree-group-title:before{content:'☆'}.sidebar #linksGroup>.tree-group-title:before{content:'↗'}
 .sidebar .tree-children{border-left:1px solid #355061;margin-left:22px;padding-left:4px}.sidebar .sidebar-foot{border-color:#355061}
-@media(min-width:801px){.topbar{padding-left:0;gap:20px}.topbar>.brand{align-self:stretch;align-items:center;width:258px;flex:0 0 258px;background:#172d3e;padding:0 22px;letter-spacing:0;font-size:23px}.topbar>.brand span{color:#77e4df}.topbar>.brand b{color:white;font-size:21px;letter-spacing:0}}
-.glomerular-preview{--accent:var(--workshop-teal);--accent-soft:var(--workshop-soft);--topic-color:var(--workshop-teal)}
-.glomerular-preview .topic-header{border:0}.glomerular-preview .topic-header h1{color:var(--text)}
+@media(min-width:801px){.topbar{padding-left:0;gap:20px}.topbar>.brand{align-self:stretch;align-items:center;width:258px;flex:0 0 258px;background:var(--panel);padding:0 22px;letter-spacing:0;font-size:23px}.topbar>.brand span{color:var(--accent)}.topbar>.brand b{color:var(--muted);font-size:21px;letter-spacing:0}}
+.glomerular-preview{--workshop-teal:var(--topic-color);--workshop-soft:color-mix(in srgb,var(--topic-color) 10%,var(--panel));--workshop-line:color-mix(in srgb,var(--topic-color) 35%,var(--line))}
+.glomerular-preview .topic-header{border:0}.glomerular-preview .topic-header h1{color:var(--topic-color)}
 .glomerular-summary{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:22px;display:flow-root}
+.summary-bubble>.glomerular-summary{border:0;border-radius:0;margin:0}
 .glomerular-summary>.notes-source-label{font-size:19px;font-weight:750;color:var(--text);margin:0 0 16px;padding:0}
 .glomerular-summary-image{float:right;width:230px;max-width:38%;margin:0 0 18px 24px!important}
 .glomerular-summary-image img{max-width:100%!important;max-height:240px;object-fit:contain;border:1px solid var(--line);background:white;padding:8px;border-radius:14px}
@@ -28,7 +34,9 @@ html[data-theme="dark"]{--sidebar:#10212e;--sidebar-hover:#1b3944;--workshop-tea
 .glomerular-bubble{margin:14px 0;border:1px solid var(--line);border-radius:25px;background:var(--panel);overflow:hidden;scroll-margin-top:85px}
 .glomerular-bubble>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;padding:14px 22px;font-size:18px;font-weight:700;list-style:none;min-height:54px;border-radius:999px;background:var(--panel)}
 .glomerular-bubble>summary::-webkit-details-marker{display:none}.glomerular-bubble>summary:after{content:'⌄';color:var(--workshop-teal);font-size:22px;flex-shrink:0}.glomerular-bubble[open]>summary:after{content:'⌃'}
-.glomerular-bubble[open]{border-color:var(--workshop-line)}.glomerular-bubble[open]>summary{background:var(--workshop-soft);box-shadow:inset 0 0 0 1px var(--workshop-line)}
+.glomerular-bubble[open]{border-color:var(--workshop-line)}
+/* One outer outline; the expanded header shares its top corners, not a second pill outline. */
+.glomerular-bubble[open]>summary{background:var(--workshop-soft);border-radius:24px 24px 0 0;box-shadow:none;border-bottom:1px solid var(--workshop-line)}
 .glomerular-bubble>summary:focus-visible{outline:2px solid var(--workshop-teal);outline-offset:-4px}
 .glomerular-bubble-content{padding:14px 20px 18px}.glomerular-direct-link{justify-content:flex-end!important;margin:0!important}.glomerular-direct-link a{font-size:13px}
 .glomerular-preview .overview-jumps{padding:0;border:0;margin:18px 0}.glomerular-preview .overview-jumps ul{display:flex;flex-wrap:wrap;gap:8px 20px;padding:0;list-style:none}.glomerular-preview .overview-jumps li{margin:0}

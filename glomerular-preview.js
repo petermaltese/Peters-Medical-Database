@@ -28,6 +28,10 @@ topicPage=function(id,block=null){
  if(figure){figure.classList.add('glomerular-summary-image');label?label.after(figure):intro.prepend(figure);}
  const injury=document.getElementById('section-glomerular-disease--types-of-glomerular-injury');
  if(injury){injury.classList.add('glomerular-injury');intro.append(injury);injury.querySelector('.open-topic')?.remove();}
+ // Start with the summary open; the page's Collapse all control includes it.
+ const summaryBubble=document.createElement('details');summaryBubble.className='glomerular-bubble summary-bubble';summaryBubble.open=true;
+ const summaryTitle=document.createElement('summary');summaryTitle.textContent='Your notes · Summary';
+ if(label)label.remove();intro.before(summaryBubble);summaryBubble.append(summaryTitle,intro);
  for(const el of [...root.children])if(el.classList.contains('overview-jumps'))el.remove();
  page.querySelector('.cardio-controls')?.remove();
  for(const syndrome of [...root.children].filter(el=>el.classList.contains('topic-section'))){

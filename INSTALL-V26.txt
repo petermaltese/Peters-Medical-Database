@@ -1,0 +1,22 @@
+V26 — wider content area and restored V22 colours. Update over V25.
+
+Copy index.html, style.css, workshop.css, glomerular-preview.js and page-actions.js into your existing website folder, replacing matches, then commit
+and push. Keep every other file and your images.
+
+The centred page maximum width increases from 1240px to 1392px, extending it
+by 76px on each side when the screen has room (roughly 2 CSS cm per side).
+Actual physical size depends on screen scaling and browser zoom. Narrow screens
+continue to fit the available width with existing mobile padding. The sidebar,
+text sizes and note content are unchanged.
+
+Restores V22's system/topic and light/dark palette. Glomerular bubbles now use
+their existing system accent instead of the mockup's teal. The newer sidebar
+icons, bubble behaviour and aligned expanded borders are retained.
+
+A floating Collapse all button sits below Back to top, only on pages containing
+expandable note bubbles/sections. It collapses all nested syndrome, disease and
+note sections on the page. Sidebar menus and separate AI/source disclosures are
+not affected. On pages without note bubbles the extra button is hidden.
+
+The Glomerular Disease summary is also an expandable bubble, open by default
+whenever the page loads. Collapse all closes the summary as well.
