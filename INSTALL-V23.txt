@@ -1,0 +1,15 @@
+MD Database — V23 Glomerular Disease workshop
+
+Copy index.html, workshop.css and glomerular-preview.js beside your existing
+index.html, replacing matching files. Keep every other file and your images.
+This is an update for V22, not a standalone website. Commit and Push origin.
+
+The sidebar has the mockup's navy/teal styling and preserves your alphabetical
+systems and drill-through navigation. Only Glomerular Disease receives the new
+summary/image arrangement and nested syndrome/disease bubbles. Injury types are
+incorporated into its summary. Jump links expand and scroll to the pathology.
+Original disease pages still work, and all wording and existing images remain.
+Missing syndrome definitions remain placeholders; no medical content was added.
+
+The picture was a visual mockup, so real notes make the page longer. On phones,
+the summary image stacks above the text rather than squeezing the text beside it.
