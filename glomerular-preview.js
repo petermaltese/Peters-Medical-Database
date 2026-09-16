@@ -23,14 +23,14 @@ topicPage=function(id,block=null){
  const intro=page.querySelector('.topic-header .overview-introduction');
  if(!root||!intro)return;
  intro.classList.add('glomerular-summary');
- const label=intro.querySelector('.notes-source-label');if(label)label.textContent='Your notes · Summary';
+ const label=intro.querySelector('.notes-source-label');
  const figure=intro.querySelector('.inline-figure');
  if(figure){figure.classList.add('glomerular-summary-image');label?label.after(figure):intro.prepend(figure);}
  const injury=document.getElementById('section-glomerular-disease--types-of-glomerular-injury');
  if(injury){injury.classList.add('glomerular-injury');intro.append(injury);injury.querySelector('.open-topic')?.remove();}
  // Start with the summary open; the page's Collapse all control includes it.
  const summaryBubble=document.createElement('details');summaryBubble.className='glomerular-bubble summary-bubble';summaryBubble.open=true;
- const summaryTitle=document.createElement('summary');summaryTitle.textContent='Your notes · Summary';
+ const summaryTitle=document.createElement('summary');summaryTitle.textContent='Summary';
  if(label)label.remove();intro.before(summaryBubble);summaryBubble.append(summaryTitle,intro);
  for(const el of [...root.children])if(el.classList.contains('overview-jumps'))el.remove();
  page.querySelector('.cardio-controls')?.remove();

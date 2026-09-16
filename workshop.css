@@ -45,4 +45,12 @@
 .glomerular-preview .cardio-definition{padding:0;background:none;border:0;margin:10px 0 18px}
 .glomerular-preview .cardio-disclosure{border-radius:18px;border-color:var(--line)}.glomerular-preview .cardio-disclosure>summary{padding:8px 16px;min-height:36px;background:var(--panel-2);font-size:14px}
 @media(max-width:600px){.glomerular-summary{padding:16px}.glomerular-summary-image{float:none;width:100%;max-width:260px;margin:0 auto 18px!important}.glomerular-bubble-content{padding:10px 12px 14px}.glomerular-bubble>summary{padding:12px 16px;font-size:17px}.glomerular-preview .disease-bubble>summary{font-size:15px}}
+/* V27: keep the system tint visible in both collapsed and expanded states. */
+/* Keep layout anchors, but avoid repeating ownership labels above every section. */
+.notes-source-label,.cardio-definition>.ai-origin{display:none}
+.glomerular-preview .glomerular-bubble{border-color:var(--workshop-line)}
+.glomerular-preview .glomerular-bubble>summary,
+.glomerular-preview .cardio-disclosure>summary{background:var(--workshop-soft)}
+.glomerular-preview .glomerular-bubble>summary:hover,
+.glomerular-preview .cardio-disclosure>summary:hover{background:color-mix(in srgb,var(--topic-color) 16%,var(--panel))}
 @media print{.glomerular-bubble::details-content{display:block!important}.glomerular-bubble-content{display:block!important}}

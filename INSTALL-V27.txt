@@ -1,0 +1,11 @@
+V27 update over V26 — bubble colours visible before opening.
+
+Replace index.html, workshop.css and glomerular-preview.js in your existing website folder, then
+commit and push. Keep all other files and images.
+
+Glomerular summary, syndrome, disease and note-section headers now show their
+soft system colour both closed and open, in light and dark modes. Hover slightly
+strengthens the tint. Aligned edges and all existing interactions are preserved.
+
+Repeated "Your notes" section labels are hidden, and the summary bubble is titled
+"Summary". AI content labels and references remain visible and unchanged.
