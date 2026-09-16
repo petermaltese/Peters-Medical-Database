@@ -1,0 +1,12 @@
+V30 update over V29.
+Copy index.html, workshop.css, system-order.js and glomerular-layout.js into your
+existing website folder, replacing matching files. Keep all other files and images.
+Commit and Push origin.
+
+The Glomerular Disease introduction has a white panel in light mode and a matching
+dark panel in dark mode. Jump links are restored for the overview and subcategories.
+Diseases within Nephritic, Nephrotic and Other Syndromes are alphabetical in the
+content, jump links, standalone category pages and sidebar. Types of Glomerular
+Injury stays in the introduction and off the sidebar. The floating Collapse all
+button is removed; Back to top remains. The old page-actions.js file is no longer
+loaded and can stay in the folder. Medical text and image overlay are unchanged.

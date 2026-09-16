@@ -8,4 +8,8 @@
     if(b===last) return -1;
     return String(D.nodes[a]?.title || a).localeCompare(String(D.nodes[b]?.title || b), 'en-AU', {sensitivity:'base'});
   });
+  // Alphabetise the existing disease lists without changing their categories or notes.
+  for(const id of ['glomerular-disease--nephritic-syndromes','glomerular-disease--nephrotic-syndromes','glomerular-disease--other-syndromes']){
+    D.nodes[id]?.children.sort((a,b)=>D.nodes[a].title.localeCompare(D.nodes[b].title,'en-AU',{sensitivity:'base'}));
+  }
 })();

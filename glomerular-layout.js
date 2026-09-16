@@ -11,8 +11,7 @@ topicPage=function(id,block=null){
  if(figure){figure.classList.add('glomerular-summary-image');intro.prepend(figure);}
  const injury=document.getElementById('section-glomerular-disease--types-of-glomerular-injury');
  if(injury){injury.classList.add('glomerular-injury');intro.append(injury);injury.querySelector('.open-topic')?.remove();}
- // The user removed jump lists during the workshop; keep them removed here.
- app.querySelectorAll('.overview-jumps').forEach(nav=>nav.remove());
+ // Keep the existing jump links, including the injury-types anchor in the intro.
  if(block!==null){const target=document.getElementById('block-'+block);revealCardioTarget(target);requestAnimationFrame(()=>target?.scrollIntoView({block:'center'}));}
 };
 route();
