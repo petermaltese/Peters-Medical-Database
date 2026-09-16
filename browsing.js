@@ -28,7 +28,7 @@ renderSidebar = function(){
  const sys=systemNav.querySelector('#systemsGroup'),hy=systemNav.querySelector('#highYieldGroup'),ln=systemNav.querySelector('#linksGroup');
  sys.addEventListener('toggle',()=>systemsOpen=sys.open);hy.addEventListener('toggle',()=>highYieldOpen=hy.open);ln.addEventListener('toggle',()=>linksOpen=ln.open);
  function level(parent){sidebarParent=parent;const box=systemNav.querySelector('#systemLevel');
- const ids=parent?node(parent).children:D.roots;
+ const ids=(parent?node(parent).children:D.roots).filter(id=>id!=='glomerular-disease--types-of-glomerular-injury');
  box.innerHTML=(parent?`<button class="drill-back" type="button">← ${node(parent).parent?'Back':'All systems'}</button><a class="tree-link drill-heading" href="${topicUrl(parent)}">${label(parent)} ↗</a>`:'')+ids.map(id=>node(id).children.length?`<button class="topic-picker" type="button" data-topic-id="${esc(id)}">${label(id)} <span aria-hidden="true">›</span></button>`:`<a class="tree-link" href="${topicUrl(id)}">${label(id)}</a>`).join('');
  box.querySelector('.drill-back')?.addEventListener('click',()=>level(node(parent).parent));
  box.querySelectorAll('[data-topic-id]').forEach(b=>b.addEventListener('click',()=>level(b.dataset.topicId)));

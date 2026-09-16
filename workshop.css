@@ -49,6 +49,10 @@
 /* Keep layout anchors, but avoid repeating ownership labels above every section. */
 .notes-source-label,.cardio-definition>.ai-origin{display:none}
 .glomerular-preview .glomerular-bubble{border-color:var(--workshop-line)}
+.glomerular-preview .glomerular-bubble:not([open]){background:var(--workshop-soft)}
+.glomerular-preview .glomerular-bubble:not([open])>summary{border-radius:24px}
+.bubble-actions{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.bubble-actions .btn{font-size:14px;padding:8px 14px;min-height:40px}
 .glomerular-preview .glomerular-bubble>summary,
 .glomerular-preview .cardio-disclosure>summary{background:var(--workshop-soft)}
 .glomerular-preview .glomerular-bubble>summary:hover,

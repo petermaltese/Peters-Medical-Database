@@ -1,0 +1,13 @@
+V28 update over V27.
+
+Copy index.html, browsing.js, glomerular-preview.js and workshop.css beside your
+existing index.html, replacing matching files. Keep all other files and images.
+Commit and Push origin in GitHub Desktop.
+
+Types of Glomerular Injury is omitted from sidebar navigation; its notes remain
+in the Glomerular Disease summary. Its existing direct/search route still works.
+Each expanded syndrome/disease bubble has Expand all and Open on its own controls.
+Expand all opens only the note headings and nested bubbles inside that subtopic.
+Open on its own uses the same topic route as search. Bubble titles still toggle.
+Closed bubble corners now match the outer radius and use the same tinted backing.
+No medical content was changed.

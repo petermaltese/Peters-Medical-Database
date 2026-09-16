@@ -10,7 +10,13 @@ function makeGlomerularBubble(section,kind){
  summary.textContent=node(section.id.slice(8)).title;
  const content=document.createElement('div');content.className='glomerular-bubble-content';
  section.before(details);details.append(summary,content);content.append(section);
- // The bubble itself is the control: no separate-page link or repeated title.
+ const actions=document.createElement('div');actions.className='bubble-actions';
+ const expand=document.createElement('button');expand.type='button';expand.className='btn';expand.textContent='Expand All';
+ expand.setAttribute('aria-controls',section.id);
+ expand.addEventListener('click',()=>section.querySelectorAll('details.glomerular-bubble,details.cardio-disclosure').forEach(el=>{el.open=true;}));
+ const own=document.createElement('a');own.className='btn';own.textContent='Open On Its Own';own.href=topicUrl(section.id.slice(8));
+ actions.append(expand,own);content.prepend(actions);
+ // Titles only toggle; separate-page navigation lives inside the expanded body.
  if(header)header.remove();
  return details;
 }
