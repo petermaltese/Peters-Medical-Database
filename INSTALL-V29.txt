@@ -1,0 +1,16 @@
+V29 update over V28 — Glomerular Disease uses the standalone Nephritic Syndromes layout.
+
+Copy index.html, workshop.css, glomerular-layout.js and image-lightbox.js beside your existing
+index.html, replacing matches. Keep all other files and images. Commit and push.
+The older glomerular-preview.js is no longer loaded; it may remain in the folder.
+
+Plain introduction, followed by visible syndrome/disease sections with the
+standard expandable note headings. No summary, syndrome or disease outer bubbles.
+Types of Glomerular Injury remains part of the introduction, with the image beside
+the summary text on desktop. Sidebar filtering, colours, wider layout, image
+enlargement and Collapse all remain. Jump lists stay removed on this page.
+Other pages retain their existing layouts. Medical wording is unchanged.
+
+Note images now enlarge in a same-page overlay across the site, instead of a new
+tab. Close using the X button, the area outside the image, or Escape. Original
+image files are unchanged; no image download is needed.

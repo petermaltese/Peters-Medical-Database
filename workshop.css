@@ -1,4 +1,9 @@
 /* V23 sidebar inspired by the approved mockup; existing drill-through stays intact. */
+.note-lightbox{padding:48px 16px 16px;border:1px solid var(--line);border-radius:16px;background:var(--panel);color:var(--text);max-width:96vw;max-height:94vh;max-height:94dvh;overflow:auto}
+.note-lightbox::backdrop{background:rgba(0,0,0,.78)}
+.note-lightbox img{display:block;max-width:calc(96vw - 34px);max-height:calc(94vh - 66px);max-height:calc(94dvh - 66px);width:auto;height:auto;object-fit:contain;margin:auto;background:white}
+.note-lightbox-close{position:absolute;right:6px;top:3px;min-width:44px;min-height:44px;border:0;background:transparent;color:var(--text);font-size:30px;cursor:pointer}
+@media print{.note-lightbox{display:none!important}}
 .floating-page-actions{position:fixed;right:22px;bottom:max(22px,env(safe-area-inset-bottom));z-index:40;display:flex;flex-direction:column;align-items:stretch;gap:8px}
 .floating-page-actions .back-top{position:static}
 .collapse-page-bubbles{border:1px solid var(--accent);background:var(--panel);color:var(--accent);border-radius:999px;padding:10px 14px;min-height:44px;box-shadow:0 4px 16px #0002;cursor:pointer}
@@ -23,6 +28,7 @@
 .glomerular-preview{--workshop-teal:var(--topic-color);--workshop-soft:color-mix(in srgb,var(--topic-color) 10%,var(--panel));--workshop-line:color-mix(in srgb,var(--topic-color) 35%,var(--line))}
 .glomerular-preview .topic-header{border:0}.glomerular-preview .topic-header h1{color:var(--topic-color)}
 .glomerular-summary{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:22px;display:flow-root}
+.glomerular-plain-intro{display:flow-root}
 .summary-bubble>.glomerular-summary{border:0;border-radius:0;margin:0}
 .glomerular-summary>.notes-source-label{font-size:19px;font-weight:750;color:var(--text);margin:0 0 16px;padding:0}
 .glomerular-summary-image{float:right;width:230px;max-width:38%;margin:0 0 18px 24px!important}
