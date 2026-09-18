@@ -1,0 +1,14 @@
+V33 - shared layout across all systems and topic pages.
+Copy index.html, workshop.css, system-order.js and all-system-layout.js into the
+existing website folder. Replace matching files, keep all other files and images,
+then Commit and Push origin in GitHub Desktop.
+
+Introductions have a panel and heading, with Jump to above them. Disease definitions
+retain their Definition heading. Each set of disease section accordions has subtle
+Expand All / Collapse All controls affecting only that disease. Subtopics are
+alphabetical throughout content, navigation and sidebar. Complex Symptoms and Signs
+remains the last system. Source notes, image files and AI content are unchanged.
+Existing empty introductions say 'to be added'; no new medical content was written.
+
+all-system-layout.js replaces the loaded glomerular-layout.js. The old file may
+remain in your folder, but is no longer loaded.

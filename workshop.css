@@ -28,7 +28,9 @@
 .glomerular-preview{--workshop-teal:var(--topic-color);--workshop-soft:color-mix(in srgb,var(--topic-color) 10%,var(--panel));--workshop-line:color-mix(in srgb,var(--topic-color) 35%,var(--line))}
 .glomerular-preview .topic-header{border:0}.glomerular-preview .topic-header h1{color:var(--topic-color)}
 .glomerular-summary{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:22px;display:flow-root}
-.glomerular-plain-intro{display:flow-root;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+.glomerular-plain-intro,.notes-introduction-panel{display:flow-root;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+.notes-introduction-panel>.overview-introduction-title{margin-top:0;font-size:1.1rem;text-decoration:none}
+@media(max-width:600px){.notes-introduction-panel{padding:16px}}
 @media(max-width:600px){.glomerular-plain-intro{padding:16px}}
 .summary-bubble>.glomerular-summary{border:0;border-radius:0;margin:0}
 .glomerular-summary>.notes-source-label{font-size:19px;font-weight:750;color:var(--text);margin:0 0 16px;padding:0}
