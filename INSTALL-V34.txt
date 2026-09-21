@@ -1,0 +1,43 @@
+V34 — renal textbook additions
+
+INSTALL
+1. Extract this ZIP.
+2. Copy its contents into your existing website repository folder, alongside
+   your current index.html. Replace matching files; do not create a nested
+   website folder and do not delete your existing images folder.
+3. In GitHub Desktop, review the changes, Commit, then Push origin.
+4. Wait for your hosting deployment to finish. If the old version remains,
+   refresh the browser cache. The sidebar should show Version 34.
+
+This is a code-only update containing the current website files. Existing
+images do not need to be downloaded again. The textbook PDFs are not included.
+
+WHAT CHANGED
+Renal only: 90 previously empty or brief headings across 14 pathology topics
+now include separately labelled textbook summaries. Both supplied textbooks
+were used for every supplemented pathology:
+- Kumar & Clark's Clinical Medicine, 11th edition, chapter 26.
+- Harrison's Principles of Internal Medicine, 20th edition, chapters 305,
+  308 and 309 in the supplied PDF.
+
+Each addition is labelled "Textbook-derived · AI summary". Navy text and the
+homepage key distinguish these summaries from Peter's notes. Dark mode uses
+a readable light-blue equivalent. Numbered citations open local reference
+details with the book, edition, chapter, printed pages and PDF page numbers.
+Page numbering refers to the uploaded copies, not an external website.
+
+The additions paraphrase the books; they are not verbatim quotations. Differing
+edition accounts are labelled, including plasma exchange in ANCA-associated
+disease, steroids in post-streptococcal GN and selected frequency estimates.
+No medical websites, guidelines or other sources were used for these additions.
+
+Existing notes, images, definitions/introductions and earlier AI boxes have
+not been rewritten. Existing well-populated headings were retained. The seven
+heading layout, navigation and image enlargement are preserved. No other
+system has received textbook additions in this version.
+
+CHECKS
+Verified all 14 supplemented standalone pathology pages and their parent
+glomerular/syndrome pages. Original note block HTML and image references match
+the previous version. Citation links and disease Expand All / Collapse All
+controls were checked. Nonrenal routes have no textbook additions.
