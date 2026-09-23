@@ -1,0 +1,51 @@
+V35 CHECKPOINT — textbook supplementation is not complete across all systems.
+
+Copy these files into your existing website folder and replace matching files. Keep your existing images folder. Commit and push using GitHub Desktop.
+
+{
+  "cardiology": {
+    "pages": 25,
+    "headings": 68
+  },
+  "dermatology": {
+    "pages": 1,
+    "headings": 1
+  },
+  "endocrine-system": {
+    "pages": 13,
+    "headings": 78
+  },
+  "ent": {
+    "pages": 5,
+    "headings": 21
+  },
+  "gastrointestinal-tract": {
+    "pages": 20,
+    "headings": 75
+  },
+  "haematology": {
+    "pages": 19,
+    "headings": 84
+  },
+  "neurology": {
+    "pages": 31,
+    "headings": 98
+  },
+  "opthalmology": {
+    "pages": 7,
+    "headings": 43
+  },
+  "reproductive-system": {
+    "pages": 5,
+    "headings": 13
+  },
+  "respiratory-system": {
+    "pages": 13,
+    "headings": 49
+  },
+  "rheumatology": {
+    "pages": 21,
+    "headings": 110
+  }
+}
+Renal V34 additions retained. Original notes and images are unchanged. No textbook PDFs are included.

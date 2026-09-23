@@ -1,4 +1,4 @@
-/* V34: append separately labelled textbook summaries without editing source notes. */
+/* V35: append separately labelled textbook summaries without editing source notes. */
 (()=>{
  const content=window.PETER_TEXTBOOK_CONTENT;
  if(!content)return;
@@ -13,8 +13,9 @@
  };
  const citation=ref=>{
   const book=content.books[ref.book];
-  const chapters=book.chapter||[...new Set(ref.pdfPages.map(p=>p>=2196?'309 — Polycystic kidney disease':p>=2178?'308 — Glomerular diseases':'305 — Chronic kidney disease'))].join('; ');
-  return `${book.title}, ${book.edition}. Chapter ${chapters}. Printed pages ${pageRange(ref.pdfPages.map(p=>p-book.pageOffset))}; PDF pages ${pageRange(ref.pdfPages)} (uploaded copy).`;
+  const chapter=ref.chapter?` Chapter ${ref.chapter}.`:'';
+  const printed=ref.printedPages?.length?` Printed pages ${pageRange(ref.printedPages)};`:'';
+  return `${book.title}, ${book.edition}.${chapter}${printed} PDF pages ${pageRange(ref.pdfPages)} (uploaded copy).`;
  };
  function enhance(){
   for(const section of app.querySelectorAll('.topic-section')){
@@ -66,7 +67,7 @@
   const key=document.createElement('aside');key.className='textbook-key';key.setAttribute('aria-label','Textbook colour key');
   const heading=document.createElement('h2');heading.textContent='Textbook colour key';
   const text=document.createElement('p');text.textContent='Navy text marks AI-written summaries derived only from Kumar & Clark’s Clinical Medicine (11th edition) and Harrison’s Principles of Internal Medicine (20th edition). Each addition has its own textbook page references and is separate from Peter’s original notes.';
-  const status=document.createElement('p');status.className='textbook-key-status';status.textContent='Renal has been supplemented in V34. In dark mode, textbook text appears light blue for readability. These summaries reflect the cited editions.';
+  const status=document.createElement('p');status.className='textbook-key-status';status.textContent=(content.status||'')+' In dark mode, textbook text appears light blue for readability. These summaries reflect the cited editions.';
   key.append(heading,text,status);app.querySelector('.hero-actions')?.after(key);
  };
  // The existing badge otherwise incorrectly describes pages containing sourced additions.
