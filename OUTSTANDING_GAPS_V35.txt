@@ -1,0 +1,176 @@
+V35 — textbook supplementation checkpoint
+
+This is an incremental checkpoint, not a declaration that every gap is filled.
+Original notes and image references are preserved. Additions are separately labelled AI summaries with exact textbook PDF-page references. Only the two uploaded textbooks were used.
+Blank headings below remain unfilled. Some lack verified source coverage; others still need a further topic-by-topic source review. Existing nonblank headings may also benefit from further detail.
+The 40-word threshold used to triage existing notes is not a medical completeness assessment.
+
+Cardiology
+
+
+Coronary Heart Disease: Epidemiology
+Tricuspid Regurgitation: Epidemiology
+Congenital Valvular Defects: Clinical features, Management
+Thoraco-Abdominal Aneurysm: Epidemiology
+Acute Aortic Syndrome: Epidemiology
+Takayasu’s Disease: Investigations
+Thromboangiitis obliterans (Buerger’s Disease): Investigations
+Superficial Thrombophlebitis: Investigations
+Bradycardia: Epidemiology, Investigations
+Heart Block: Epidemiology, Risk factors
+Tachycardia: Epidemiology, Clinical features, Complications
+Atrial Flutter: Epidemiology
+Atherosclerosis: Epidemiology, Clinical features, Investigations, Management
+
+Dermatology
+
+
+
+Endocrine System
+Pancreatic carcinoid-specific gaps remain; generic intestinal carcinoid content has not been substituted.
+
+Gestational Diabetes: Clinical features
+Zollinger-Ellison Syndrome (Gastrinoma’s): Epidemiology, Risk factors, Complications
+Glucagonomas (Alpha-cell tumour): Risk factors
+VIPoma: Epidemiology, Risk factors
+Pancreatic Carcinoid Tumours: Epidemiology, Risk factors, Clinical features, Investigations, Management, Complications
+
+Ent
+
+
+Allergic Rhinitis: Epidemiology, Complications
+Non-Allergic Rhinitis: Investigations, Complications
+Acute Rhinosinusitis: Epidemiology
+Chronic Rhinosinusitis: Epidemiology
+
+Gastrointestinal Tract
+Small-bowel leiomyoma, angioma and leiomyosarcoma gaps remain. The GIST passage has not been substituted for these distinct topic labels.
+
+Oesophageal Obstruction: Epidemiology, Investigations
+Gastroesophageal reflux disease (GORD): Epidemiology
+Oesophageal Varices: Epidemiology
+Diverticulitis: Epidemiology, Risk factors
+Chronic Liver Disease: Epidemiology
+Other Acute Hepatitis Infections: Epidemiology
+Calculous Cholecystitis: Epidemiology, Risk factors
+Adenomas: Risk factors, Investigations, Management, Complications
+Polypoid Adenomas: Risk factors, Investigations, Management, Complications
+Leiomyomas: Epidemiology, Risk factors, Clinical features, Investigations, Management, Complications
+Lipomas: Risk factors, Investigations, Management, Complications
+Angiomas: Epidemiology, Risk factors, Clinical features, Investigations, Management, Complications
+Adenocarcinomas: Complications
+Lymphoma: Complications
+Carcinoid Tumours: Risk factors
+Leiomyosarcomas: Epidemiology, Risk factors, Clinical features, Investigations, Management, Complications
+Lynch Syndrome (Hereditary nonpolyposis colon cancer): Management
+
+General Practice
+
+
+Eosinophilia: Epidemiology, Clinical features, Investigations, Management, Complications
+Mental Health: Epidemiology
+Acute Rhinosinusitis (Common Cold): Investigations
+Pharyngitis and Tonsillitis: Risk factors
+Tracheo-Bronchitis: Epidemiology, Investigations
+Delirium: Epidemiology, Complications
+
+Haematology
+
+
+Iron Deficient Anaemia: Complications
+Thalassemia: Epidemiology
+Anaemia of Chronic Disease: Clinical features, Complications
+B12 Deficiency: Epidemiology
+Haemolysis: Epidemiology, Risk factors, Clinical features, Management, Complications
+Normocytic anaemia: Epidemiology, Clinical features, Investigations, Management, Complications
+Non-Malignant Disorders of White Cells: Epidemiology
+Primary Myelofibrosis (PMF): Epidemiology
+Chronic Myeloid Leukemia (CML): Risk factors
+Myelodysplastic Syndromes: Risk factors
+Acute myeloid leukaemia: Epidemiology, Risk factors
+Monoclonal Gammopathy of Uncertain Significance (MGUS): Epidemiology, Risk factors, Clinical features, Management
+Waldenstrom Macroglobulinemia: Risk factors
+Hodgkin Lymphoma: Complications
+Diffuse Large B-cel Lymphoma: Risk factors
+Follicular lymphoma: Risk factors
+
+Musculoskeletal
+Ankle injuries: the reviewed passages do not provide a sufficient ankle-sprain account. No unrelated Achilles or foot-disorder content has been substituted.
+
+Ankle Injuries: Epidemiology, Risk factors, Pathophysiology, Clinical features, Investigations, Complications
+
+Neurology
+Several headings concern clinical signs or syndromes rather than individual diseases. Missing epidemiology or treatment has not been invented to fit the template.
+
+Broca’s (Expressive) Aphasia: Epidemiology, Risk factors, Investigations, Management, Complications
+Wernicke’s (Receptive) Aphasia: Epidemiology, Risk factors, Investigations, Management, Complications
+Nominal (anomic) Aphasia: Epidemiology, Risk factors, Management, Complications
+Global (central) Aphasia: Epidemiology, Investigations, Management, Complications
+Conduction Aphasia: Epidemiology, Risk factors, Investigations, Management, Complications
+Hemiparesis: Epidemiology, Risk factors, Investigations, Management, Complications
+Ideomotor Apraxia: Epidemiology, Risk factors, Management, Complications
+Non-dominant Parietal Lobe Apraxia: Epidemiology, Risk factors, Investigations, Management, Complications
+Inattention and Neglect: Epidemiology, Risk factors, Investigations, Management, Complications
+Cortical Vision Loss: Epidemiology, Risk factors, Investigations, Management, Complications
+Memory Disorder: Epidemiology, Risk factors, Clinical features, Management, Complications
+Executive Function Disorders: Epidemiology, Risk factors, Management, Complications
+Dementia with Lewy Bodies: Risk factors
+Vascular Dementia: Risk factors, Complications
+Creutzfeldt-Jakob Disease: Management
+Focal Seizures: Epidemiology, Risk factors
+Generalised Seizures: Epidemiology, Risk factors
+Statis Epilepticus: Risk factors, Pathophysiology
+Epilepsy: Clinical features
+Astrocytoma’s: Epidemiology
+Oligodendroglioma’s: Epidemiology
+Meningiomas: Epidemiology, Risk factors
+Schwannomas: Epidemiology
+Cauda equina syndrome: Epidemiology, Investigations, Complications
+
+Opthalmology
+
+
+Refractive Error: Epidemiology, Investigations
+Hypertensive Retinopathy: Epidemiology
+
+Paediatrics
+Only two narrow additions are supported so far. A complete paediatric fever pathway has not been verified in the supplied texts.
+
+Fever in a child: Epidemiology, Risk factors, Clinical features, Complications
+
+Renal System
+
+
+
+Reproductive System
+
+
+Invasive Ductal Carcinoma (carcinoma of no special type): Risk factors, Clinical features, Management, Complications
+Invasive lobular carcinoma: Risk factors, Management, Complications
+Inflammatory Breast Cancer: Risk factors, Clinical features, Investigations, Complications
+
+Respiratory System
+
+
+Respiratory Failure: Epidemiology, Clinical features
+Silicosis: Management
+Pneumothorax: Epidemiology
+Lung Cancer: Pathophysiology, Complications
+Pulmonary Hypertension: Epidemiology, Risk factors
+Goodpasture Syndrome: Epidemiology, Risk factors
+
+Rheumatology
+
+
+Osteoarthritis: Epidemiology
+IBD Related Arthritis: Investigations, Complications
+Calcium Pyrophosphate Disease (CPPD/Pseudogout): Complications
+Giant Cell/Temporal Arteritis: Risk factors
+Takayasu’s Arteritis: Risk factors, Investigations
+Granulomatosis with Polyangiitis: Risk factors
+Microscopic Polyangiitis: Epidemiology, Risk factors
+Eosinophilic Granulomatosis with Polyangiitis: Epidemiology
+Henoch Schonlein Purpura (IgA Vasculitis): Risk factors
+Behcet’s Disease: Pathophysiology
+Anti-Phospholipid Syndrome: Epidemiology
+Scleroderma (Systemic Sclerosis): Risk factors

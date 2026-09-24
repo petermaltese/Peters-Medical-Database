@@ -1,0 +1,39 @@
+.practice-wheels-page{max-width:1500px}
+.practice-wheels-header{margin-bottom:28px}
+.practice-wheels-header h1{margin:4px 0 8px}
+.practice-wheels-eyebrow{color:var(--muted);text-transform:uppercase;font-size:11px;letter-spacing:.16em;font-weight:750;margin:0}
+.practice-wheels-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start}
+.practice-wheel-card{min-width:0;border:1px solid var(--line);border-radius:22px;background:var(--panel);padding:22px;box-shadow:var(--shadow)}
+.practice-wheel-card h2{text-align:center;margin:0 0 12px;font-size:25px}
+.practice-wheel-stage{position:relative;max-width:380px;margin:0 auto 16px;padding-top:8px}
+.practice-wheel-disc{display:block;width:100%;height:auto;overflow:visible;transform-origin:50% 50%;filter:drop-shadow(0 6px 6px rgba(0,0,0,.12))}
+.practice-wheel-pointer{position:absolute;z-index:1;left:50%;top:2px;transform:translateX(-50%);width:0;height:0;border-left:12px solid transparent;border-right:12px solid transparent;border-top:26px solid var(--text);filter:drop-shadow(0 2px 1px var(--panel))}
+.practice-wheel-spin{display:block;min-height:46px;width:100%;border:0;border-radius:12px;background:#146b73;color:#fff;font-weight:750;cursor:pointer}
+.practice-wheel-spin:hover:not(:disabled){background:#0e555c}
+.practice-wheel-spin:disabled{cursor:wait;opacity:.6}
+.practice-wheel-spin:focus-visible,.practice-wheel-key summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.practice-wheel-result{display:flex;justify-content:center;align-items:center;text-align:center;min-height:72px;margin:10px 0 16px;padding:10px;border-radius:12px;background:var(--panel-2);color:var(--muted);font-size:18px;font-weight:650;overflow-wrap:anywhere}
+.practice-wheel-result.chosen{color:var(--text);box-shadow:inset 0 0 0 2px #479e89;background:var(--panel-2)}
+.practice-wheel-key{border-top:1px solid var(--line);padding-top:14px}
+.practice-wheel-key summary{cursor:pointer;font-size:13px;font-weight:650;color:var(--muted)}
+.practice-wheel-options{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:5px}
+.practice-wheel-options li{display:flex;gap:9px;align-items:center;padding:5px 7px;border-radius:8px;font-size:13px;border:1px solid transparent;line-height:1.4}
+.practice-wheel-options li.selected{border-color:#479e89;background:var(--panel-2);font-weight:750}
+.practice-wheel-number{display:inline-flex;align-items:center;justify-content:center;flex:0 0 25px;height:25px;border-radius:50%;color:#fff;font-size:11px;font-weight:750}
+@media(max-width:1180px){.practice-wheels-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.practice-wheels-grid{grid-template-columns:1fr;gap:18px}.practice-wheel-card{padding:18px}.practice-wheel-stage{max-width:320px}}
+@media(prefers-reduced-motion:reduce){.practice-wheel-disc{transition:none!important}}
+.practice-wheel-create{background:var(--panel);border:1px solid var(--line);border-radius:16px;margin-bottom:26px;padding:18px 22px}
+.practice-wheel-create>summary{cursor:pointer;font-weight:750;font-size:17px}
+.practice-wheel-create form{max-width:660px;margin-top:14px}
+.practice-wheel-create form>p{color:var(--muted)}
+.practice-wheel-create label{display:block;margin:15px 0 6px;font-weight:650}
+.practice-wheel-create input,.practice-wheel-create textarea{display:block;width:100%;border:1px solid var(--line);border-radius:9px;padding:12px;background:var(--panel-2);color:var(--text);font:inherit;resize:vertical}
+.practice-wheel-create input:focus,.practice-wheel-create textarea:focus{outline:2px solid var(--accent);outline-offset:2px}
+.practice-wheel-form-hint{font-size:12px}
+.practice-wheel-remove{display:block;background:transparent;border:1px solid var(--line);border-radius:8px;margin:16px auto 0;padding:8px 14px;cursor:pointer;color:var(--muted);font-size:12px}
+.practice-wheel-remove:disabled{opacity:.5;cursor:wait}
+.practice-wheel-form-actions{display:flex;gap:10px}
+.practice-wheel-form-actions .practice-wheel-spin{flex:1}
+#custom-wheel-clear{border:1px solid var(--line);background:var(--panel-2);padding:10px 22px;border-radius:12px;cursor:pointer}
+#custom-wheel-clear:focus-visible{outline:3px solid var(--accent);outline-offset:3px}

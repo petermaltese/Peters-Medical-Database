@@ -5852,6 +5852,32 @@ window.PETER_TEXTBOOK_CONTENT = {
             }
           ]
         }
+      ],
+      "clinical": [
+        {
+          "text": "Small-intestinal malignancy may cause abdominal pain, weight loss, anorexia, diarrhoea or anaemia; some patients have a palpable abdominal mass.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                693
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Cross-sectional imaging assesses the bowel and regional nodes. Endoscopic biopsy provides histology when the lesion is accessible; capsule endoscopy cannot provide tissue and is unsuitable where capsule obstruction is likely.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                693
+              ]
+            }
+          ]
+        }
       ]
     },
     "malignant-tumours--lymphoma": {
@@ -5897,6 +5923,32 @@ window.PETER_TEXTBOOK_CONTENT = {
       "tx": [
         {
           "text": "Treatment depends on lymphoma type and extent and may combine systemic chemotherapy with local treatment; the chapter discusses surgery and radiotherapy in selected intestinal disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                693
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Small-intestinal malignancy may cause abdominal pain, weight loss, anorexia, diarrhoea or anaemia; some patients have a palpable abdominal mass.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                693
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Cross-sectional imaging assesses the bowel and regional nodes. Endoscopic biopsy provides histology when the lesion is accessible; capsule endoscopy cannot provide tissue and is unsuitable where capsule obstruction is likely.",
           "refs": [
             {
               "book": "kumar11",
@@ -6118,6 +6170,2430 @@ window.PETER_TEXTBOOK_CONTENT = {
               "book": "kumar11",
               "pdfPages": [
                 712
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "viral-hepatitis--hepatitis-a": {
+      "epi": [
+        {
+          "text": "Hepatitis A occurs worldwide, including outbreaks associated with contaminated food or water. Childhood infections are often asymptomatic.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Faecal–oral exposure, poor sanitation, overcrowding and contaminated food or water increase risk.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "HAV replicates in the liver and is shed in bile and faeces. Infectivity is greatest before jaundice appears; infection does not establish a chronic carrier state.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Nausea, anorexia and malaise may precede jaundice, dark urine and pale stools. Some infections remain anicteric. Persistent vomiting or altered mental state warrants hospital assessment.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Anti-HAV IgM supports acute infection; IgG indicates previous exposure or immunity. Follow liver biochemistry and assess severity using coagulation rather than the aminotransferase level alone.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "There is no specific antiviral treatment. Most cases recover without admission; severe illness requires hospital assessment and supportive care.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Rare complications include acute liver failure and a prolonged cholestatic or relapsing illness. Hepatitis A does not progress to chronic liver disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "viral-hepatitis--hepatitis-b": {
+      "epi": [
+        {
+          "text": "HBV occurs worldwide, with marked geographical variation. Perinatal and childhood acquisition are important contributors to chronic infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                737,
+                739,
+                740,
+                741
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Transmission can occur through infected blood or needles, sexual contact and from mother to infant around birth. Immunosuppression can reactivate previous infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                737,
+                739,
+                740,
+                741
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "HBV is a DNA virus. Infection acquired early in life is more likely to persist; chronic infection can produce progressive hepatic inflammation and fibrosis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                737,
+                739,
+                740,
+                741
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Interpret HBsAg together with core antibodies; IgM anti-HBc supports recent infection. HBV DNA assesses replication. Patients with HBsAg should also be assessed for hepatitis D.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                737,
+                739,
+                740,
+                741
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Acute infection is mainly managed supportively, with antiviral treatment considered in selected severe cases. Chronic HBV may require prolonged suppression with tenofovir or entecavir, alongside monitoring of viral activity and liver disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                737,
+                739,
+                740,
+                741
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Chronic infection can cause cirrhosis and hepatocellular carcinoma. Acute liver failure and extrahepatic immune-complex disease can occur; reactivation during immunosuppression may be severe.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                737,
+                739,
+                740,
+                741
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "viral-hepatitis--hepatitis-d": {
+      "epi": [
+        {
+          "text": "HDV has a geographically variable distribution and occurs only with HBV infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Co-infection occurs when HBV and HDV are acquired together; superinfection occurs when HDV infects someone with established HBV.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Co-infection resembles acute hepatitis B. Superinfection may present as a flare in previously quiet chronic HBV, sometimes detected through rising aminotransferases.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "HDV antibodies and HDV RNA establish infection, interpreted alongside HBV markers to distinguish co-infection from superinfection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Specialist treatment options described in the textbook include pegylated interferon and the entry inhibitor bulevirtide. Responses and treatment duration require ongoing assessment.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Acute liver failure can occur. Persistent HDV may accelerate progression to cirrhosis compared with HBV alone.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "viral-hepatitis--hepatitis-c": {
+      "epi": [
+        {
+          "text": "HCV occurs worldwide, with substantial geographical variation and a high burden among people exposed to injecting drug use.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Blood exposure, including shared injecting equipment and inadequately sterilized medical equipment, is a major route. Alcohol excess, HIV co-infection, obesity and diabetes can accelerate fibrosis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "HCV is an RNA virus that frequently persists after acute infection. Chronic inflammation can cause slowly progressive fibrosis and cirrhosis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "HCV antibody identifies exposure; HCV RNA determines viraemia. RNA can be detectable before antibodies, and repeat testing may be needed in early infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Oral direct-acting antiviral combinations can achieve sustained viral clearance. Undetectable HCV RNA 12 weeks after treatment establishes sustained virological response; patients with cirrhosis still require cancer surveillance.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Complications include cirrhosis, hepatic decompensation and hepatocellular carcinoma, usually in established cirrhosis. Extrahepatic disease includes cryoglobulinaemia and glomerulonephritis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "viral-hepatitis--hepatitis-e": {
+      "epi": [
+        {
+          "text": "HEV causes water-borne outbreaks in areas with poor sanitation and sporadic zoonotic infection associated with contaminated meat products.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Contaminated water or meat exposure is relevant. Pregnancy increases the severity of epidemic genotype 1 or 2 disease; immunosuppression increases the risk of chronic infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "HEV is an enterically transmitted RNA virus. Most infections are acute, but persistent infection can occur in immunocompromised patients.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "The acute hepatitis syndrome resembles hepatitis A; the clinical course depends partly on viral genotype and host factors.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Anti-HEV IgM and IgG testing and HEV RNA detection in blood or stool support diagnosis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Prevention relies on hygiene and safe food and water. Chronic infection in immunocompromised patients may require reduced immunosuppression and/or ribavirin under specialist care.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Acute hepatic failure is an important risk in pregnancy with epidemic HEV. Neurological, haematological and renal complications can occur, and immunosuppressed patients may develop chronic hepatitis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hepatitis--other-acute-hepatitis-infections": {
+      "risk": [
+        {
+          "text": "CMV and HSV hepatitis may be more severe with immunosuppression. Disseminated HSV hepatitis can also occur in pregnancy.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744,
+                745
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Systemic infections including EBV, CMV, HSV, toxoplasmosis and yellow fever can involve the liver; the pattern and severity differ between organisms.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744,
+                745
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "EBV commonly causes mild liver-test abnormalities within a mononucleosis syndrome. CMV can produce a similar illness; HSV can cause extensive hepatic necrosis with markedly raised aminotransferases.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744,
+                745
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Investigation is organism-specific: examples include EBV testing with examination for atypical lymphocytes and CMV DNA testing. Clinical context helps interpret serological results.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744,
+                745
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Treatment depends on the infection: EBV-related hepatitis is usually managed symptomatically, whereas severe CMV in an immunocompromised patient or disseminated HSV may require specific antiviral therapy.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744,
+                745
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Most liver-test abnormalities in systemic infection are mild, but selected infections can cause severe hepatitis or acute liver failure.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                744,
+                745
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hepatitis--autoimmune-hepatitis": {
+      "epi": [
+        {
+          "text": "Autoimmune hepatitis has a female predominance and may present in adolescence/early adulthood or around and after menopause.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                746,
+                747
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "A personal or family history of autoimmune disease is common. Genetic susceptibility contributes, although a definite trigger is often not identified.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                746,
+                747
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Immune-mediated hepatic inflammation can cause interface hepatitis, fibrosis and cirrhosis; T-cell-mediated injury is central to the process described in the textbook.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                746,
+                747
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Presentation ranges from incidental abnormal liver tests or fatigue to acute jaundice or established chronic liver disease. Other autoimmune features may coexist.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                746,
+                747
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Raised aminotransferases and IgG, supportive autoantibodies and liver biopsy help establish the diagnosis. ANA or smooth-muscle antibodies favour type I; anti-LKM1 is associated with type II. Antibodies may be absent.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                746,
+                747
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Corticosteroids induce remission, with azathioprine used as a steroid-sparing or maintenance agent. Resistant disease needs specialist alternatives; transplantation is considered when medical treatment fails.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                746,
+                747
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Progressive disease can cause cirrhosis and liver failure. Relapse after treatment withdrawal is common, particularly with established cirrhosis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                746,
+                747
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "liver--wilson-s-disease": {
+      "epi": [
+        {
+          "text": "Wilson’s disease is a rare inherited disorder occurring worldwide. Hepatic presentations often appear in childhood and neurological presentations in young adults.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                762,
+                763
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Autosomal recessive ATP7B variants cause disease. Siblings and children of affected patients should be assessed for inherited disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                762,
+                763
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Impaired biliary copper excretion leads to accumulation in the liver, brain and other tissues. Incorporation into caeruloplasmin is also disturbed.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                762,
+                763
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Presentations include acute or chronic liver disease, tremor, dysarthria and involuntary movements. Kayser–Fleischer rings may require slit-lamp examination and may be absent in young children.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                762,
+                763
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Assessment combines serum caeruloplasmin/copper, urinary copper, ophthalmic examination and, where appropriate, hepatic copper measurement or genetic testing. Normal serum results do not exclude disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                762,
+                763
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Lifelong treatment reduces copper accumulation through chelation or selected zinc-based regimens, with monitoring. Acute liver failure or decompensated cirrhosis may require transplantation.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                762,
+                763
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Complications include cirrhosis, acute liver failure, neurological damage and haemolysis. Early recognition and treatment improve outcomes.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                762,
+                763
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "liver--chronic-liver-disease": {
+      "risk": [
+        {
+          "text": "Causes include alcohol-related injury, metabolic fatty liver disease, chronic viral hepatitis, autoimmune disease and inherited disorders such as haemochromatosis or Wilson’s disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                749,
+                750,
+                751,
+                753
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Persistent injury can activate hepatic stellate cells and cause matrix deposition and fibrosis. Cirrhosis is the advanced architectural distortion with regenerative nodules, impaired function and portal hypertension.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                749,
+                750,
+                751,
+                753
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Chronic liver disease may be asymptomatic. Advanced disease can present with ascites, variceal bleeding, jaundice or encephalopathy.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                749,
+                750,
+                751,
+                753
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Investigate both cause and severity: liver biochemistry, albumin and coagulation, cause-specific blood tests, ultrasound and fibrosis assessment. Biopsy is used where needed to clarify diagnosis or severity.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                749,
+                750,
+                751,
+                753
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Treat the underlying cause and manage complications. Established cirrhosis requires hepatocellular carcinoma surveillance and assessment for portal-hypertensive complications; advanced liver failure may require transplantation.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                749,
+                750,
+                751,
+                753
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Cirrhosis can lead to ascites, variceal bleeding, encephalopathy, infection, renal failure and hepatocellular carcinoma.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                749,
+                750,
+                751,
+                753
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "oesophagitis--oesophageal-varices": {
+      "risk": [
+        {
+          "text": "Portal hypertension, most commonly from cirrhosis, drives varix formation. Portal-vein obstruction and other causes of portal hypertension can also be responsible.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                753,
+                754,
+                755
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Raised portal pressure opens portosystemic collateral channels. Superficial collaterals at the gastro-oesophageal junction are prone to rupture.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                753,
+                754,
+                755
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Endoscopy identifies varices and confirms the bleeding source while excluding other upper gastrointestinal lesions.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                753,
+                754,
+                755
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Acute bleeding requires resuscitation, vasoactive therapy, antibiotic prophylaxis and urgent endoscopic treatment, usually band ligation for oesophageal varices. Persistent or recurrent bleeding may require TIPS.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                753,
+                754,
+                755
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Variceal haemorrhage can be massive and may recur. A large gastrointestinal bleed can precipitate hepatic encephalopathy.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                753,
+                754,
+                755
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stomach-cancer--gastric-adenocarcinoma": {
+      "risk": [
+        {
+          "text": "Risk associations include smoking, a family history, pernicious anaemia/atrophic gastritis and inherited CDH1 variants in some families with diffuse gastric cancer.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                679,
+                680
+              ]
+            }
+          ]
+        },
+        {
+          "text": "H. pylori-associated chronic gastritis and intestinal metaplasia are important in distal gastric carcinogenesis; high-salt diets are another association.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                678
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Gastroscopy with adequate biopsy establishes histology; a negative superficial biopsy does not exclude an infiltrative lesion. CT, endoscopic ultrasound and selected staging laparoscopy assess disease extent.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                679,
+                680
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Tumour involvement can cause obstruction, occult bleeding with anaemia, malignant ascites or distant metastases.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                679,
+                680
+              ]
+            }
+          ]
+        }
+      ],
+      "epi": [
+        {
+          "text": "Incidence increases with age and is higher in men. The textbook describes geographical variation, with higher rates in Eastern Asia, Eastern Europe and South America.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                678
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "colorectal-cancer--adenocarcinoma-of-the-colon": {
+      "risk": [
+        {
+          "text": "Risk increases with age, colorectal polyps, family history or inherited cancer syndromes, chronic inflammatory bowel disease, obesity, smoking and alcohol misuse.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                713,
+                714
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Complications include intestinal obstruction, chronic blood loss with iron-deficiency anaemia and metastatic spread, particularly to the liver and lungs.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                713,
+                714
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--malaria": {
+      "epi": [
+        {
+          "text": "Malaria occurs mainly in tropical and subtropical regions; the clinical burden is greatest in endemic populations, particularly children. Non-immune travellers can develop severe disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1545,
+                1547,
+                1549
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Exposure to infected Anopheles mosquitoes in an endemic area is the key risk. Lack of acquired immunity increases the risk of severe falciparum malaria.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1545,
+                1547,
+                1549
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Fever in a returning traveller should prompt consideration of malaria. Falciparum infection may deteriorate rapidly; confusion, seizures or coma indicate cerebral involvement. Anaemia and dark urine from haemolysis can occur.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1545,
+                1547,
+                1549
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Examine thick blood films for parasites and thin films for species and parasitaemia. Rapid antigen tests are adjuncts. Repeat films if suspicion remains despite an initially negative result; serology does not diagnose acute malaria.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1545,
+                1547,
+                1549
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Treatment depends on species, severity and resistance patterns. Artemisinin combination therapy is used for uncomplicated falciparum infection; severe malaria requires urgent intravenous artesunate and careful supportive management of fluid balance, glucose and organ dysfunction.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1545,
+                1547,
+                1549
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe falciparum infection may cause cerebral malaria, haemolysis, anaemia and multiorgan dysfunction. Vivax and ovale infections may relapse from dormant liver stages.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1545,
+                1547,
+                1549
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--enteric-fever": {
+      "epi": [
+        {
+          "text": "Typhoid and paratyphoid fever are particularly important in South Asia and in travellers exposed in endemic regions.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1536,
+                1537
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Contaminated food or water and inadequate sanitation enable transmission; humans, including chronic carriers, are the reservoir.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1536,
+                1537
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Salmonella Typhi and Paratyphi cause systemic infection acquired through ingestion, rather than simply a localized gastroenteritis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1536,
+                1537
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "An insidious febrile illness with headache and abdominal pain is typical. Abdominal tenderness, hepatosplenomegaly and rose spots may be present, but the rash is not universal.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1536,
+                1537
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Blood cultures, ideally before antibiotics, are central to diagnosis. Bone-marrow culture is sensitive but reserved for selected circumstances. Stool or urine isolation can represent carriage; Widal testing is not recommended.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1536,
+                1537
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Choose antibiotics according to severity, exposure location and susceptibility results. Resistance, including extensively drug-resistant infection, prevents use of a single universal regimen.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1536,
+                1537
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Complications include intestinal bleeding or perforation, shock, encephalopathy, relapse and chronic gallbladder carriage.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1536,
+                1537
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--dengue-fever": {
+      "epi": [
+        {
+          "text": "Dengue is a mosquito-borne flavivirus infection found widely in tropical regions.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1502,
+                1504
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Aedes mosquitoes transmit infection, commonly during daytime biting. Sequential infections with different dengue serotypes are associated with severe dengue.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1502,
+                1504
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Severe dengue involves increased capillary permeability, thrombocytopenia and bleeding, potentially progressing to circulatory shock.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1502,
+                1504
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Abrupt fever, headache, retro-orbital pain, marked myalgia or backache and a transient rash are characteristic. Fatigue may persist after the acute illness.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1502,
+                1504
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Management is supportive, with analgesia and appropriate fluid replacement. Severe bleeding or shock may require transfusion and intensive care; corticosteroids provide no benefit.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1502,
+                1504
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe dengue can cause haemorrhage, capillary leak, hypotension, shock and disseminated intravascular coagulation.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1502,
+                1504
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--rickettsia": {
+      "epi": [
+        {
+          "text": "Rickettsial syndromes include typhus and spotted fevers; their distribution depends on the organism and vector. Scrub typhus occurs particularly in Asia and the Western Pacific.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1538,
+                1539
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Exposure to infected ticks, mites, fleas or lice is relevant, depending on the infection. Travel and vector exposure help narrow the differential.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1538,
+                1539
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "These intracellular bacteria can invade vascular endothelial cells, producing small-vessel vasculitis and multisystem disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1538,
+                1539
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Fever, headache and myalgia are typical. Some infections produce a petechial rash or an eschar at the bite site, but neither finding is universal.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1538,
+                1539
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "The clinical syndrome and exposure history guide suspicion; serology or PCR can confirm infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1538,
+                1539
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Doxycycline is the textbook treatment of choice for uncomplicated rickettsial disease. Severe infection may require intensive care and specialist-directed additional treatment.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1538,
+                1539
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe disease may involve the nervous system, heart, lungs and kidneys; the frequency and severity vary between rickettsial syndromes.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1538,
+                1539
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--traveller-s-diarrhoea": {
+      "epi": [
+        {
+          "text": "Bacteria cause many cases of travellers’ diarrhoea, particularly enterotoxigenic E. coli; viruses and protozoa also contribute, and the distribution varies with destination.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1523
+              ]
+            },
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                1008,
+                1009
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Contaminated food or water is a major exposure. Immunocompromised travellers are at increased risk of severe or persistent enteric infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1523
+              ]
+            },
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                1008,
+                1009
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Enterotoxigenic E. coli toxins stimulate intestinal fluid secretion. Other pathogens cause inflammatory diarrhoea with mucosal injury.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1523
+              ]
+            },
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                1008,
+                1009
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Watery diarrhoea may accompany abdominal cramps, nausea or vomiting. Blood in the stool, fever or dehydration indicates a need for further assessment.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1523
+              ]
+            },
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                1008,
+                1009
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Mild, self-limiting non-inflammatory illness often needs no organism-specific testing. Fever or inflammatory diarrhoea warrants stool testing; persistent illness or relevant exposures may require testing for parasites.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1523
+              ]
+            },
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                1008,
+                1009
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Rehydration is the mainstay. Antibiotics are reserved for selected illness and chosen with resistance patterns in mind. Avoid loperamide when fever or dysentery is present.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                1009
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Dehydration can impair kidney function. Post-infectious irritable bowel symptoms or persistent diarrhoea may follow; reactive arthritis, HUS and Guillain–Barré syndrome are pathogen-dependent complications.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                1008
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--eosinophilia": {
+      "risk": [
+        {
+          "text": "Potential causes include helminth infection, allergy or drug hypersensitivity, skin and pulmonary disorders, and haematological or other malignancy.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1360,
+                1361
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Eosinophilia is an increased circulating eosinophil count. It is a laboratory finding with several possible causes, rather than a single disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1360,
+                1361
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--schistosomiasis": {
+      "epi": [
+        {
+          "text": "Most of the global burden occurs in sub-Saharan Africa. Infection also affects travellers exposed to endemic freshwater.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1562,
+                1563
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Skin contact with freshwater containing cercariae is the key exposure. Children and people with repeated occupational or recreational exposure may have heavier infections.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1562,
+                1563
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Larvae penetrate the skin and mature into adult worms. Eggs trapped in tissues cause inflammation and granulomas; prolonged heavy infection leads to fibrosis and organ damage.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1562,
+                1563
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Early infection can cause an itchy dermatitis, followed by fever, rash and myalgia (Katayama fever). Urinary infection may cause terminal haematuria; intestinal disease may cause bloody diarrhoea.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1562,
+                1563
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Exposure history is important. Eggs can be identified in urine or stool according to species; serology may be negative early because antibodies take time to develop. Eosinophilia is common but not obligatory.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1562,
+                1563
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Praziquantel treats the adult infection. Neurological schistosomiasis requires specialist management, with corticosteroids before antiparasitic treatment. Reinfection remains possible with further freshwater exposure.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1562,
+                1563
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Urinary disease may cause obstruction, renal damage and squamous bladder carcinoma. Intestinal species can produce periportal fibrosis, portal hypertension and variceal bleeding; ectopic eggs may damage the nervous system.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1562,
+                1563
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "common-infections-indica--acute-rhinosinusitis-common-cold": {
+      "epi": [
+        {
+          "text": "Rhinoviruses are the most frequent cause of the common cold. Many serotypes permit repeated infections throughout life.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                578,
+                1499
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Transmission occurs through close contact, contaminated nasal secretions on hands and respiratory droplets, particularly early in infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                578,
+                1499
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Respiratory viruses infect the upper airway; rhinoviruses replicate particularly well at the cooler temperature of the upper respiratory tract.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                578,
+                1499
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Malaise, sneezing, a sore nose or throat and watery rhinorrhoea are typical. Secretions may become thicker and mucopurulent during the illness.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                578,
+                1499
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Secondary bacterial infection occurs in a minority of cases.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                578,
+                1499
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "common-infections-indica--coronavirus-rna-virus": {
+      "epi": [
+        {
+          "text": "Several human coronaviruses cause common-cold-like illness. Other members of the family cause severe lower respiratory disease, including COVID-19.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1499,
+                1500
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "For COVID-19, older age and underlying comorbidity increase the risk of fatal disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1499,
+                1500
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Coronaviruses are positive-sense single-stranded RNA viruses. In severe COVID-19, viral replication may be followed by an exaggerated inflammatory response contributing to lung injury.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1499,
+                1500
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Common human coronaviruses cause coryzal symptoms. COVID-19 may cause fever, cough, impaired respiratory function and loss of smell or taste.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1499,
+                1500
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Respiratory-sample RT-PCR detects viral genetic material. Rapid antigen tests are less sensitive; antibody testing mainly serves surveillance rather than acute diagnosis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1499,
+                1500
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "The textbook describes antiviral treatment for selected COVID-19 cases and anti-inflammatory treatment for seriously ill hospitalized patients. Treatment is specific to disease severity and the coronavirus involved; this is not a single regimen for all coronavirus infections.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1499,
+                1500
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe COVID-19 can cause major pulmonary complications. Persistent symptoms after infection are described as long COVID.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1499,
+                1500
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "common-infections-indica--pharyngitis-and-tonsillitis": {
+      "epi": [
+        {
+          "text": "Most acute throat infections are viral and self-limiting. Adenoviruses are a common viral cause; beta-haemolytic streptococci are an important bacterial cause.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                579,
+                580,
+                637,
+                638
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Inflammation affects the pharynx and tonsils. Epstein–Barr virus infection can also present with prominent tonsillitis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                579,
+                580,
+                637,
+                638
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Painful swallowing, fever, inflamed or exudative tonsils and cervical lymphadenopathy may occur. Trismus and displacement of the uvula suggest a peritonsillar abscess.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                579,
+                580,
+                637,
+                638
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Examine the throat and neck and assess the overall clinical pattern. Fever, tonsillar purulence, rapid presentation, marked inflammation and absence of cough/coryza are used in the textbook’s FeverPAIN assessment of streptococcal likelihood.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                579,
+                580,
+                637,
+                638
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Most cases settle with supportive care and analgesia. Antibiotics are considered for likely bacterial or persistent severe infection. Avoid amoxicillin or ampicillin when infectious mononucleosis is suspected because of the associated rash.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                579,
+                580,
+                637,
+                638
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "A peritonsillar abscess may extend into deeper neck spaces, with potential airway compromise, mediastinitis or sepsis.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                579,
+                580,
+                637,
+                638
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "common-infections-indica--tracheo-bronchitis": {
+      "risk": [
+        {
+          "text": "Secondary bacterial infection is more likely in smokers and people with COPD.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                586
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Acute bronchitis is usually viral inflammation of the bronchi and is commonly self-limiting.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                586
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "An initially dry, irritating cough may become productive. Retrosternal discomfort, mild fever, wheeze or occasional crackles can occur.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                586
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "In otherwise healthy adults, uncomplicated acute bronchitis generally improves spontaneously; antibiotics are usually unnecessary.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                586
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Uncomplicated acute bronchitis generally does not cause lasting complications. Secondary bacterial infection is more relevant in people with underlying lung disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                586
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "common-infections-indica--utis": {
+      "epi": [
+        {
+          "text": "UTIs are common, especially cystitis in females. Recurrent infection causes substantial morbidity.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                870,
+                871
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Risk factors include female sex, sexual activity, urinary catheters or instrumentation, stones, impaired bladder emptying, pregnancy, diabetes and immunosuppression.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                870,
+                871
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Most infections arise from the patient’s bowel flora ascending the urethra. Bacterial adherence to urothelium and urinary stasis favour infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                870,
+                871
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Lower UTI commonly causes dysuria, frequency and suprapubic discomfort. Fever, rigors and loin tenderness suggest upper tract involvement, although symptoms do not always reliably localize infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                870,
+                871
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Typical uncomplicated cystitis may be diagnosed clinically in an appropriate patient. Otherwise, a clean-catch midstream urine sample for culture supports diagnosis; negative nitrites do not exclude infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                870,
+                871
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Infection can recur or extend to the kidneys and can cause life-threatening Gram-negative septicaemia or kidney failure.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                870,
+                871
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "general-practice--delirium": {
+      "clinical": [
+        {
+          "text": "Delirium is an acute, fluctuating disturbance of attention and cognition. Hyperactive agitation or quieter hypoactive presentations may occur, with altered sleep and perception.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                284,
+                285,
+                286
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Establish the patient’s baseline and time course using collateral history. The 4AT can support screening. Look for reversible causes with examination and targeted tests, including oxygenation, glucose, infection, medication and metabolic assessment.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                284,
+                285,
+                286
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "common-infections-indica--lrti-community-acquired-pneumonia": {
+      "epi": [
+        {
+          "text": "Community-acquired pneumonia is particularly frequent at the extremes of age. Streptococcus pneumoniae is an important cause, alongside other bacteria and respiratory viruses.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Older age, smoking or COPD, impaired consciousness or swallowing, immunosuppression and significant comorbidity increase risk. Exposure history and structural lung disease influence the likely organisms.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Microorganisms reaching the alveoli, commonly through oropharyngeal aspiration, trigger an inflammatory response. Alveolar exudate and capillary leak impair gas exchange.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Fever, cough, dyspnoea and pleuritic chest pain are common. Tachypnoea, crackles or bronchial breathing may be found; older patients may present chiefly with new confusion.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Clinical assessment and chest imaging establish pneumonia and help assess severity. Microbiological testing is selected according to severity and context; clinical features alone rarely identify the organism reliably.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe infection can cause hypoxaemic respiratory failure, septic shock and organ dysfunction. Cardiac complications include myocardial infarction, heart failure and arrhythmias.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Assess severity and the appropriate place of care, with urgent intensive support for shock or respiratory failure. Antibiotic choice should reflect likely pathogens and resistance, then be reviewed against available microbiology.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "the-returned-traveller--viral-hepatitis": {
+      "epi": [
+        {
+          "text": "Viral hepatitis includes several infections with different transmission patterns and geographical distributions; it is not a single epidemiological entity.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736,
+                737,
+                739,
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "HAV and HEV are principally enterically transmitted. HBV and HCV are associated with blood exposure; HBV also spreads sexually and perinatally. HDV depends on HBV infection.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736,
+                737,
+                739,
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "HAV causes acute infection; HEV is usually acute but may persist with immunosuppression. HBV, HCV and HDV can establish chronic infection and progressive liver injury.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736,
+                737,
+                739,
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Acute illness may cause malaise, anorexia, nausea and jaundice, but infection can be asymptomatic. Chronic viral hepatitis is often detected through screening or abnormal liver tests.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736,
+                737,
+                739,
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Use virus-specific serology and, where indicated, nucleic-acid tests. Interpret results alongside liver biochemistry, coagulation and the time since exposure.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736,
+                737,
+                739,
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Management is virus-specific: HAV has no specific antiviral treatment, while chronic HBV suppression and HCV direct-acting antiviral treatment have distinct aims and regimens. Assess severe acute illness and chronic liver complications separately.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736,
+                737,
+                739,
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe acute infection can cause liver failure. Chronic HBV, HCV or HDV may progress to cirrhosis and liver cancer; HAV does not cause chronic liver disease.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                735,
+                736,
+                737,
+                739,
+                742,
+                743,
+                744
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "general-practice--mental-health": {
+      "risk": [
+        {
+          "text": "Use a biopsychosocial formulation: identify predisposing, precipitating, perpetuating and protective factors rather than assuming one cause for all mental health presentations.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1043,
+                1044
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Assess the time course of symptoms, impact on functioning, mood and mental state, alongside physical symptoms and substance use. Collateral history may reveal a change from baseline or clarify inconsistencies.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1043,
+                1044
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Combine psychiatric history, mental state examination, collateral information and physical assessment. Investigations should address possible physical causes or contributors to the presentation.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1043,
+                1044
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Assess risk of self-harm, suicide, self-neglect, exploitation and harm to others. The relevant risks depend on the person and presentation and require reassessment.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                1043,
+                1044
               ]
             }
           ]
@@ -9364,6 +11840,34 @@ window.PETER_TEXTBOOK_CONTENT = {
         }
       ]
     },
+    "paediatrics--fever-in-a-child": {
+      "dx": [
+        {
+          "text": "Consider a urinary tract infection in a febrile, unwell child: younger children may not describe dysuria and can have atypical symptoms.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                871
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "For symptomatic fever reduction in children, the textbook describes paracetamol or ibuprofen and warns against aspirin because of Reye syndrome risk. This passage does not provide a complete assessment or management pathway for the febrile child.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                151
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "reproductive-system--breast-cancer": {
       "epi": [
         {
@@ -10284,6 +12788,221 @@ window.PETER_TEXTBOOK_CONTENT = {
               "book": "kumar11",
               "pdfPages": [
                 615
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "obstructive-pulmonary-di--asthma": {
+      "epi": [
+        {
+          "text": "Asthma often starts in childhood. The textbook describes comparatively high prevalence in Australia, New Zealand and the UK, with substantial variation between populations.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                581
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Persistent airway inflammation can lead to remodelling and an irreversible component of airflow limitation.",
+          "refs": [
+            {
+              "book": "kumar11",
+              "pdfPages": [
+                581
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "pulmonary-infections--community-acquired-pneumonia": {
+      "epi": [
+        {
+          "text": "Community-acquired pneumonia is particularly frequent at the extremes of age. Streptococcus pneumoniae is an important cause, alongside other bacteria and respiratory viruses.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "Fever, cough, dyspnoea and pleuritic chest pain are common. Tachypnoea, crackles or bronchial breathing may be found; older patients may present chiefly with new confusion.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Clinical assessment and chest imaging establish pneumonia and help assess severity. Microbiological testing is selected according to severity and context; clinical features alone rarely identify the organism reliably.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe infection can cause hypoxaemic respiratory failure, septic shock and organ dysfunction. Cardiac complications include myocardial infarction, heart failure and arrhythmias.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                955,
+                956,
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Assess the need for hospital or intensive care using clinical judgement supported by severity tools such as CURB-65 or PSI. Antibiotic selection must account for likely pathogens and resistance; culture results can support narrowing therapy.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                957,
+                958
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "pulmonary-infections--hospital-acquired-pneumonia": {
+      "epi": [
+        {
+          "text": "Hospital-acquired pneumonia in non-intubated patients is less well studied than ventilator-associated pneumonia and has a lower frequency of multidrug-resistant organisms.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                962,
+                963,
+                964
+              ]
+            }
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "text": "Prior antibiotic exposure and hospitalization, local resistance patterns and known MRSA colonization affect the risk of resistant infection. Intubation adds specific risk for ventilator-associated pneumonia.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                962,
+                963,
+                964
+              ]
+            }
+          ]
+        }
+      ],
+      "path": [
+        {
+          "text": "Airway colonization, aspiration and impaired respiratory defences contribute. In ventilated patients, secretions around the tube and bacterial biofilm provide additional sources of infection.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                962,
+                963,
+                964
+              ]
+            }
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "text": "New or worsening pulmonary infiltrates with fever, increased respiratory secretions and deteriorating oxygenation raise suspicion, but other causes must be considered.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                962,
+                963,
+                964
+              ]
+            }
+          ]
+        }
+      ],
+      "dx": [
+        {
+          "text": "Assess the clinical course and imaging and obtain suitable respiratory samples where possible. Colonization can produce positive cultures without pneumonia; alternative sources of fever and infiltrates require consideration.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                962,
+                963,
+                964
+              ]
+            }
+          ]
+        }
+      ],
+      "tx": [
+        {
+          "text": "Obtain diagnostic samples and start empiric antibiotics selected for the patient’s resistance risks and local susceptibility patterns. Review results and narrow or stop pneumonia-directed therapy when the evidence supports doing so.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                962,
+                963,
+                964
+              ]
+            }
+          ]
+        }
+      ],
+      "comp": [
+        {
+          "text": "Severe infection may prolong hospitalization and respiratory support. Necrotizing infection can leave bronchiectasis or parenchymal scarring; critical illness may require prolonged rehabilitation.",
+          "refs": [
+            {
+              "book": "harrison20",
+              "pdfPages": [
+                962,
+                963,
+                964
               ]
             }
           ]
@@ -11856,12 +14575,14 @@ window.PETER_TEXTBOOK_CONTENT = {
     "endocrine-system",
     "ent",
     "gastrointestinal-tract",
+    "general-practice",
     "haematology",
     "neurology",
     "opthalmology",
+    "paediatrics",
     "reproductive-system",
     "respiratory-system",
     "rheumatology"
   ],
-  "status": "V35 checkpoint: renal additions retained; cardiology, dermatology, endocrine-system, ent, gastrointestinal-tract, haematology, neurology, opthalmology, reproductive-system, respiratory-system, rheumatology additions in progress. Other gaps remain under review."
+  "status": "V35 textbook checkpoint: additions span the systems, with limited paediatric coverage. Some headings remain unfilled pending further source review; ankle-injury additions are not yet supported by the reviewed passages."
 };

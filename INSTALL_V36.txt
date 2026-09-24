@@ -1,0 +1,11 @@
+V36 — Spinning Wheels
+
+Copy these files into your existing website folder, replacing matching files. Keep your existing images folder. Commit and push with GitHub Desktop.
+
+Sidebar: Spinning Wheels opens a dropdown with OSCE Practice and Random Wheel.
+OSCE Practice contains Who?, History and Exam together on one page, with independent spins and equal chances for all options.
+Random Wheel lets you enter a title and one option per line, create custom wheels and spin them. Clear removes custom wheels and clears entries; the OSCE wheels are unchanged.
+
+Custom wheels save in this browser for this website address. They do not sync between devices; clearing browser storage removes them. Uploading these website files does not clear that storage.
+
+Original medical notes, textbook additions, images and existing layout files are unchanged from V35. Textbook supplementation remains incomplete as documented in OUTSTANDING_GAPS_V35.txt. No images or textbook PDFs are included in this smaller update.
