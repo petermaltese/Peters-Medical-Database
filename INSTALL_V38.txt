@@ -1,0 +1,12 @@
+MD Database — Version 38
+
+Replace matching files in your existing website folder with the contents of this ZIP. Keep your existing images folder and other files. Commit and push the changes through GitHub Desktop as usual.
+
+This update includes:
+- Colour Scheme control at the bottom of the sidebar, with five selectable colour circles.
+- Surrounding website colours only; topic and textbook provenance colours are preserved.
+- Light/dark mode compatibility and a saved preference in this browser.
+- Spinning Wheels positioned beneath Links.
+
+Images are unchanged and are not included in this smaller update.
+Medical content is unchanged from Version 36. Existing incomplete textbook sections remain incomplete.
