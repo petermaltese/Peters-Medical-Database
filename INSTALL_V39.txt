@@ -1,0 +1,3 @@
+Version 39 update for Version 38.
+Replace the three matching files in your existing website folder. Keep all other files, including images.
+OSCE Practice now contains only History and Exam, arranged in two columns on larger screens and one on phones. Random Wheel is unchanged.

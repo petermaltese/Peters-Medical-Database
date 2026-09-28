@@ -2,7 +2,7 @@
 .practice-wheels-header{margin-bottom:28px}
 .practice-wheels-header h1{margin:4px 0 8px}
 .practice-wheels-eyebrow{color:var(--muted);text-transform:uppercase;font-size:11px;letter-spacing:.16em;font-weight:750;margin:0}
-.practice-wheels-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start}
+.practice-wheels-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:start}
 .practice-wheel-card{min-width:0;border:1px solid var(--line);border-radius:22px;background:var(--panel);padding:22px;box-shadow:var(--shadow)}
 .practice-wheel-card h2{text-align:center;margin:0 0 12px;font-size:25px}
 .practice-wheel-stage{position:relative;max-width:380px;margin:0 auto 16px;padding-top:8px}
