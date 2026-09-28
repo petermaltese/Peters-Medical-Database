@@ -1,0 +1,1 @@
+Version 40 update for Version 39. Replace index.html and spinning-wheels.js in your existing website folder. Keep all other files. History wheel segments now display numbers 1–10, with names in the key and selected result.

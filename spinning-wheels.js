@@ -1,4 +1,4 @@
-/* V39: two independent practice wheels on one page. No medical content changes. */
+/* V40: two independent practice wheels on one page. No medical content changes. */
 (()=>{
  'use strict';
  const wheels=[
@@ -29,7 +29,7 @@
   w.options.forEach((label,i)=>{
    const a=-90+i*step,b=a+step,[x,y]=point(a),[xx,yy]=point(b),mid=(a+b)/2;
    const tx=200+126*Math.cos(mid*Math.PI/180),ty=200+126*Math.sin(mid*Math.PI/180);
-   sectors+=`<path d="M200 200 L${x} ${y} A188 188 0 ${step>180?1:0} 1 ${xx} ${yy} Z" fill="${palette[i%palette.length]}" stroke="rgba(255,255,255,.55)" stroke-width="2"/><text x="${tx}" y="${ty}" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="${w===wheels[0]?25:n>20?12:19}" font-weight="700">${w===wheels[0]?esc(label):i+1}</text>`;
+   sectors+=`<path d="M200 200 L${x} ${y} A188 188 0 ${step>180?1:0} 1 ${xx} ${yy} Z" fill="${palette[i%palette.length]}" stroke="rgba(255,255,255,.55)" stroke-width="2"/><text x="${tx}" y="${ty}" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="${n>20?12:19}" font-weight="700">${i+1}</text>`;
   });
   return `<svg class="practice-wheel-disc" viewBox="0 0 400 400" aria-hidden="true">${sectors}<circle cx="200" cy="200" r="28" fill="var(--panel)"/><circle cx="200" cy="200" r="9" fill="var(--text)"/></svg>`;
  }
