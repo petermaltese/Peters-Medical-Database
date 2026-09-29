@@ -1,0 +1,15 @@
+MD Database — Version 41
+
+This update fills the empty introductions and seven-heading sections identified across the existing systems. New web-sourced summaries are separately labelled “AI-written · Sourced addition”, with direct links under Sources. Textbook-derived introductions retain book and PDF page references; topic-navigation overviews cite the existing note topics. Original notes and medical data files are unchanged.
+
+INSTALL
+1. Extract this ZIP.
+2. Copy its website files into your existing repository folder, replacing matching files.
+3. Keep your existing images folder and image assets. This download contains the updated website code, not duplicate images. Do not delete the repository contents first.
+4. Commit and push using GitHub Desktop, then allow your hosting deployment to finish. Refresh the website if an old copy remains visible.
+
+The footer should read Version 41.
+
+Retained: History and Exam wheels only; numeric wheel labels; custom Random Wheel; palette chooser; dark mode; expandable disease sections; search and image lightbox.
+
+The additions are concise study summaries tied to their cited sources, not a claim that every topic is exhaustive. Existing textbook summaries reflect the cited editions.

@@ -39,6 +39,11 @@ topicPage=function(id,block=null){
   const jump=Array.from(section.children).find(el=>el.classList.contains('overview-jumps'));
   const summary=overviewId===id?app.querySelector('.topic-header .overview-introduction'):Array.from(section.children).find(el=>el.classList.contains('overview-introduction'));
   if(jump&&summary)summary.before(jump);
+  if(summary){
+   const heading=document.createElement(overviewId===id?'h2':'h3');
+   heading.className='overview-introduction-title';heading.textContent='Introduction';
+   summary.prepend(heading);
+  }
  }
  if(id!=='renal-system--glomerular-disease')return;
  const intro=app.querySelector('.topic-header .overview-introduction');
