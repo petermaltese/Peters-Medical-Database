@@ -1,0 +1,14 @@
+MD Database — Version 43
+
+MCQ HOME PAGE
+New question-bank layout with progress summary, live questions-found bar, expandable category checkboxes and session settings. Uses the existing website palette, rounded panels and light/dark themes.
+
+Choose all, new, incorrect or bookmarked questions; random or topic order; session length; and an optional session name. Only renal has questions in this pilot; other systems are visibly unavailable. Study mode is implemented; timed tests are not included.
+
+QUESTION NAVIGATION
+Numbered question list shows the current question, unanswered/correct/incorrect status and bookmarks. Move freely between questions. Draft selections are retained; submitted answers stay locked and explanations remain available. View Results becomes available once all session questions have been answered. On smaller screens, the question numbers appear above the question.
+
+INSTALL
+Copy these files into your existing repository, replacing matching files. Keep your existing images folder. Commit and push as usual. Footer: Version 43.
+
+Existing MCQ progress/bookmarks use the same browser storage key. They stay on the same browser and website address, and do not sync between devices. Starting a new session replaces the active session but preserves overall results/bookmarks. Original notes and the 20-question bank are unchanged.
