@@ -1,0 +1,11 @@
+MD Database — Version 42
+
+RENAL MCQ PILOT
+20 AI-generated, sourced single-best-answer questions. Five options; Check Answer before submission; explanations for every option; textbook page citations or external source links; relevant note links. Sidebar: MCQ Practice. Relevant renal notes also have Practise This Topic.
+
+Includes study mode, topic filters, unanswered questions, bookmarks, latest-answer performance, retry incorrect questions and resumable sessions. Progress is stored in this browser on this device. Clearing site data removes progress. Devices do not sync. Stable question IDs and the same storage key are retained for future updates. Starting a new session replaces the active session but retains overall results and bookmarks.
+
+INSTALL
+Extract and copy these files into your existing repository, replacing matching files. Keep your existing images folder and image assets; they are not repeated in this download. Commit and push as usual. The sidebar footer should show Version 42.
+
+This is the renal study-mode pilot. Timed test mode and other systems are not included yet. Original medical notes, image references, colour schemes and spinning wheels are unchanged.
