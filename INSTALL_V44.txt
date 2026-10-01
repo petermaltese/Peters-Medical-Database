@@ -1,0 +1,13 @@
+MD Database — Version 44
+
+CHANGES
+Next Question is available at both the top (beside Bookmark) and bottom after checking an answer. At the end of an incomplete session it takes you to an unanswered question; once all are answered it offers results. The numbered list still allows movement before answering.
+
+Every answer now shows its explanation directly underneath after submission. The separate wrong-options dropdown is removed. Explanations for all original answer options have been expanded.
+
+Ten new clinical-reasoning renal questions bring the bank to 30. Use Difficulty → Clinical reasoning — harder to select them. The original 20 remain available under Core knowledge. Difficulty is an editorial label, not measured exam performance.
+
+Original question IDs and answers are unchanged, so existing results and bookmarks remain valid. The new questions have new IDs. References accompany explanations. No medical note content has been changed.
+
+INSTALL
+Extract this ZIP and copy the files into your existing repository, replacing matching files. Keep the images folder and existing image files; this download does not repeat them. Commit and push as usual. The footer should show Version 44. Browser progress remains on the same browser and website address; it does not sync between devices.
