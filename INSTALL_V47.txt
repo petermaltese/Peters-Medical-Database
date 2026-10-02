@@ -1,0 +1,25 @@
+MD Database — Version 47
+
+INSTALL
+Copy the files into your existing website folder, replacing matching files.
+Keep your existing images folder; this smaller download does not include unchanged images.
+Commit and push using GitHub Desktop. The footer should read Version 47 after the new deployment loads.
+
+QUESTION BANK REVIEW
+All 60 renal questions have been reviewed and revised: 30 Clinical Medicine and 30 Medical Sciences.
+42 are Standard and 18 are Harder. These are editorial difficulty estimates, not scores calibrated against student performance.
+Revisions address answer-giving wording, implausible alternatives, unnecessary qualifiers and difficulty labels.
+Each option now has a case-specific explanation. Questions retain the course LO, note-coverage label and source references.
+Clinical guidance uses Australian references. Uploaded Kumar & Clark and Harrison textbooks support medical science.
+The uploaded sample course examination was used to judge style; questions are newly written and not copied from that examination.
+The set covers selected renal LOs, not every possible renal objective.
+
+PROGRESS
+These materially revised questions have new IDs so old choices cannot be marked against changed options.
+The V47 bank starts with fresh scores, bookmarks and highlights, and an earlier active question session will not resume.
+Historical result records remain stored in this browser but are not included in the current bank totals.
+New progress and highlights save normally in this browser. Devices do not sync.
+
+WEBSITE
+Your original notes and textbook additions are unchanged.
+The V46 Highlight toggle, scroll-position fix and difficulty filter are retained.

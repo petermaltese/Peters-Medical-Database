@@ -1,0 +1,668 @@
+{
+  "version": 47,
+  "questionCount": 60,
+  "categories": {
+    "Clinical Medicine": 30,
+    "Medical Sciences": 30
+  },
+  "difficulty": {
+    "Standard": 42,
+    "Harder": 18
+  },
+  "difficultyBasis": "Editorial estimates of reasoning demands, not measured exam performance",
+  "objectiveIDs": [
+    "LO0185",
+    "LO0257",
+    "LO0258",
+    "LO0261",
+    "LO0262",
+    "LO0264",
+    "LO0265",
+    "LO0266",
+    "LO0267",
+    "LO0269",
+    "LO0270",
+    "LO0271",
+    "LO0275",
+    "LO0276",
+    "LO0282",
+    "LO0284",
+    "LO0285",
+    "LO0286",
+    "LO0288",
+    "LO0289",
+    "LO0290",
+    "LO0291",
+    "LO0651",
+    "LO0652",
+    "LO0653",
+    "LO0654",
+    "LO0656",
+    "LO0683",
+    "LO0790"
+  ],
+  "clinicalReferencePolicy": "Uploaded textbooks for medical science; Australian sources for clinical guidance",
+  "sources": {
+    "kha": {
+      "title": "Kidney Health Australia — CKD Management in Primary Care, 5th edition (2024)",
+      "url": "https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "cari": {
+      "title": "CARI — Australian and New Zealand commentary on glomerular disease guidance (2025)",
+      "url": "https://www.cariguidelines.org/wp-content/uploads/2025/09/Nephrology-2025-Bose-CARI-Guidelines-Commentary-on-the-KDIGO-Clinical-Practice-Guideline-for-the-Management-of.pdf",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "rchneph": {
+      "title": "Royal Children’s Hospital Melbourne — Nephrotic syndrome",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/nephrotic_syndrome/",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "rchpsgn": {
+      "title": "Royal Children’s Hospital Melbourne — Poststreptococcal glomerulonephritis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "gn": {
+      "title": "RACGP — Glomerulonephritis (clinical features and assessment; 2005)",
+      "url": "https://www.racgp.org.au/getattachment/9df14e75-3089-4b2c-87fe-d64753aa0100/attachment.aspx",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "sick": {
+      "title": "Australian Prescriber — Medication management on sick days",
+      "url": "https://australianprescriber.tg.org.au/articles/medication-management-on-sick-days.html",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "renaldrugs": {
+      "title": "Australian Prescriber — Everyday drug therapies affecting the kidneys (mechanisms)",
+      "url": "https://australianprescriber.tg.org.au/articles/everyday-drug-therapies-affecting-the-kidneys.html",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "prescribing": {
+      "title": "RACGP — Prescribing and deprescribing in chronic kidney disease",
+      "url": "https://www1.racgp.org.au/ajgp/2021/april/prescribing-and-deprescribing-in-chronic-kidney-di",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "emergency": {
+      "title": "NSW Health — Nephrology emergencies",
+      "url": "https://www.health.nsw.gov.au/outpatients/referrals/Pages/nephrology-emergencies.aspx",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "shock": {
+      "title": "NSW Agency for Clinical Innovation — Shock assessment and management",
+      "url": "https://aci.health.nsw.gov.au/networks/eci/clinical/tools/shock",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "pd": {
+      "title": "NSW Agency for Clinical Innovation — Peritoneal dialysis",
+      "url": "https://aci.health.nsw.gov.au/networks/renal/resources/choices/dialysis/peritoneal",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "colic": {
+      "title": "RACGP — Urolithiasis: ten things every general practitioner should know",
+      "url": "https://www.racgp.org.au/afp/2017/september/urolithiasis",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "peau": {
+      "title": "Safer Care Victoria — Pulmonary Embolism Practice Points (2026)",
+      "url": "https://www.safercare.vic.gov.au/publications/pulmonary-embolism-pe-practice-points",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    }
+  },
+  "questionAudit": [
+    {
+      "question": "renal-v47-001",
+      "previousId": "renal-v45-001",
+      "difficulty": "standard",
+      "review": "One-step syndrome recognition using numerical findings rather than repeating the answer in the lead-in.",
+      "objectiveIds": [
+        "LO0289"
+      ]
+    },
+    {
+      "question": "renal-v47-002",
+      "previousId": "renal-v45-002",
+      "difficulty": "standard",
+      "review": "One-step localisation; all options are urine microscopy findings.",
+      "objectiveIds": [
+        "LO0289"
+      ]
+    },
+    {
+      "question": "renal-v47-003",
+      "previousId": "renal-v45-003",
+      "difficulty": "standard",
+      "review": "Classic clinical pattern; competing options are haematuric glomerular disorders.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-004",
+      "previousId": "renal-v45-004",
+      "difficulty": "standard",
+      "review": "Standard pattern recognition with plausible glomerular alternatives.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-005",
+      "previousId": "renal-v45-005",
+      "difficulty": "standard",
+      "review": "Standard age-weighted differential rather than five unrelated diseases.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-006",
+      "previousId": "renal-v45-006",
+      "difficulty": "challenging",
+      "review": "Two-step reasoning: resist anchoring on antibiotic exposure, then localise injury and recognise urgency.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-007",
+      "previousId": "renal-v45-007",
+      "difficulty": "standard",
+      "review": "Focused investigation selection with five relevant renal/lupus tests.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-008",
+      "previousId": "renal-v45-008",
+      "difficulty": "challenging",
+      "review": "Integrates a competing common diagnosis, a negative investigation and nephrotic thrombotic risk.",
+      "objectiveIds": [
+        "LO0276"
+      ]
+    },
+    {
+      "question": "renal-v47-009",
+      "previousId": "renal-v45-009",
+      "difficulty": "challenging",
+      "review": "Recognises atypical tempo and sediment despite a strong competing chronic diagnosis.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-010",
+      "previousId": "renal-v45-010",
+      "difficulty": "challenging",
+      "review": "Integrates baseline function, time course, examination and imaging to classify acute-on-chronic disease.",
+      "objectiveIds": [
+        "LO0651"
+      ]
+    },
+    {
+      "question": "renal-v47-011",
+      "previousId": "renal-v45-011",
+      "difficulty": "standard",
+      "review": "Reclassified as standard: applying two category ranges is useful foundational knowledge.",
+      "objectiveIds": [
+        "LO0651"
+      ]
+    },
+    {
+      "question": "renal-v47-012",
+      "previousId": "renal-v45-012",
+      "difficulty": "standard",
+      "review": "One-step AKI classification with all options drawn from renal mechanisms.",
+      "objectiveIds": [
+        "LO0275"
+      ]
+    },
+    {
+      "question": "renal-v47-013",
+      "previousId": "renal-v45-013",
+      "difficulty": "standard",
+      "review": "Standard prescribing decision with credible dose/class alternatives.",
+      "objectiveIds": [
+        "LO0286"
+      ]
+    },
+    {
+      "question": "renal-v47-014",
+      "previousId": "renal-v45-014",
+      "difficulty": "standard",
+      "review": "Competing infection-related and treatment-related causes require synthesis of the clinical course. Final calibration: standard because the supplied pattern supports a direct recognised mechanism or diagnosis.",
+      "objectiveIds": [
+        "LO0276"
+      ]
+    },
+    {
+      "question": "renal-v47-015",
+      "previousId": "renal-v45-015",
+      "difficulty": "challenging",
+      "review": "Removes the named cast giveaway; requires interpreting response to treatment and excluding obstruction.",
+      "objectiveIds": [
+        "LO0275"
+      ]
+    },
+    {
+      "question": "renal-v47-016",
+      "previousId": "renal-v45-016",
+      "difficulty": "standard",
+      "review": "Anatomical localisation rather than restating a diagnosis already present in the stem.",
+      "objectiveIds": [
+        "LO0276"
+      ]
+    },
+    {
+      "question": "renal-v47-017",
+      "previousId": "renal-v45-017",
+      "difficulty": "standard",
+      "review": "Standard complication recognition with alternatives specific to the dialysis modality.",
+      "objectiveIds": [
+        "LO0656"
+      ]
+    },
+    {
+      "question": "renal-v47-018",
+      "previousId": "renal-v45-018",
+      "difficulty": "standard",
+      "review": "Infers mechanism from treatment response while weighing credible dialysis complications. Final calibration: standard because the supplied pattern supports a direct recognised mechanism or diagnosis.",
+      "objectiveIds": [
+        "LO0656"
+      ]
+    },
+    {
+      "question": "renal-v47-019",
+      "previousId": "renal-v45-019",
+      "difficulty": "standard",
+      "review": "Standard synthesis of phenotype and inheritance.",
+      "objectiveIds": [
+        "LO0653"
+      ]
+    },
+    {
+      "question": "renal-v47-020",
+      "previousId": "renal-v45-020",
+      "difficulty": "challenging",
+      "review": "Two-step genetics probability; distinguishes per-pregnancy risk from cumulative risk.",
+      "objectiveIds": [
+        "LO0653"
+      ]
+    },
+    {
+      "question": "renal-v47-021",
+      "previousId": "renal-v45-021",
+      "difficulty": "standard",
+      "review": "Standard applied referred-pain recognition with alternative real clinical pain patterns.",
+      "objectiveIds": [
+        "LO0282"
+      ]
+    },
+    {
+      "question": "renal-v47-022",
+      "previousId": "renal-v45-022",
+      "difficulty": "standard",
+      "review": "Standard initial-test selection with realistic renal investigations.",
+      "objectiveIds": [
+        "LO0276"
+      ]
+    },
+    {
+      "question": "renal-v47-023",
+      "previousId": "renal-v45-023",
+      "difficulty": "challenging",
+      "review": "Two-step interpretation of discordant iron indices followed by treatment sequencing; removes the dark-stool giveaway.",
+      "objectiveIds": [
+        "LO0652"
+      ]
+    },
+    {
+      "question": "renal-v47-024",
+      "previousId": "renal-v45-024",
+      "difficulty": "standard",
+      "review": "Foundational investigation choice; all alternatives are actual protein-assessment methods.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-025",
+      "previousId": "renal-v45-025",
+      "difficulty": "standard",
+      "review": "Integrates chronic inflammation, nephrotic presentation and subtype evidence rather than asking a named association. Final calibration: standard because the supplied pattern supports a direct recognised mechanism or diagnosis.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-026",
+      "previousId": "renal-v45-026",
+      "difficulty": "standard",
+      "review": "Weighs closely related vasculitides and a credible infectious mimic. Final calibration: standard because the supplied pattern supports a direct recognised mechanism or diagnosis.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-027",
+      "previousId": "renal-v45-027",
+      "difficulty": "standard",
+      "review": "Removes the named antibody answer cue; integrates the clinical syndrome with a discriminating biopsy result. Final calibration: standard because the supplied pattern supports a direct recognised mechanism or diagnosis.",
+      "objectiveIds": [
+        "LO0291"
+      ]
+    },
+    {
+      "question": "renal-v47-028",
+      "previousId": "renal-v45-028",
+      "difficulty": "standard",
+      "review": "Distinguishes an acute thrombotic complication from a plausible volume-overload explanation. Final calibration: standard because the supplied pattern supports a direct recognised mechanism or diagnosis.",
+      "objectiveIds": [
+        "LO0185"
+      ]
+    },
+    {
+      "question": "renal-v47-029",
+      "previousId": "renal-v45-029",
+      "difficulty": "challenging",
+      "review": "Balances two competing risks: renal hypoperfusion and fluid overload in a patient with heart failure.",
+      "objectiveIds": [
+        "LO0288"
+      ]
+    },
+    {
+      "question": "renal-v47-030",
+      "previousId": "renal-v45-030",
+      "difficulty": "standard",
+      "review": "Standard pharmacokinetic application with mechanistically comparable alternatives.",
+      "objectiveIds": [
+        "LO0288"
+      ]
+    },
+    {
+      "question": "renal-v47-031",
+      "previousId": "renal-v45-031",
+      "difficulty": "standard",
+      "review": "Standard mechanism application; all options are causes of anaemia.",
+      "objectiveIds": [
+        "LO0790"
+      ]
+    },
+    {
+      "question": "renal-v47-032",
+      "previousId": "renal-v45-032",
+      "difficulty": "challenging",
+      "review": "Integrates precursor versus active hormone with phosphate handling; distinguishes secondary from autonomous PTH secretion.",
+      "objectiveIds": [
+        "LO0652"
+      ]
+    },
+    {
+      "question": "renal-v47-033",
+      "previousId": "renal-v45-033",
+      "difficulty": "standard",
+      "review": "Standard cellular mechanism with same-domain membrane alternatives.",
+      "objectiveIds": [
+        "LO0264"
+      ]
+    },
+    {
+      "question": "renal-v47-034",
+      "previousId": "renal-v45-034",
+      "difficulty": "standard",
+      "review": "Appropriate standard pharmacology recall; retained a sound same-domain option set.",
+      "objectiveIds": [
+        "LO0285"
+      ]
+    },
+    {
+      "question": "renal-v47-035",
+      "previousId": "renal-v45-035",
+      "difficulty": "standard",
+      "review": "Standard mechanism question; replaces the unrelated aquaporin distractor.",
+      "objectiveIds": [
+        "LO0285"
+      ]
+    },
+    {
+      "question": "renal-v47-036",
+      "previousId": "renal-v45-036",
+      "difficulty": "challenging",
+      "review": "Moves from identifying a named adverse effect to explaining a drug interaction despite stable GFR.",
+      "objectiveIds": [
+        "LO0286"
+      ]
+    },
+    {
+      "question": "renal-v47-037",
+      "previousId": "renal-v45-037",
+      "difficulty": "standard",
+      "review": "Standard drug-target question with all options representing real antihypertensive mechanisms.",
+      "objectiveIds": [
+        "LO0284"
+      ]
+    },
+    {
+      "question": "renal-v47-038",
+      "previousId": "renal-v45-038",
+      "difficulty": "challenging",
+      "review": "Integrates two drug mechanisms and the volume-depleted state.",
+      "objectiveIds": [
+        "LO0286",
+        "LO0265"
+      ]
+    },
+    {
+      "question": "renal-v47-039",
+      "previousId": "renal-v45-039",
+      "difficulty": "standard",
+      "review": "Standard transport-direction question; removes unrelated glucose and filtration distractors.",
+      "objectiveIds": [
+        "LO0269"
+      ]
+    },
+    {
+      "question": "renal-v47-040",
+      "previousId": "renal-v45-040",
+      "difficulty": "challenging",
+      "review": "Applies autoregulation to a drug-induced clinical change rather than recalling arteriolar direction in isolation.",
+      "objectiveIds": [
+        "LO0265"
+      ]
+    },
+    {
+      "question": "renal-v47-041",
+      "previousId": "renal-v45-041",
+      "difficulty": "standard",
+      "review": "Standard calculation with distractors based on identifiable arithmetic or sign errors.",
+      "objectiveIds": [
+        "LO0265"
+      ]
+    },
+    {
+      "question": "renal-v47-042",
+      "previousId": "renal-v45-042",
+      "difficulty": "challenging",
+      "review": "Two-stage calculation: derive GFR, then convert the clearance ratio to net fractional reabsorption.",
+      "objectiveIds": [
+        "LO0261"
+      ]
+    },
+    {
+      "question": "renal-v47-043",
+      "previousId": "renal-v45-043",
+      "difficulty": "standard",
+      "review": "Standard structure–function application; alternatives are renal microanatomical structures.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-044",
+      "previousId": "renal-v45-044",
+      "difficulty": "standard",
+      "review": "Applied terminology instead of giving the diagnostic term and asking the learner to repeat its definition.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-045",
+      "previousId": "renal-v45-045",
+      "difficulty": "standard",
+      "review": "Standard clinico-pathological recognition with neighbouring glomerular differentials.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-046",
+      "previousId": "renal-v45-046",
+      "difficulty": "standard",
+      "review": "Standard pathology recognition; all distractors are plausible proteinuric glomerular lesions.",
+      "objectiveIds": [
+        "LO0683"
+      ]
+    },
+    {
+      "question": "renal-v47-047",
+      "previousId": "renal-v45-047",
+      "difficulty": "standard",
+      "review": "Standard prediction from mechanism; removes the stem that directly defined the correct term.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-048",
+      "previousId": "renal-v45-048",
+      "difficulty": "standard",
+      "review": "Standard precursor association; retained real amyloid alternatives rather than artificial answers.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-049",
+      "previousId": "renal-v45-049",
+      "difficulty": "challenging",
+      "review": "Combines longitudinal follow-up with biopsy mechanism, rather than simply equating C3 with complement.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-050",
+      "previousId": "renal-v45-050",
+      "difficulty": "standard",
+      "review": "Standard comparison of the distinct purposes of antibody removal and immunosuppression.",
+      "objectiveIds": [
+        "LO0290"
+      ]
+    },
+    {
+      "question": "renal-v47-051",
+      "previousId": "renal-v45-051",
+      "difficulty": "standard",
+      "review": "Standard nephron localisation based on a combined transport pattern.",
+      "objectiveIds": [
+        "LO0262"
+      ]
+    },
+    {
+      "question": "renal-v47-052",
+      "previousId": "renal-v45-052",
+      "difficulty": "challenging",
+      "review": "Predicts the consequence of a changed physiological property instead of recalling that property.",
+      "objectiveIds": [
+        "LO0267"
+      ]
+    },
+    {
+      "question": "renal-v47-053",
+      "previousId": "renal-v45-053",
+      "difficulty": "standard",
+      "review": "Standard vascular sequence with comparable renal structures in each option.",
+      "objectiveIds": [
+        "LO0258"
+      ]
+    },
+    {
+      "question": "renal-v47-054",
+      "previousId": "renal-v45-054",
+      "difficulty": "standard",
+      "review": "Standard applied anatomy; distractors vary the two actual anatomical relationships.",
+      "objectiveIds": [
+        "LO0257"
+      ]
+    },
+    {
+      "question": "renal-v47-055",
+      "previousId": "renal-v45-055",
+      "difficulty": "standard",
+      "review": "Standard integration of hypoalbuminaemia and compensatory sodium retention, with matched pressure/transport distractors.",
+      "objectiveIds": [
+        "LO0270"
+      ]
+    },
+    {
+      "question": "renal-v47-056",
+      "previousId": "renal-v45-056",
+      "difficulty": "challenging",
+      "review": "Interprets an apparently discordant concentration and volume finding instead of asking isolated sodium-balance recall.",
+      "objectiveIds": [
+        "LO0266"
+      ]
+    },
+    {
+      "question": "renal-v47-057",
+      "previousId": "renal-v45-057",
+      "difficulty": "standard",
+      "review": "Standard acid–base mechanism with renal acid-handling distractors.",
+      "objectiveIds": [
+        "LO0271"
+      ]
+    },
+    {
+      "question": "renal-v47-058",
+      "previousId": "renal-v45-058",
+      "difficulty": "challenging",
+      "review": "Two-step calculation from opposing pressure change to proportional filtration change; assumptions are explicit.",
+      "objectiveIds": [
+        "LO0265"
+      ]
+    },
+    {
+      "question": "renal-v47-059",
+      "previousId": "renal-v45-059",
+      "difficulty": "challenging",
+      "review": "Infers a dialysis complication from timing, competing causes and osmotic direction without naming it in the stem.",
+      "objectiveIds": [
+        "LO0656"
+      ]
+    },
+    {
+      "question": "renal-v47-060",
+      "previousId": "renal-v45-060",
+      "difficulty": "standard",
+      "review": "Standard disease mechanism with other genuine inherited renal mechanisms as distractors.",
+      "objectiveIds": [
+        "LO0654"
+      ]
+    }
+  ]
+}
