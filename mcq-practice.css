@@ -22,3 +22,13 @@
 .mcq-learning-objective p{margin:.5rem 0}
 .mcq-notes-disclaimer{border-left:3px solid #658993;padding-left:.8rem;font-style:italic}
 .mcq-notes-origin{opacity:.8;font-size:.85rem}
+
+/* V46: question selection and highlighting */
+.mcq-with-rail{overflow-anchor:none}
+.mcq-highlight-toggle[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.mcq-highlight-tools{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:0 0 12px;font-size:.82rem;color:var(--muted)}
+.mcq-clear-highlights{padding:2px 0;border:0;background:none;color:var(--accent);font:inherit;text-decoration:underline;cursor:pointer}
+.mcq-clear-highlights[hidden]{display:none}
+.mcq-highlight-active{cursor:text;user-select:text;-webkit-user-select:text}
+.mcq-highlight{background:#ffe28a;color:#252a30;border-radius:2px;padding:0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.mcq-highlight-active::selection,.mcq-highlight-active *::selection{background:#ffe28a;color:#252a30}

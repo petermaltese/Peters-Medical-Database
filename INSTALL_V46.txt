@@ -1,0 +1,14 @@
+MD Database — Version 46
+
+Copy these files into your existing website folder, replacing matching files.
+Keep your existing images folder: images are unchanged and are not included in this smaller download.
+Commit and push the changes through GitHub Desktop as usual.
+
+Changes
+- Selecting a question in the question list preserves the list's scroll position and restores the page position within the available page height.
+- Highlight is beside Bookmark. Turn it on, then select text in the question to highlight it automatically. Turn it off to select text normally. Clear Highlights removes marks from the current question.
+- Highlights save per question in this browser, including when you revisit or reload. They do not sync between devices.
+- Question settings now include All difficulties, Standard and Harder. This works alongside question type, topic, question history and session length.
+- Existing V45 answers and bookmarks are retained. No medical content has changed.
+
+The footer now reads Version 46. If the browser still shows an older version after deployment, refresh the page.
