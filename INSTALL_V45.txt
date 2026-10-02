@@ -1,0 +1,27 @@
+MD Database — Version 45
+
+INSTALL
+1. Extract this ZIP.
+2. Copy its contents into your existing website repository folder, replacing matching files.
+3. Keep your existing images folder. Images are unchanged and are not included in this smaller download.
+4. Commit and push in GitHub Desktop. Once your hosting finishes updating, reload the website.
+
+MCQ PRACTICE
+60 new renal questions: 30 Clinical Medicine and 30 Medical Sciences.
+Choose either category or mix both. Both contain standard and more challenging items.
+Each answer has its own explanation. Course LO ID and exact wording appear after submission.
+Additional sourced learning has a disclaimer immediately below the LO.
+Review links open notes in a separate tab.
+Clinical guidance references are Australian, including locally contextualised CARI guidance; underlying science also references the uploaded Kumar & Clark and Harrison textbooks.
+This set maps to 30 selected objectives. It is not a claim that every renal learning objective is fully assessed.
+Original medical notes and their existing supplementary content have not been rewritten in this question-bank update.
+
+PROGRESS
+These are newly authored questions with new IDs, so the V45 set begins unanswered.
+Old answer records remain in browser storage but do not count towards this new set.
+An unfinished V44 session cannot be resumed in the rewritten V45 bank.
+V45 progress, bookmarks and sessions save in the same browser on the same device.
+
+VALIDATION
+Checked question navigation, category filters, answer locking, scoring, resume, bookmarks, LO visibility, additional-material labels and new-tab review links.
+Checked existing rendering across all 373 note pages. Automated DOM checks; no full visual browser check in this build.

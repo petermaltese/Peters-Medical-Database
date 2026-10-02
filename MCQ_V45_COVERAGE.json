@@ -1,0 +1,121 @@
+{
+  "version": 45,
+  "questionCount": 60,
+  "categories": {
+    "Clinical Medicine": 30,
+    "Medical Sciences": 30
+  },
+  "objectiveIDs": [
+    "LO0064",
+    "LO0185",
+    "LO0257",
+    "LO0258",
+    "LO0261",
+    "LO0262",
+    "LO0264",
+    "LO0265",
+    "LO0266",
+    "LO0267",
+    "LO0269",
+    "LO0270",
+    "LO0271",
+    "LO0275",
+    "LO0276",
+    "LO0282",
+    "LO0284",
+    "LO0285",
+    "LO0286",
+    "LO0288",
+    "LO0289",
+    "LO0290",
+    "LO0291",
+    "LO0651",
+    "LO0652",
+    "LO0653",
+    "LO0654",
+    "LO0656",
+    "LO0683",
+    "LO0790"
+  ],
+  "clinicalReferencePolicy": "Australian clinical practice and local guidance; uploaded textbooks for medical science.",
+  "sources": {
+    "kha": {
+      "title": "Kidney Health Australia — CKD Management in Primary Care, 5th edition (2024)",
+      "url": "https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "cari": {
+      "title": "CARI — Australian and New Zealand commentary on glomerular disease guidance (2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12439324/",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "rchneph": {
+      "title": "Royal Children’s Hospital Melbourne — Nephrotic syndrome",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/nephrotic_syndrome/",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "rchpsgn": {
+      "title": "Royal Children’s Hospital Melbourne — Poststreptococcal glomerulonephritis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "gn": {
+      "title": "RACGP — Glomerulonephritis (clinical features and assessment; 2005)",
+      "url": "https://www.racgp.org.au/getattachment/9df14e75-3089-4b2c-87fe-d64753aa0100/attachment.aspx",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "sick": {
+      "title": "Australian Prescriber — Medication management on sick days",
+      "url": "https://australianprescriber.tg.org.au/articles/medication-management-on-sick-days.html",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "renaldrugs": {
+      "title": "Australian Prescriber — Everyday drug therapies affecting the kidneys (mechanisms)",
+      "url": "https://australianprescriber.tg.org.au/articles/everyday-drug-therapies-affecting-the-kidneys.html",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "prescribing": {
+      "title": "RACGP — Prescribing and deprescribing in chronic kidney disease",
+      "url": "https://www1.racgp.org.au/ajgp/2021/april/prescribing-and-deprescribing-in-chronic-kidney-di",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "emergency": {
+      "title": "NSW Health — Nephrology emergencies",
+      "url": "https://www.health.nsw.gov.au/outpatients/referrals/Pages/nephrology-emergencies.aspx",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "shock": {
+      "title": "NSW Agency for Clinical Innovation — Shock assessment and management",
+      "url": "https://aci.health.nsw.gov.au/networks/eci/clinical/tools/shock",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "pd": {
+      "title": "NSW Agency for Clinical Innovation — Peritoneal dialysis",
+      "url": "https://aci.health.nsw.gov.au/networks/renal/resources/choices/dialysis/peritoneal",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "colic": {
+      "title": "RACGP — Urolithiasis: ten things every general practitioner should know",
+      "url": "https://www.racgp.org.au/afp/2017/september/urolithiasis",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    },
+    "peau": {
+      "title": "Safer Care Victoria — Pulmonary Embolism Practice Points (2026)",
+      "url": "https://www.safercare.vic.gov.au/publications/pulmonary-embolism-pe-practice-points",
+      "checked": "2 October 2026",
+      "jurisdiction": "Australia"
+    }
+  }
+}
